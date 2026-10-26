@@ -19,3 +19,27 @@
   margin: 0.2rem;
   padding: 0.4rem;
 }
+
+/* Website: play the video; hide the PDF-only caption box. */
+.guide-video-fallback,
+.guide-video-fallback[hidden] {
+  display: none !important;
+}
+
+/* PDF / print: WeasyPrint cannot play video — show a caption box instead. */
+@media print {
+  .guide-video video {
+    display: none !important;
+  }
+
+  .guide-video-fallback,
+  .guide-video-fallback[hidden] {
+    display: block !important;
+    margin: 0.75rem 0;
+    padding: 0.75rem 1rem;
+    border: 1px solid #8F9FE3;
+    border-radius: 0.25rem;
+    background: #f7f8fc;
+  }
+}
+

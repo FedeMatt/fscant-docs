@@ -31,9 +31,14 @@ Figure 15. **Select user** and **New user**.
 
 Video 4. Create a new user, then start a DIRP.
 
-<video controls preload="none" width="100%" src="../assets/videos/new-user-dirp.mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="guide-video">
+  <video controls preload="none" width="100%" src="../assets/videos/new-user-dirp.mp4">
+  </video>
+  <p class="guide-video-fallback" hidden>
+    <strong>Video 4.</strong> Create a new user, then start a DIRP. Watch online:
+    <a href="https://FedeMatt.github.io/fscant-docs/dirp/">fscant-docs/dirp/</a>
+  </p>
+</div>
 
 ### Selecting a frequency range
 
@@ -53,9 +58,14 @@ Figure 16. Frequency range: last used values, presets, and **Custom**.
 
 Video 5. Choose a custom frequency range.
 
-<video controls preload="none" width="100%" src="../assets/videos/custom-frequencies-selection.mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="guide-video">
+  <video controls preload="none" width="100%" src="../assets/videos/custom-frequencies-selection.mp4">
+  </video>
+  <p class="guide-video-fallback" hidden>
+    <strong>Video 5.</strong> Choose a custom frequency range. Watch online:
+    <a href="https://FedeMatt.github.io/fscant-docs/dirp/">fscant-docs/dirp/</a>
+  </p>
+</div>
 
 ### Before starting the DIRP
 
@@ -80,9 +90,14 @@ Figure 17. Live DIRP chart with **Start** / **Stop**, **CLIP**, **HITS**, and **
 
 Video 6. Running a live DIRP.
 
-<video controls preload="none" width="100%" src="../assets/videos/live-dirp.mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="guide-video">
+  <video controls preload="none" width="100%" src="../assets/videos/live-dirp.mp4">
+  </video>
+  <p class="guide-video-fallback" hidden>
+    <strong>Video 6.</strong> Running a live DIRP. Watch online:
+    <a href="https://FedeMatt.github.io/fscant-docs/dirp/">fscant-docs/dirp/</a>
+  </p>
+</div>
 
 If you want a different set of **HITS**, you can move the clipping level by entering a value between 0 and 100 in the DIRP settings in the gray box on the right of the chart. While using F-SCANT, please only use the software (not your F-SCAN device) to manually move the clipping level. **Save DIRP** appears when the clipping level is different from the one already saved.
 

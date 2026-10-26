@@ -44,12 +44,11 @@ In the GitHub repo: **Settings → Pages → Source: GitHub Actions**.
 **Published assets:** only the files under `docs/assets/` are committed and deployed.
 
 ```bash
-brew install ffmpeg   # once; required by moviepy
-uv pip install -r requirements-media.txt
-uv run python scripts/compress_videos.py
+brew install ffmpeg   # once
+uv run python scripts/compress_videos.py --force
 ```
 
-That re-encodes MP4s from `videos-images/` into `docs/assets/videos/` (720p H.264, ~1.2 Mbps, faststart). Copy/rename PNGs into `docs/assets/images/` per the inventory READMEs (or the media mapping used when adding a batch).
+That re-encodes MP4s from `videos-images/` into `docs/assets/videos/` (720p H.264 yuv420p High, ~1.2 Mbps, faststart — Safari- and Chrome-safe). Copy/rename PNGs into `docs/assets/images/` per the inventory READMEs (or the media mapping used when adding a batch).
 
 Inventory / still-missing slots:
 

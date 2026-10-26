@@ -1,1 +1,1 @@
-moviepy>=2,<3
+# No Python packages required for media encode (scripts/compress_videos.py calls ffmpeg).

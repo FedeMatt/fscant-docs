@@ -16,9 +16,14 @@ Figure 19. **Analysis**: select a user and a DIRP.
 
 Video 7. Open Analysis and load a DIRP.
 
-<video controls preload="none" width="100%" src="../assets/videos/analysis-navigation.mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="guide-video">
+  <video controls preload="none" width="100%" src="../assets/videos/analysis-navigation.mp4">
+  </video>
+  <p class="guide-video-fallback" hidden>
+    <strong>Video 7.</strong> Open Analysis and load a DIRP. Watch online:
+    <a href="https://FedeMatt.github.io/fscant-docs/analysis/">fscant-docs/analysis/</a>
+  </p>
+</div>
 
 On the chart, **Match pathogens** and **Open program** use the clipping level already saved.
 
@@ -62,9 +67,14 @@ Figure 21. **Pathogen database**.
 
 Video 8. Match pathogens and browse the pathogen database.
 
-<video controls preload="none" width="100%" src="../assets/videos/pathogens.mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="guide-video">
+  <video controls preload="none" width="100%" src="../assets/videos/pathogens.mp4">
+  </video>
+  <p class="guide-video-fallback" hidden>
+    <strong>Video 8.</strong> Match pathogens and browse the pathogen database. Watch online:
+    <a href="https://FedeMatt.github.io/fscant-docs/analysis/">fscant-docs/analysis/</a>
+  </p>
+</div>
 
 ## How to open and save a program
 

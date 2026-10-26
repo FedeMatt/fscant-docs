@@ -25,8 +25,13 @@ Pictures of the USB helper steps are in [Connect the F-SCAN on a Mac](connect-ma
 
 Video 1. Enable the Silicon Labs driver on a Mac.
 
-<video controls preload="none" width="100%" src="../assets/videos/driver-extension-mac-intel.mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="guide-video">
+  <video controls preload="none" width="100%" src="../assets/videos/driver-extension-mac-intel.mp4">
+  </video>
+  <p class="guide-video-fallback" hidden>
+    <strong>Video 1.</strong> Enable the Silicon Labs driver on a Mac. Watch online:
+    <a href="https://FedeMatt.github.io/fscant-docs/install/">fscant-docs/install/</a>
+  </p>
+</div>
 
 If macOS says the developer cannot be verified, it means the Mac is blocking an app that did not come from the App Store. That is expected for F-SCANT. Open it with Apple’s [Open Anyway](https://support.apple.com/en-us/102445) steps for this one app. You do not need to turn off security for every app on the Mac.
