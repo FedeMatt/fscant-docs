@@ -23,15 +23,24 @@
 /*
  * Desired header order (right side): mode, language, PDF, search.
  * mkdocs-to-pdf appends the PDF link after search; flex order swaps them.
- * Force the multicolored PDF SVG to white like the other header icons.
+ * Document chrome is white like the other header icons; keep the red
+ * label and white “PDF” letters from the injected SVG.
  */
 .md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] {
   order: 9;
   color: var(--md-primary-bg-color);
 }
 
-.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] svg :is(path, polygon) {
+.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] svg > :is(path, polygon) {
   fill: currentColor !important;
+}
+
+.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] svg > path[fill="#F15642"] {
+  fill: #F15642 !important;
+}
+
+.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] svg g path {
+  fill: #fff !important;
 }
 
 .md-header__inner > label[for="__search"],
