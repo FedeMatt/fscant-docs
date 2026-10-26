@@ -1,0 +1,41 @@
+site_name: F-SCANT
+site_description: Instruction manual for the F-SCANT computer software
+site_url: https://FedeMatt.github.io/fscant-docs/
+repo_url: https://github.com/FedeMatt/fscant-docs
+repo_name: FedeMatt/fscant-docs
+
+docs_dir: docs
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  palette:
+    primary: custom
+    accent: custom
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - How to install F-SCANT: install.md
+  - How to connect the F-SCAN: connect.md
+  - Connect the F-SCAN on a Mac: connect-mac.md
+  - How to create or import a DIRP: dirp.md
+  - How to analyze a DIRP: analysis.md
+  - How to manage users: users.md
+  - Settings: settings.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
