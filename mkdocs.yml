@@ -1,6 +1,7 @@
 site_name: F-SCANT
 site_description: Instruction manual for the F-SCANT computer software
 site_url: https://FedeMatt.github.io/fscant-docs/
+copyright: Copyright &copy; 2026 TB-ELECTRONICS
 
 docs_dir: docs
 
@@ -30,6 +31,7 @@ theme:
     - toc.follow
 
 extra:
+  generator: false
   alternate:
     - name: English
       link: /fscant-docs/
