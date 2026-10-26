@@ -20,6 +20,25 @@
   padding: 0.4rem;
 }
 
+/*
+ * Desired header order (right side): mode, language, PDF, search.
+ * mkdocs-to-pdf appends the PDF link after search; flex order swaps them.
+ * Force the multicolored PDF SVG to white like the other header icons.
+ */
+.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] {
+  order: 9;
+  color: var(--md-primary-bg-color);
+}
+
+.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] svg :is(path, polygon) {
+  fill: currentColor !important;
+}
+
+.md-header__inner > label[for="__search"],
+.md-header__inner > .md-search {
+  order: 10;
+}
+
 /* Website: play the video; hide the PDF-only caption box. */
 .guide-video-fallback,
 .guide-video-fallback[hidden] {
