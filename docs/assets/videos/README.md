@@ -1,13 +1,17 @@
 # Videos for the F-SCANT instruction manual
 
-These MP4 files are not here yet. Add each one with the name below. The guide already embeds them.
+Compressed MP4s published with the site (encode from gitignored `videos-images/` masters with `uv run python scripts/compress_videos.py`). Captions use **Video N** in the guide pages.
 
-- `driver-extension-mac-intel.mp4` — enable Silicon Labs driver on macOS (install page)
-- `connect-device.mp4` — connecting the device
-- `bluebox-sizes.mp4` — expand / collapse the device panel
-- `new-user-dirp.mp4` — select user / new user when starting a DIRP
-- `custom-frequencies-selection.mp4` — frequency range and Custom values
-- `live-dirp.mp4` — live DIRP chart
-- `analysis-navigation.mp4` — analysis / load DIRP navigation
-- `pathogens.mp4` — pathogen database / matching
-- `dirp-comparison.mp4` — comparing two DIRPs
+| File | Guide caption |
+|------|---------------|
+| `driver-extension-mac-intel.mp4` | Video 1 — enable Silicon Labs driver on macOS (install) |
+| `connect-device.mp4` | Video 2 — connecting the device |
+| `bluebox-sizes.mp4` | Video 3 — expand / collapse the device panel |
+| `new-user-dirp.mp4` | Video 4 — new user, then start a DIRP |
+| `custom-frequencies-selection.mp4` | Video 5 — custom frequency range |
+| `live-dirp.mp4` | Video 6 — live DIRP |
+| `analysis-navigation.mp4` | Video 7 — Analysis / load DIRP |
+| `pathogens.mp4` | Video 8 — pathogen match / database |
+| `dirp-comparison.mp4` | Video 9 — compare two DIRPs |
+
+Do not commit originals from `videos-images/`.

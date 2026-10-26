@@ -35,9 +35,9 @@ Figure 2. **F-Code** entry.
 
 ![Please enter your F-Code](assets/images/fscant-user-guide/02-f-code.png)
 
-Figure 3. Connecting the device.
+Video 2. Connecting the device.
 
-<video controls width="100%" src="assets/videos/connect-device.mp4">
+<video controls preload="none" width="100%" src="assets/videos/connect-device.mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -68,9 +68,13 @@ Click **Disconnect** when you want to unplug. F-SCANT does not reconnect by itse
 
 You can expand and collapse the panel using the white “up” and “down” arrows.
 
-<video controls width="100%" src="assets/videos/bluebox-sizes.mp4">
+Video 3. Expand and collapse the device panel.
+
+<video controls preload="none" width="100%" src="assets/videos/bluebox-sizes.mp4">
   Your browser does not support the video tag.
 </video>
+
+Figure 3. Device panel showing **Connected**, serial number, and version.
 
 ![Device panel showing Connected, serial number, and version](assets/images/fscant-user-guide/03-device-connected.png)
 
@@ -78,6 +82,10 @@ You can expand and collapse the panel using the white “up” and “down” ar
 
 The home screen provides three options: **Create or import DIRP**, **Load DIRP**, and **Manage users**.
 
+Figure 4. Home screen, F-SCAN not connected.
+
 ![Home screen, F-SCAN not connected](assets/images/fscant-user-guide/04-home-disconnected.png)
+
+Figure 5. Home screen, F-SCAN connected.
 
 ![Home screen, F-SCAN connected](assets/images/fscant-user-guide/05-home-connected.png)

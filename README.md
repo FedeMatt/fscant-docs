@@ -39,7 +39,19 @@ In the GitHub repo: **Settings → Pages → Source: GitHub Actions**.
 
 ## Media
 
-Screenshots and videos are not all present yet. Drop files into:
+**Originals (local only):** drop master screenshots and MP4s into `videos-images/` (gitignored). Never commit that folder.
+
+**Published assets:** only the files under `docs/assets/` are committed and deployed.
+
+```bash
+brew install ffmpeg   # once; required by moviepy
+uv pip install -r requirements-media.txt
+uv run python scripts/compress_videos.py
+```
+
+That re-encodes MP4s from `videos-images/` into `docs/assets/videos/` (720p H.264, ~1.2 Mbps, faststart). Copy/rename PNGs into `docs/assets/images/` per the inventory READMEs (or the media mapping used when adding a batch).
+
+Inventory / still-missing slots:
 
 - `docs/assets/images/fscant-user-guide/` — see that folder’s README
 - `docs/assets/images/connect-the-f-scan-on-mac/` — see that folder’s README

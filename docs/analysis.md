@@ -10,11 +10,13 @@ You can open the same chart from **Manage users, Manage DIRP**, then **Load DIRP
 
 If you see **Please select a user** or **Please select a DIRP**, nothing is chosen yet. Pick a user and a DIRP from the lists, then continue.
 
-Figure 11. **Analysis**: select a user and a DIRP.
+Figure 19. **Analysis**: select a user and a DIRP.
 
 ![Analysis / Load DIRP: Select user and Select DIRP](assets/images/fscant-user-guide/11-analysis-select.png)
 
-<video controls width="100%" src="assets/videos/analysis-navigation.mp4">
+Video 7. Open Analysis and load a DIRP.
+
+<video controls preload="none" width="100%" src="assets/videos/analysis-navigation.mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -50,13 +52,17 @@ To see the matches:
 
 **Please note:** the pathogen table is only a comparison with the stored list. It is not a medical diagnosis.
 
+Figure 20. Match table and **Match ± Hz**.
+
 ![Match table and Match ± Hz](assets/images/fscant-user-guide/12-pathogen-matches.png)
 
-Figure 13. **Pathogen database**.
+Figure 21. **Pathogen database**.
 
 ![Pathogen database](assets/images/fscant-user-guide/13-pathogen-database.png)
 
-<video controls width="100%" src="assets/videos/pathogens.mp4">
+Video 8. Match pathogens and browse the pathogen database.
+
+<video controls preload="none" width="100%" src="assets/videos/pathogens.mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -70,6 +76,6 @@ A **program** is the list of frequencies taken from the **HITS** of a DIRP (wave
     - **CSV** saves the selected frequencies as a spreadsheet file.
     - **Device** sends the program to the F-SCAN (**Needs F-SCAN**). F-SCANT does not start the output. Press START on the F-SCAN when you want to run it.
 
-Figure 14. Program list with **Save to** **Device** and **CSV**.
+Figure 22. Program list with **Save to** **Device** and **CSV**.
 
 ![Program list with Save to Device and CSV](assets/images/fscant-user-guide/14-program-list.png)

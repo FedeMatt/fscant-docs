@@ -23,7 +23,9 @@ Pictures of the USB helper steps are in [Connect the F-SCAN on a Mac](connect-ma
 
 ### Enable Silabs driver on macOS Intel
 
-<video controls width="100%" src="assets/videos/driver-extension-mac-intel.mp4">
+Video 1. Enable the Silicon Labs driver on a Mac.
+
+<video controls preload="none" width="100%" src="assets/videos/driver-extension-mac-intel.mp4">
   Your browser does not support the video tag.
 </video>
 

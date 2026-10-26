@@ -15,7 +15,11 @@ In the folder that came with F-SCANT, read **SILICON-LABS-VCP-LICENSE.txt** befo
 
 The installer may ask for your Mac password. This is Silicon Labs CP210x VCP 6.0.3. Silicon Labs says it is for Mac OS X 10.11 and later. F-SCANT has been checked with this driver on an Intel Mac running macOS 15. That check does not cover every older or newer macOS.
 
+Figure 6. The F-SCANT folder with the Silicon Labs installer beside the app.
+
 ![The F-SCANT folder with the Silicon Labs installer beside the app](assets/images/connect-the-f-scan-on-mac/01-installer-with-app.png)
+
+Figure 7. The Silicon Labs installer.
 
 ![The Silicon Labs installer](assets/images/connect-the-f-scan-on-mac/02-silabs-installer.png)
 
@@ -25,11 +29,17 @@ macOS still asks you to allow the driver after the installer finishes. On the Ma
 
 No restart was needed on that Mac.
 
+Figure 8. The Silicon Labs extension turned off.
+
 ![The Silicon Labs extension turned off](assets/images/connect-the-f-scan-on-mac/03-extension-off.png)
+
+Figure 9. The Silicon Labs extension turned on.
 
 ![The Silicon Labs extension turned on](assets/images/connect-the-f-scan-on-mac/04-extension-on.png)
 
 If macOS also shows a separate button to allow system software from Silicon Labs, allow it.
+
+Figure 10. Allow system software, if macOS shows this.
 
 ![Allow system software, if macOS shows this](assets/images/connect-the-f-scan-on-mac/05-privacy-allow.png)
 
@@ -43,9 +53,15 @@ Open **F-SCANT**. If macOS says the developer cannot be verified, use Apple’s 
 
 Click **Connect**. If F-SCANT asks for an F-Code, enter the code from your F-SCANT invoice. When the panel says **Connected** and shows a serial number and a version, you are done.
 
+Figure 11. F-SCANT before **Connect**.
+
 ![F-SCANT before Connect](assets/images/connect-the-f-scan-on-mac/06-app-disconnected.png)
 
+Figure 12. The **F-Code** prompt.
+
 ![The F-Code prompt](assets/images/connect-the-f-scan-on-mac/07-f-code.png)
+
+Figure 13. F-SCANT after a successful **Connect**.
 
 ![F-SCANT after a successful Connect](assets/images/connect-the-f-scan-on-mac/08-app-connected.png)
 

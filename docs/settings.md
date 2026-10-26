@@ -2,7 +2,7 @@
 
 Click the gear in the top menu to open **Settings**.
 
-Figure 17. **Settings**: date format, 24-hour time, language, and import.
+Figure 25. **Settings**: date format, 24-hour time, language, and import.
 
 ![Settings: date format, 24-hour time, language, import](assets/images/fscant-user-guide/17-settings.png)
 
