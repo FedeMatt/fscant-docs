@@ -15,7 +15,7 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
-Open http://127.0.0.1:8000/
+Open http://127.0.0.1:8000/fscant-docs/ (the path matches the GitHub Pages project URL).
 
 ## Deploy
 
