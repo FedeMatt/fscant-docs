@@ -6,3 +6,9 @@
   --md-primary-fg-color--dark: #1834A0;
   --md-accent-fg-color: #1F40C8;
 }
+
+/* mkdocs-to-pdf injects a legacy class; match Material header button spacing. */
+.md-header a.md-header-nav__button.md-icon {
+  margin: 0.2rem;
+  padding: 0.4rem;
+}
