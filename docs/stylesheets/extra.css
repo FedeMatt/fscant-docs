@@ -23,19 +23,11 @@
 /*
  * Desired header order (right side): mode, language, PDF, search.
  * mkdocs-to-pdf appends the PDF link after search; flex order swaps them.
- * Whiten only the gray document chrome so the red label and white “PDF”
- * letters from the injected SVG stay visible.
+ * Icon colors come from pdf_event_hook.py (white chrome, red PDF label).
  */
 .md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] {
   order: 9;
   color: var(--md-primary-bg-color);
-}
-
-.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] svg path[fill="#E2E5E7"],
-.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] svg path[fill="#B0B7BD"],
-.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] svg path[fill="#CAD1D8"],
-.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] svg polygon[fill="#CAD1D8"] {
-  fill: currentColor !important;
 }
 
 .md-header__inner > label[for="__search"],
@@ -65,4 +57,3 @@
     background: #f7f8fc;
   }
 }
-
