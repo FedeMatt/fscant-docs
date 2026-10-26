@@ -12,3 +12,10 @@ These PNG files are not here yet. Add each one with the name below. The guide al
 - `08-app-connected.png` — the panel after a successful Connect, showing **Connected**
 
 Plug the F-SCAN directly into the Mac for the last shots. No Accessibility permission is required to take them.
+
+Draft screenshots (rename to the numbered names above when you confirm which shot is which):
+
+- `Screenshot-2026-10-08-16.12.41.png`
+- `Screenshot-2026-10-08-16.13.19.png`
+- `Screenshot-2026-10-08-16.13.41.png`
+
