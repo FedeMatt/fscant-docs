@@ -37,7 +37,7 @@ Figure 2. **F-Code** entry.
 
 Video 2. Connecting the device.
 
-<video controls preload="none" width="100%" src="assets/videos/connect-device.mp4">
+<video controls preload="none" width="100%" src="../assets/videos/connect-device.mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -70,7 +70,7 @@ You can expand and collapse the panel using the white “up” and “down” ar
 
 Video 3. Expand and collapse the device panel.
 
-<video controls preload="none" width="100%" src="assets/videos/bluebox-sizes.mp4">
+<video controls preload="none" width="100%" src="../assets/videos/bluebox-sizes.mp4">
   Your browser does not support the video tag.
 </video>
 

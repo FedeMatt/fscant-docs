@@ -31,7 +31,7 @@ Figure 15. **Select user** and **New user**.
 
 Video 4. Create a new user, then start a DIRP.
 
-<video controls preload="none" width="100%" src="assets/videos/new-user-dirp.mp4">
+<video controls preload="none" width="100%" src="../assets/videos/new-user-dirp.mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -53,7 +53,7 @@ Figure 16. Frequency range: last used values, presets, and **Custom**.
 
 Video 5. Choose a custom frequency range.
 
-<video controls preload="none" width="100%" src="assets/videos/custom-frequencies-selection.mp4">
+<video controls preload="none" width="100%" src="../assets/videos/custom-frequencies-selection.mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -80,7 +80,7 @@ Figure 17. Live DIRP chart with **Start** / **Stop**, **CLIP**, **HITS**, and **
 
 Video 6. Running a live DIRP.
 
-<video controls preload="none" width="100%" src="assets/videos/live-dirp.mp4">
+<video controls preload="none" width="100%" src="../assets/videos/live-dirp.mp4">
   Your browser does not support the video tag.
 </video>
 

@@ -59,7 +59,7 @@ Figure 24. Compare two DIRPs in graph or table view.
 
 Video 9. Compare two DIRPs.
 
-<video controls preload="none" width="100%" src="assets/videos/dirp-comparison.mp4">
+<video controls preload="none" width="100%" src="../assets/videos/dirp-comparison.mp4">
   Your browser does not support the video tag.
 </video>
 

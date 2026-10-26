@@ -16,7 +16,7 @@ Figure 19. **Analysis**: select a user and a DIRP.
 
 Video 7. Open Analysis and load a DIRP.
 
-<video controls preload="none" width="100%" src="assets/videos/analysis-navigation.mp4">
+<video controls preload="none" width="100%" src="../assets/videos/analysis-navigation.mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -62,7 +62,7 @@ Figure 21. **Pathogen database**.
 
 Video 8. Match pathogens and browse the pathogen database.
 
-<video controls preload="none" width="100%" src="assets/videos/pathogens.mp4">
+<video controls preload="none" width="100%" src="../assets/videos/pathogens.mp4">
   Your browser does not support the video tag.
 </video>
 
