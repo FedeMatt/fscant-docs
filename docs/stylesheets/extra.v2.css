@@ -30,6 +30,15 @@
   color: var(--md-primary-bg-color);
 }
 
+/* Material sets fill on .md-icon svg; keep the red label + white letters. */
+.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] svg path[fill="#F15642"] {
+  fill: #F15642 !important;
+}
+
+.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] svg g[fill="#fff"] path {
+  fill: #fff !important;
+}
+
 .md-header__inner > label[for="__search"],
 .md-header__inner > .md-search {
   order: 10;
