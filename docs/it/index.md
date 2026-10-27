@@ -2,7 +2,7 @@
 
 Manuale di istruzioni del software per computer che funziona con il tuo F-SCAN.
 
-**Prodotto:** F-SCANT
+**Prodotto:** F-SCANT  
 **Anno di rilascio:** 2026  
 **Computer supportati:** Mac e Windows  
 **Produttore:** TB-ELECTRONICS GmbH
@@ -18,11 +18,11 @@ F-SCANT è un programma che installi sul computer e che amplia ciò che puoi far
 
 Le parole in **grassetto** sono i nomi esatti di pulsanti ed etichette sullo schermo.
 
-Gran parte di F-SCANT funziona solo sul computer, ma per alcuni passaggi il dispositivo F-SCAN deve essere collegato. Quei passaggi sono contrassegnati con questo tag:
+Gran parte di F-SCANT funziona solo sul computer. Per alcuni passaggi, però, il dispositivo F-SCAN deve essere collegato. Quei passaggi sono contrassegnati con questa etichetta:
 
 **Needs F-SCAN**
 
-Questo manuale descrive F-SCANT. Per le istruzioni sull’F-SCAN, usa il manuale fornito con il dispositivo.
+Questo manuale descrive F-SCANT. Per le istruzioni sull’F-SCAN stesso, usa il manuale fornito con il dispositivo.
 
 ## Contenuti
 

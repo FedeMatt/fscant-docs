@@ -47,15 +47,12 @@ plugins:
       reconfigure_search: true
       languages:
         - locale: en
-          # EN_DEFAULT=false + IT_DEFAULT=true for Italian-only PDF (see scripts/build.sh).
           default: !ENV [EN_DEFAULT, true]
           name: English
-          # BUILD_EN=false for Italian-only PDF pass.
           build: !ENV [BUILD_EN, true]
         - locale: it
           default: !ENV [IT_DEFAULT, false]
           name: Italiano
-          # BUILD_IT=false for English-only PDF pass.
           build: !ENV [BUILD_IT, true]
           nav_translations:
             Home: Home
@@ -66,6 +63,45 @@ plugins:
             How to analyze a DIRP: Come analizzare un DIRP
             How to manage users: Come gestire gli utenti
             Settings: Impostazioni
+        - locale: de
+          default: !ENV [DE_DEFAULT, false]
+          name: Deutsch
+          build: !ENV [BUILD_DE, true]
+          nav_translations:
+            Home: Start
+            How to install F-SCANT: F-SCANT installieren
+            How to connect the F-SCAN: F-SCAN verbinden
+            Connect the F-SCAN on a Mac: F-SCAN auf einem Mac verbinden
+            How to create or import a DIRP: DIRP erstellen oder importieren
+            How to analyze a DIRP: DIRP analysieren
+            How to manage users: Benutzer verwalten
+            Settings: Einstellungen
+        - locale: pl
+          default: !ENV [PL_DEFAULT, false]
+          name: Polski
+          build: !ENV [BUILD_PL, true]
+          nav_translations:
+            Home: Start
+            How to install F-SCANT: Jak zainstalować F-SCANT
+            How to connect the F-SCAN: Jak podłączyć F-SCAN
+            Connect the F-SCAN on a Mac: Podłączanie F-SCAN na Macu
+            How to create or import a DIRP: Jak utworzyć lub importować DIRP
+            How to analyze a DIRP: Jak analizować DIRP
+            How to manage users: Jak zarządzać użytkownikami
+            Settings: Ustawienia
+        - locale: cs
+          default: !ENV [CS_DEFAULT, false]
+          name: Čeština
+          build: !ENV [BUILD_CS, true]
+          nav_translations:
+            Home: Domů
+            How to install F-SCANT: Jak nainstalovat F-SCANT
+            How to connect the F-SCAN: Jak připojit F-SCAN
+            Connect the F-SCAN on a Mac: Připojení F-SCAN na Macu
+            How to create or import a DIRP: Jak vytvořit nebo importovat DIRP
+            How to analyze a DIRP: Jak analyzovat DIRP
+            How to manage users: Jak spravovat uživatele
+            Settings: Nastavení
   - to-pdf:
       author: TB-ELECTRONICS GmbH
       cover_title: F-SCANT

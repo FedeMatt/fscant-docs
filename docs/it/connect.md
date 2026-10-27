@@ -29,16 +29,16 @@ Collega il cavo USB a una porta USB del computer stesso. Non collegarlo a un hub
 
 L’F-Code si trova nella fattura dell’app F-SCANT. Se non lo trovi, contatta TB-Electronics.
 
-Quando il pannello mostra **Connesso** e un numero di serie e una versione, hai finito. Alla prima connessione riuscita compare anche **Connessione riuscita!** prima di passare alla schermata iniziale.
+Quando il pannello mostra **Connesso** insieme a un numero di serie e a una versione, hai finito. Alla prima connessione riuscita compare anche **Connessione riuscita!** prima di passare alla schermata iniziale.
 
 Video 2. Collegare il dispositivo.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/connect-device.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/connect-device.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 2.</strong> Collegare il dispositivo. Guarda online:
-    <a href="https://FedeMatt.github.io/fscant-docs/it/connect/">fscant-docs/it/connect/</a>
+    <a href="https://fscant-docs.fscan.com/it/connect/">fscant-docs/it/connect/</a>
   </p>
 </div>
 
@@ -58,25 +58,25 @@ Se vedi **ERRORE: F-Code errato. Riprova!**, il codice digitato non corrisponde 
 
 ## Il pannello dispositivo
 
-Il pannello dispositivo è il riquadro blu in basso a destra dello schermo. Serve a mostrarti sempre lo stato del dispositivo: connesso o disconnesso. Se connesso, vengono mostrate ulteriori informazioni rilevanti:
+Il pannello dispositivo è il riquadro blu in basso a destra dello schermo. Serve a mostrarti sempre lo stato del dispositivo: connesso o disconnesso. Se è connesso, compaiono anche altre informazioni utili:
 
 - **Dispositivo:** nome del dispositivo F-SCAN collegato
 - **Numero di serie:** numero di serie dell’F-SCAN
 - **Versione:** versione dell’F-SCAN
 - **Timer:** se hai impostato sul dispositivo un timer dopo il quale l’F-SCAN si spegne automaticamente, viene mostrato qui. Per un uso ideale con F-SCANT, consigliamo di disattivare il timer dalle impostazioni del dispositivo.
 
-Fai clic su **Disconnetti** quando vuoi scollegare. F-SCANT non si riconnette da solo se hai staccato il cavo o spento l’F-SCAN. Quando il dispositivo è di nuovo pronto, fai clic su **Connetti**.
+Fai clic su **Disconnetti** quando vuoi scollegare. F-SCANT non si riconnette da solo se stacchi il cavo o spegni l’F-SCAN. Quando il dispositivo è di nuovo pronto, fai clic su **Connetti**.
 
 Puoi espandere e ridurre il pannello con le frecce bianche “su” e “giù”.
 
 Video 3. Espandere e ridurre il pannello dispositivo.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/bluebox-sizes.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/bluebox-sizes.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 3.</strong> Espandere e ridurre il pannello dispositivo. Guarda online:
-    <a href="https://FedeMatt.github.io/fscant-docs/it/connect/">fscant-docs/it/connect/</a>
+    <a href="https://fscant-docs.fscan.com/it/connect/">fscant-docs/it/connect/</a>
   </p>
 </div>
 

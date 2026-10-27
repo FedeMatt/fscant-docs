@@ -11,18 +11,18 @@ Figura 9. **Gestisci utenti**, una riga espansa.
 ## Aggiungere e trovare utenti
 
 - **Aggiungi nuovo utente:** digita un nome e fai clic su **Aggiungi**.
-- **Cerca:** digita un nome e conferma con il controllo di ricerca. L’elenco non si filtra mentre digiti; devi confermare la ricerca.
+- **Cerca:** digita un nome e conferma la ricerca. L’elenco non si filtra mentre digiti; devi confermare la ricerca.
 
 Puoi anche aggiungere una persona con **Nuovo utente** quando avvii un DIRP.
 
-Se vedi **Esiste già un paziente con questo nome.**, quel nome è già nell’elenco. F-SCANT non può salvare due utenti con lo stesso nome: scegli un nome diverso, ad esempio aggiungendo un’iniziale o un numero.
+Se vedi **Esiste già un paziente con questo nome.**, quel nome è già nell’elenco. F-SCANT non può salvare due utenti con lo stesso nome: scegli un nome diverso, per esempio aggiungendo un’iniziale o un numero.
 
 ## Rinominare o eliminare un utente
 
 Seleziona un utente e fai clic su **Gestisci utente**.
 
 - **Modifica nome:** digita il nuovo nome.
-- **Elimina utente:** Quando elimini un utente, F-SCANT chiede conferma. Eliminare significa che la persona e tutti i suoi DIRP e programmi verranno rimossi da F-SCANT, e l’operazione non si può annullare. Se sei sicuro, fai clic su **ELIMINARE**.
+- **Elimina utente:** quando elimini un utente, F-SCANT chiede conferma. Eliminare significa che la persona e tutti i suoi DIRP e programmi verranno rimossi da F-SCANT, e l’operazione non si può annullare. Se sei sicuro, fai clic su **ELIMINARE?**.
 
 ## Gestire DIRP o programma di un utente
 
@@ -56,17 +56,17 @@ Il confronto si apre come grafico. **Passa a programma** e **Passa a DIRP** camb
 Video 9. Confrontare due DIRP.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/dirp-comparison.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/dirp-comparison.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 9.</strong> Confrontare due DIRP. Guarda online:
-    <a href="https://FedeMatt.github.io/fscant-docs/it/users/">fscant-docs/it/users/</a>
+    <a href="https://fscant-docs.fscan.com/it/users/">fscant-docs/it/users/</a>
   </p>
 </div>
 
 ## Cambiare una posizione di memoria
 
-Ogni utente può avere numeri di memoria da 1 a 100 in F-SCANT. Questi numeri aiutano a ritrovare un DIRP. Non sono le stesse cose delle cartelle sul computer.
+Ogni utente può avere numeri di memoria da 1 a 100 in F-SCANT. Questi numeri aiutano a ritrovare un DIRP. Non corrispondono alle cartelle sul computer.
 
 1. Fai clic su **Cambia posizione di memoria**.
 2. Scegli un numero da 1 a 100.

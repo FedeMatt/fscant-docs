@@ -22,7 +22,7 @@ If you see **A patient with this name already exists.**, that name is already in
 Select a user and click **Manage user**.
 
 - **Edit name:** type the new name.
-- **Delete user:** When you delete a user, F-SCANT asks you to confirm. Deleting means the person and all of their DIRPs and programs will be removed from F-SCANT, and this can’t be undone. If you’re sure, click **DELETE**.
+- **Delete user:** When you delete a user, F-SCANT asks you to confirm. Deleting means the person and all of their DIRPs and programs will be removed from F-SCANT, and this can’t be undone. If you’re sure, click **DELETE?**.
 
 ## Managing a users’ DIRP or program
 
@@ -56,11 +56,11 @@ The comparison opens as a graph. **Switch to program** and **Switch to DIRP** ch
 Video 9. Compare two DIRPs.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/dirp-comparison.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/dirp-comparison.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 9.</strong> Compare two DIRPs. Watch online:
-    <a href="https://FedeMatt.github.io/fscant-docs/users/">fscant-docs/users/</a>
+    <a href="https://fscant-docs.fscan.com/users/">fscant-docs/users/</a>
   </p>
 </div>
 

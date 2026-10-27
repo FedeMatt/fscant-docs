@@ -8,16 +8,16 @@
 
 Puoi aprire lo stesso grafico da **Gestisci utenti**, **Gestisci DIRP**, poi **Carica DIRP**.
 
-Se vedi **Seleziona un utente** o **Seleziona un DIRP**, non è ancora stata fatta una scelta. Scegli un utente e un DIRP dagli elenchi, poi continua.
+Se vedi **Seleziona un utente** o **Seleziona un DIRP**, non hai ancora selezionato nulla. Scegli un utente e un DIRP dagli elenchi, poi continua.
 
 Video 7. Aprire Analisi e caricare un DIRP.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/analysis-navigation.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/analysis-navigation.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 7.</strong> Aprire Analisi e caricare un DIRP. Guarda online:
-    <a href="https://FedeMatt.github.io/fscant-docs/it/analysis/">fscant-docs/it/analysis/</a>
+    <a href="https://fscant-docs.fscan.com/it/analysis/">fscant-docs/it/analysis/</a>
   </p>
 </div>
 
@@ -27,25 +27,25 @@ Sul grafico, **Abbina patogeni** e **Apri programma** usano il livello di clippi
 
 Il grafico è lo stesso di una scansione in tempo reale:
 
-- **CV** (Conductivity Value): un valore di base personale per la persona analizzata. Per risultati utili dovrebbe essere tra 5% e 25%.
-- **MV** (Measured Value): quanto è forte la registrazione di una frequenza. Compare come barra verde: più è alta, più è forte la lettura.
+- **CV** (Conductivity Value): un valore di riferimento personale per la persona analizzata. Per risultati utili dovrebbe essere tra 5% e 25%.
+- **MV** (Measured Value): quanto è forte la risposta a una frequenza. Compare come barra verde: più è alta, più è forte la lettura.
 - **HITS:** le barre sopra la linea CLIP. Sono i risultati più forti della scansione.
 - **ZOOM:** usa + per rendere il grafico più alto e − per renderlo più basso. Alzalo quando le barre sono troppo piccole, abbassalo quando sono troppo grandi.
-- **CLIP** / **Livello di clipping:** la linea che decide quali barre contano come **HITS**. Al termine della scansione, **AUTO** la posiziona per te. Se vuoi più o meno HITS, sposta la linea in basso o in alto.
+- **CLIP** / **Livello di clipping:** la linea che decide quali barre contano come **HITS**. A fine scansione, **AUTO** la posiziona per te. Se vuoi più o meno HITS, sposta la linea in basso o in alto.
 
 Le frecce accanto al numero DIRP aprono il DIRP salvato precedente o successivo di quell’utente.
 
 ## Come abbinare i patogeni
 
-Abbina patogeni confronta i tuoi HITS con l’elenco patogeni memorizzato in F-SCANT. Per ogni patogeno dell’elenco, verifica se la sua frequenza è vicina a uno dei tuoi HITS. Se lo è, il patogeno compare nella tabella come possibile corrispondenza.
+**Abbina patogeni** confronta i tuoi HITS con l’elenco patogeni memorizzato in F-SCANT. Per ogni patogeno dell’elenco, verifica se la sua frequenza è vicina a uno dei tuoi HITS. Se lo è, il patogeno compare nella tabella come possibile corrispondenza.
 
-Quanto è “abbastanza vicino” è definito da **Soglia ± Hz**. La finestra usuale è 1000 Hz. Una finestra più ampia dà più possibili corrispondenze, una più stretta ne dà meno. Puoi cambiare la finestra nella schermata dei risultati (non in **Impostazioni**).
+Quanto deve essere “abbastanza vicino” lo definisce **Soglia ± Hz**. Di solito la finestra è di 1000 Hz. Una finestra più ampia produce più possibili corrispondenze; una più stretta ne produce meno. Puoi cambiare la finestra nella schermata dei risultati (non in **Impostazioni**).
 
 Per vedere le corrispondenze:
 
 1. Apri un **DIRP** salvato, oppure terminane uno nuovo.
 2. Fai clic su **Abbina patogeni**.
-3. Leggi la tabella. Modifica Soglia ± Hz se vuoi una finestra più ampia o più stretta.
+3. Leggi la tabella. Modifica **Soglia ± Hz** se vuoi una finestra più ampia o più stretta.
 4. Scegli cosa fare dopo:
     - **Esporta** salva un foglio CSV.
     - **Apri database patogeni** permette di sfogliare l’elenco completo. Puoi cercare per patogeno, ordinare dalla A alla Z o per frequenza. Le righe selezionate si possono aggiungere alla tabella di analisi con il pulsante **Aggiungi all’analisi**.
@@ -56,17 +56,17 @@ Per vedere le corrispondenze:
 Video 8. Abbinare patogeni e sfogliare il database patogeni.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/pathogens.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/pathogens.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 8.</strong> Abbinare patogeni e sfogliare il database patogeni. Guarda online:
-    <a href="https://FedeMatt.github.io/fscant-docs/it/analysis/">fscant-docs/it/analysis/</a>
+    <a href="https://fscant-docs.fscan.com/it/analysis/">fscant-docs/it/analysis/</a>
   </p>
 </div>
 
 ## Come aprire e salvare un programma
 
-Un **programma** è l’elenco di frequenze preso dagli **HITS** di un DIRP (forma d’onda, tempo, wobble, inviluppo e ampiezza). Modificare un programma non modifica il grafico DIRP originale.
+Un **programma** è l’elenco di frequenze ricavato dagli **HITS** di un DIRP (forma d’onda, tempo, wobble, inviluppo e ampiezza). Modificare un programma non modifica il grafico DIRP originale.
 
 1. Apri il programma in uno di due modi: fai clic su **Apri programma** sul grafico DIRP dopo che il DIRP è completato, oppure usa **Gestisci programma** in **Gestisci utenti**.
 2. Modifica le righe se serve. Puoi cambiare Forma d’onda, Tempo, Wobble, Inviluppo e Ampiezza. Fai clic su **+ Nuova frequenza** per aggiungere una riga.

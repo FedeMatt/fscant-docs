@@ -2,7 +2,7 @@
 
 Instruction manual for the computer software that works with your F-SCAN.
 
-**Product:** F-SCANT
+**Product:** F-SCANT  
 **Release year:** 2026  
 **Supported computers:** Mac and Windows  
 **Manufacturer:** TB-ELECTRONICS GmbH

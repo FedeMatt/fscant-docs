@@ -2,7 +2,7 @@
 
 **Needs F-SCAN**
 
-DIRP sta per Dual Integration Resonance Procedure ed è essenzialmente una scansione su un intervallo di frequenze. L’F-SCAN invia ciascuna frequenza a turno e F-SCANT disegna un grafico delle risposte.
+DIRP sta per Dual Integration Resonance Procedure ed è, in sostanza, una scansione su un intervallo di frequenze. L’F-SCAN invia ciascuna frequenza a turno e F-SCANT disegna un grafico delle risposte.
 
 La scansione va da una frequenza inferiore (**Fmin**) a una superiore (**Fmax**), a passi di **Delta F**.
 
@@ -28,11 +28,11 @@ Figura 6. Avvio DIRP: **Avvia un nuovo DIRP** o **Importa DIRP dal dispositivo**
 Video 4. Creare un nuovo utente, poi avviare un DIRP.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/new-user-dirp.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/new-user-dirp.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 4.</strong> Creare un nuovo utente, poi avviare un DIRP. Guarda online:
-    <a href="https://FedeMatt.github.io/fscant-docs/it/dirp/">fscant-docs/it/dirp/</a>
+    <a href="https://fscant-docs.fscan.com/it/dirp/">fscant-docs/it/dirp/</a>
   </p>
 </div>
 
@@ -55,11 +55,11 @@ Figura 7. Intervallo di frequenza: ultimi valori, preset e **Personalizzato**.
 Video 5. Scegliere un intervallo di frequenza personalizzato.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/custom-frequencies-selection.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/custom-frequencies-selection.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 5.</strong> Scegliere un intervallo di frequenza personalizzato. Guarda online:
-    <a href="https://FedeMatt.github.io/fscant-docs/it/dirp/">fscant-docs/it/dirp/</a>
+    <a href="https://fscant-docs.fscan.com/it/dirp/">fscant-docs/it/dirp/</a>
   </p>
 </div>
 
@@ -69,13 +69,13 @@ Prepara l’F-SCAN per un DIRP come nel manuale del dispositivo (sensore sull’
 
 ### Eseguire un DIRP
 
-Quando hai preparato il dispositivo, fai clic su **Avvia.**
+Quando hai preparato il dispositivo, fai clic su **Avvia**.
 
-Il grafico mostra la scansione da **Fmin** a **Fmax**, dove:
+Il grafico mostra la scansione da **Fmin** a **Fmax**:
 
 - Le barre verdi sono le risposte a ciascuna frequenza (**MV** è l’altezza di ciascuna barra).
 - La linea lilla è il livello di clipping (**Clip**). Le barre sopra questa linea contano come **HITS**.
-- **CV** è una lettura di fondo per la persona.
+- **CV** è una lettura di base per la persona.
 - La funzione di zoom (− / +) rende le barre più alte o più basse per una lettura più facile. Non cambia quanti **HITS** ci sono.
 
 Attendi che il grafico raggiunga **Fmax** e che lo stato mostri **Completato**. Il DIRP viene salvato automaticamente sia su F-SCANT sia sul dispositivo.
@@ -83,16 +83,16 @@ Attendi che il grafico raggiunga **Fmax** e che lo stato mostri **Completato**. 
 Video 6. Esecuzione di un DIRP in tempo reale.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/live-dirp.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/live-dirp.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 6.</strong> Esecuzione di un DIRP in tempo reale. Guarda online:
-    <a href="https://FedeMatt.github.io/fscant-docs/it/dirp/">fscant-docs/it/dirp/</a>
+    <a href="https://fscant-docs.fscan.com/it/dirp/">fscant-docs/it/dirp/</a>
   </p>
 </div>
 
-Se vuoi un insieme diverso di **HITS**, puoi spostare il livello di clipping inserendo un valore tra 0 e 100 nelle impostazioni DIRP nel riquadro grigio a destra del grafico. Durante l’uso di F-SCANT, sposta il livello di clipping solo dal software (non dal dispositivo F-SCAN). Compare **Salva DIRP** quando il livello di clipping è diverso da quello già salvato.
+Se vuoi un insieme diverso di **HITS**, puoi spostare il livello di clipping inserendo un valore tra 0 e 100 nelle impostazioni DIRP nel riquadro grigio a destra del grafico. Mentre usi F-SCANT, sposta il livello di clipping solo dal software (non dal dispositivo F-SCAN). Compare **Salva DIRP** quando il livello di clipping è diverso da quello già salvato.
 
-Se interrompi la scansione prima di Fmax, un messaggio chiede se vuoi davvero interrompere. Fermarsi prima significa che la scansione è incompleta e F-SCANT non può salvare risultati parziali. Interrompi solo se sei disposto a scartare questo DIRP. Se preferisci tenerlo, scegli **Rimani** e la scansione continua.
+Se interrompi la scansione prima di Fmax, un messaggio chiede se vuoi davvero interrompere. Fermarsi prima significa che la scansione è incompleta e F-SCANT non può salvare risultati parziali. Interrompi solo se vuoi scartare questo DIRP. Se preferisci tenerlo, scegli **Rimani** e la scansione continua.
 
-Se passi a un altro menu dalla barra in alto mentre un DIRP è ancora in corso, avrai la stessa scelta. **Rimani** ti tiene sul grafico. **Interrompi** o **Esci** lascia la scansione.
+Se passi a un altro menu dalla barra in alto mentre un DIRP è ancora in corso, avrai la stessa scelta. **Rimani** ti tiene sul grafico. **Interrompi** o **Esci** fanno uscire dalla scansione.

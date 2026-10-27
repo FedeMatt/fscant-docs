@@ -13,11 +13,11 @@ If you see **Please select a user** or **Please select a DIRP**, nothing is chos
 Video 7. Open Analysis and load a DIRP.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/analysis-navigation.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/analysis-navigation.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 7.</strong> Open Analysis and load a DIRP. Watch online:
-    <a href="https://FedeMatt.github.io/fscant-docs/analysis/">fscant-docs/analysis/</a>
+    <a href="https://fscant-docs.fscan.com/analysis/">fscant-docs/analysis/</a>
   </p>
 </div>
 
@@ -45,7 +45,7 @@ To see the matches:
 
 1. Open a saved **DIRP**, or finish a new one.
 2. Click **Match pathogens**.
-3. Read the table. Change Match ± Hz if you want a wider or narrower window.
+3. Read the table. Change **Match ± Hz** if you want a wider or narrower window.
 4. Choose what to do next:
     - **Export** saves a CSV spreadsheet.
     - **Open pathogen database** lets you browse the full list. You can search by pathogen, sort from A to Z or by frequency. Selected rows can be added to the analysis table with the button **Add to analysis**.
@@ -56,11 +56,11 @@ To see the matches:
 Video 8. Match pathogens and browse the pathogen database.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/pathogens.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/pathogens.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 8.</strong> Match pathogens and browse the pathogen database. Watch online:
-    <a href="https://FedeMatt.github.io/fscant-docs/analysis/">fscant-docs/analysis/</a>
+    <a href="https://fscant-docs.fscan.com/analysis/">fscant-docs/analysis/</a>
   </p>
 </div>
 

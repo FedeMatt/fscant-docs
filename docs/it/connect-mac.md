@@ -1,19 +1,19 @@
 # Collegare l’F-SCAN su Mac
 
-Hai già F-SCANT. Questi passaggi installano il driver USB incluso e collegano l’F-SCAN. Lo stesso file driver si usa su Mac Intel e su Mac Apple Silicon. Non scegli un processore e non scarichi un driver dal web.
+Hai già F-SCANT. Questi passaggi installano il driver USB incluso e collegano l’F-SCAN. Lo stesso file driver si usa su Mac Intel e su Mac Apple Silicon. Non devi scegliere un processore né scaricare un driver dal web.
 
 Ti serve:
 
 - F-SCANT
 - L’F-SCAN, acceso e sulla schermata iniziale
-- Un cavo USB (nel Mac, o in un hub o una dock)
+- Un cavo USB (collegato al Mac, oppure a un hub o a una dock)
 - L’F-Code dalla fattura F-SCANT
 
 ## 1. Installa il driver incluso con F-SCANT
 
 Nella cartella fornita con F-SCANT, leggi **SILICON-LABS-VCP-LICENSE.txt** prima di continuare. Poi apri **Mac_OSX_VCP_Driver.zip**, apri **SiLabsUSBDriverDisk.dmg** e fai doppio clic su **Install CP210x VCP Driver**.
 
-L’installer può chiedere la password del Mac. Si tratta di Silicon Labs CP210x VCP 6.0.3. Silicon Labs lo indica per Mac OS X 10.11 e successivi. F-SCANT è stato verificato con questo driver su un Mac Intel con macOS 15. Quella verifica non copre ogni macOS più vecchio o più nuovo.
+L’installer può chiedere la password del Mac. Si tratta di Silicon Labs CP210x VCP 6.0.3. Silicon Labs lo indica come adatto a Mac OS X 10.11 e successivi. F-SCANT è stato verificato con questo driver su un Mac Intel con macOS 15. Quella verifica non copre ogni macOS più vecchio o più nuovo.
 
 Figura 4. La cartella F-SCANT con l’installer Silicon Labs accanto all’app.
 
@@ -33,16 +33,16 @@ macOS chiede comunque di consentire il driver dopo che l’installer termina. Su
 
 Un macOS più recente può usare un nome leggermente diverso per quel pannello. Usa il video qui sotto.
 
-Su quel Mac non è stato necessario riavviare.
+Su quel Mac non è servito un riavvio.
 
 Video 1. Abilitare il driver Silicon Labs su Mac.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/driver-extension-mac-intel.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/driver-extension-mac-intel.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 1.</strong> Abilitare il driver Silicon Labs su Mac. Guarda online:
-    <a href="https://FedeMatt.github.io/fscant-docs/it/connect-mac/">fscant-docs/it/connect-mac/</a>
+    <a href="https://fscant-docs.fscan.com/it/connect-mac/">fscant-docs/it/connect-mac/</a>
   </p>
 </div>
 

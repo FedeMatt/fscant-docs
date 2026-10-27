@@ -18,36 +18,83 @@ run_mkdocs() {
   "${MKDOCS[@]}" "$@"
 }
 
+# locale|pdf_basename|cover_subtitle
+# Default language (en) keeps unsuffixed PDF name.
+LOCALES=(
+  "en|fscant-user-guide.pdf|Instruction manual"
+  "it|fscant-user-guide.it.pdf|Manuale di istruzioni"
+  "de|fscant-user-guide.de.pdf|Bedienungsanleitung"
+  "pl|fscant-user-guide.pl.pdf|Instrukcja obsługi"
+  "cs|fscant-user-guide.cs.pdf|Návod k použití"
+)
+
+ALL_CODES=(en it de pl cs)
+
+unset_locale_env() {
+  local code
+  for code in "${ALL_CODES[@]}"; do
+    local upper
+    upper=$(echo "$code" | tr '[:lower:]' '[:upper:]')
+    unset "BUILD_${upper}" || true
+    unset "${upper}_DEFAULT" || true
+  done
+}
+
+# Export BUILD_*=false for all, BUILD_$1=true; *_DEFAULT=false except $1=true
+activate_only() {
+  local only=$1
+  local code upper
+  for code in "${ALL_CODES[@]}"; do
+    upper=$(echo "$code" | tr '[:lower:]' '[:upper:]')
+    if [[ "$code" == "$only" ]]; then
+      export "BUILD_${upper}=true"
+      export "${upper}_DEFAULT=true"
+    else
+      export "BUILD_${upper}=false"
+      export "${upper}_DEFAULT=false"
+    fi
+  done
+}
+
+activate_all_en_default() {
+  local code upper
+  for code in "${ALL_CODES[@]}"; do
+    upper=$(echo "$code" | tr '[:lower:]' '[:upper:]')
+    export "BUILD_${upper}=true"
+    if [[ "$code" == "en" ]]; then
+      export "${upper}_DEFAULT=true"
+    else
+      export "${upper}_DEFAULT=false"
+    fi
+  done
+}
+
 PDF_STAGING="$(mktemp -d)"
 trap 'rm -rf "$PDF_STAGING"' EXIT
 mkdir -p docs/pdf
 
-echo "Building English PDF…"
-EN_DEFAULT=true IT_DEFAULT=false \
-  BUILD_EN=true BUILD_IT=false \
-  ENABLE_PDF_EXPORT=1 \
-  PDF_OUTPUT_PATH=pdf/fscant-user-guide.pdf \
-  PDF_COVER_SUBTITLE="Instruction manual" \
+for entry in "${LOCALES[@]}"; do
+  IFS='|' read -r code pdf_name subtitle <<<"$entry"
+  echo "Building PDF for ${code} → ${pdf_name}…"
+  activate_only "$code"
+  export ENABLE_PDF_EXPORT=1
+  export PDF_OUTPUT_PATH="pdf/${pdf_name}"
+  export PDF_COVER_SUBTITLE="$subtitle"
   run_mkdocs build
-cp -f site/pdf/fscant-user-guide.pdf "$PDF_STAGING/fscant-user-guide.pdf"
+  cp -f "site/pdf/${pdf_name}" "$PDF_STAGING/${pdf_name}"
+done
 
-echo "Building Italian PDF…"
-# i18n requires the default locale to build; promote IT to default for this pass only.
-EN_DEFAULT=false IT_DEFAULT=true \
-  BUILD_EN=false BUILD_IT=true \
-  ENABLE_PDF_EXPORT=1 \
-  PDF_OUTPUT_PATH=pdf/fscant-user-guide.it.pdf \
-  PDF_COVER_SUBTITLE="Manuale di istruzioni" \
-  run_mkdocs build
-cp -f site/pdf/fscant-user-guide.it.pdf "$PDF_STAGING/fscant-user-guide.it.pdf"
+echo "Installing PDFs into docs/pdf/…"
+for entry in "${LOCALES[@]}"; do
+  IFS='|' read -r _ pdf_name _ <<<"$entry"
+  cp -f "$PDF_STAGING/${pdf_name}" "docs/pdf/${pdf_name}"
+done
 
-echo "Installing PDFs into docs/pdf/ (static assets for site + serve)…"
-cp -f "$PDF_STAGING/fscant-user-guide.pdf" docs/pdf/fscant-user-guide.pdf
-cp -f "$PDF_STAGING/fscant-user-guide.it.pdf" docs/pdf/fscant-user-guide.it.pdf
-
-echo "Building EN + IT site…"
-EN_DEFAULT=true IT_DEFAULT=false \
-  BUILD_EN=true BUILD_IT=true \
-  run_mkdocs build
+echo "Building full multilingual site…"
+unset ENABLE_PDF_EXPORT || true
+unset PDF_OUTPUT_PATH || true
+unset PDF_COVER_SUBTITLE || true
+activate_all_en_default
+run_mkdocs build
 
 echo "Done → site/ (PDFs at docs/pdf/ and site/pdf/)"

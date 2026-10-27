@@ -34,11 +34,11 @@ When the panel shows **Connected** and a serial number and a version, you are do
 Video 2. Connecting the device.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/connect-device.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/connect-device.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 2.</strong> Connecting the device. Watch online:
-    <a href="https://FedeMatt.github.io/fscant-docs/connect/">fscant-docs/connect/</a>
+    <a href="https://fscant-docs.fscan.com/connect/">fscant-docs/connect/</a>
   </p>
 </div>
 
@@ -72,11 +72,11 @@ You can expand and collapse the panel using the white “up” and “down” ar
 Video 3. Expand and collapse the device panel.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/bluebox-sizes.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/bluebox-sizes.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 3.</strong> Expand and collapse the device panel. Watch online:
-    <a href="https://FedeMatt.github.io/fscant-docs/connect/">fscant-docs/connect/</a>
+    <a href="https://fscant-docs.fscan.com/connect/">fscant-docs/connect/</a>
   </p>
 </div>
 

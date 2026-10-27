@@ -28,11 +28,11 @@ Figure 6. DIRP start: **Start new DIRP now** or **Import DIRP from device**.
 Video 4. Create a new user, then start a DIRP.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/new-user-dirp.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/new-user-dirp.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 4.</strong> Create a new user, then start a DIRP. Watch online:
-    <a href="https://FedeMatt.github.io/fscant-docs/dirp/">fscant-docs/dirp/</a>
+    <a href="https://fscant-docs.fscan.com/dirp/">fscant-docs/dirp/</a>
   </p>
 </div>
 
@@ -55,11 +55,11 @@ Figure 7. Frequency range: last used values, presets, and **Custom**.
 Video 5. Choose a custom frequency range.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/custom-frequencies-selection.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/custom-frequencies-selection.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 5.</strong> Choose a custom frequency range. Watch online:
-    <a href="https://FedeMatt.github.io/fscant-docs/dirp/">fscant-docs/dirp/</a>
+    <a href="https://fscant-docs.fscan.com/dirp/">fscant-docs/dirp/</a>
   </p>
 </div>
 
@@ -83,11 +83,11 @@ Wait until the graph reaches **Fmax** and the status shows **Completed**. The DI
 Video 6. Running a live DIRP.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/live-dirp.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/live-dirp.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 6.</strong> Running a live DIRP. Watch online:
-    <a href="https://FedeMatt.github.io/fscant-docs/dirp/">fscant-docs/dirp/</a>
+    <a href="https://fscant-docs.fscan.com/dirp/">fscant-docs/dirp/</a>
   </p>
 </div>
 

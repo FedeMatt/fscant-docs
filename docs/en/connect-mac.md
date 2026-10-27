@@ -38,11 +38,11 @@ No restart was needed on that Mac.
 Video 1. Enable the Silicon Labs driver on a Mac.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/driver-extension-mac-intel.mp4">
+  <video controls preload="none" width="100%" src="/assets/videos/driver-extension-mac-intel.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 1.</strong> Enable the Silicon Labs driver on a Mac. Watch online:
-    <a href="https://FedeMatt.github.io/fscant-docs/connect-mac/">fscant-docs/connect-mac/</a>
+    <a href="https://fscant-docs.fscan.com/connect-mac/">fscant-docs/connect-mac/</a>
   </p>
 </div>
 

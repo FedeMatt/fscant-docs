@@ -7,6 +7,15 @@
 {% if config.theme.language == "it" %}
   {% set guide_pdf_path = "pdf/fscant-user-guide.it.pdf" %}
   {% set guide_pdf_label = "Scarica il PDF della documentazione" %}
+{% elif config.theme.language == "de" %}
+  {% set guide_pdf_path = "pdf/fscant-user-guide.de.pdf" %}
+  {% set guide_pdf_label = "PDF der Dokumentation herunterladen" %}
+{% elif config.theme.language == "pl" %}
+  {% set guide_pdf_path = "pdf/fscant-user-guide.pl.pdf" %}
+  {% set guide_pdf_label = "Pobierz PDF dokumentacji" %}
+{% elif config.theme.language == "cs" %}
+  {% set guide_pdf_path = "pdf/fscant-user-guide.cs.pdf" %}
+  {% set guide_pdf_label = "Stáhnout PDF dokumentace" %}
 {% else %}
   {% set guide_pdf_path = "pdf/fscant-user-guide.pdf" %}
   {% set guide_pdf_label = "Download PDF of documentation" %}

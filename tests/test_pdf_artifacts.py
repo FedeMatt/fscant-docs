@@ -1,4 +1,4 @@
-"""Post-build checks for bilingual PDF artifacts and HTML hrefs."""
+"""Post-build checks for multilingual PDF artifacts and HTML hrefs."""
 
 from __future__ import annotations
 
@@ -13,18 +13,45 @@ try:
 except ImportError:  # pragma: no cover
     PdfReader = None  # type: ignore[misc, assignment]
 
+PDF_FILES = (
+    "fscant-user-guide.pdf",
+    "fscant-user-guide.it.pdf",
+    "fscant-user-guide.de.pdf",
+    "fscant-user-guide.pl.pdf",
+    "fscant-user-guide.cs.pdf",
+)
+
+PAGE_PDF = (
+    ("index.html", "/", "fscant-user-guide.pdf"),
+    ("it/index.html", "/it/", "fscant-user-guide.it.pdf"),
+    ("de/index.html", "/de/", "fscant-user-guide.de.pdf"),
+    ("pl/index.html", "/pl/", "fscant-user-guide.pl.pdf"),
+    ("cs/index.html", "/cs/", "fscant-user-guide.cs.pdf"),
+)
+
+COVERS = (
+    ("fscant-user-guide.pdf", "Instruction manual"),
+    ("fscant-user-guide.it.pdf", "Manuale di istruzioni"),
+    ("fscant-user-guide.de.pdf", "Bedienungsanleitung"),
+    ("fscant-user-guide.pl.pdf", "Instrukcja obsługi"),
+    ("fscant-user-guide.cs.pdf", "Návod k použití"),
+)
+
 
 def _require_built(repo_root: Path) -> tuple[Path, Path]:
     docs_pdf = repo_root / "docs" / "pdf"
     site_pdf = repo_root / "site" / "pdf"
-    en = site_pdf / "fscant-user-guide.pdf"
-    it = site_pdf / "fscant-user-guide.it.pdf"
-    if not en.is_file() or not it.is_file():
-        pytest.skip("site/pdf/*.pdf missing — run ./scripts/build.sh first")
+    missing = [name for name in PDF_FILES if not (site_pdf / name).is_file()]
+    if missing:
+        pytest.skip(
+            "site/pdf missing "
+            + ", ".join(missing)
+            + " — run ./scripts/build.sh first",
+        )
     return docs_pdf, site_pdf
 
 
-@pytest.mark.parametrize("name", ["fscant-user-guide.pdf", "fscant-user-guide.it.pdf"])
+@pytest.mark.parametrize("name", PDF_FILES)
 def test_pdf_files_exist_in_docs_and_site(repo_root: Path, name: str) -> None:
     docs_pdf, site_pdf = _require_built(repo_root)
     for folder in (docs_pdf, site_pdf):
@@ -35,13 +62,12 @@ def test_pdf_files_exist_in_docs_and_site(repo_root: Path, name: str) -> None:
 
 def _hrefs_for_pdf(html: str) -> list[str]:
     return re.findall(
-        r'href="([^"]*fscant-user-guide(?:\.it)?\.pdf)"',
+        r'href="([^"]*fscant-user-guide(?:\.(?:it|de|pl|cs))?\.pdf)"',
         html,
     )
 
 
 def _resolve_under_site(site_root: Path, page_url: str, href: str) -> Path:
-    """Resolve an href from a built page URL to a path under site/."""
     assert "/fscant-docs/" not in href, f"broken absolute prefix in href: {href}"
     if href.startswith(("http://", "https://")):
         path = urlparse(href).path.lstrip("/")
@@ -51,13 +77,7 @@ def _resolve_under_site(site_root: Path, page_url: str, href: str) -> Path:
     return site_root / path
 
 
-@pytest.mark.parametrize(
-    ("page_rel", "page_url", "expected_name"),
-    [
-        ("index.html", "/", "fscant-user-guide.pdf"),
-        ("it/index.html", "/it/", "fscant-user-guide.it.pdf"),
-    ],
-)
+@pytest.mark.parametrize(("page_rel", "page_url", "expected_name"), PAGE_PDF)
 def test_built_html_pdf_hrefs_resolve(
     repo_root: Path,
     page_rel: str,
@@ -79,13 +99,7 @@ def test_built_html_pdf_hrefs_resolve(
         assert target.resolve() == (site_pdf / expected_name).resolve()
 
 
-@pytest.mark.parametrize(
-    ("name", "needle"),
-    [
-        ("fscant-user-guide.pdf", "Instruction manual"),
-        ("fscant-user-guide.it.pdf", "Manuale di istruzioni"),
-    ],
-)
+@pytest.mark.parametrize(("name", "needle"), COVERS)
 def test_pdf_cover_subtitle(repo_root: Path, name: str, needle: str) -> None:
     if PdfReader is None:
         pytest.skip("pypdf not installed")
