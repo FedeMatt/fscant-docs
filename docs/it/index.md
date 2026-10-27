@@ -37,4 +37,4 @@ Passaggi del driver USB specifici per Mac: [Collegare l’F-SCAN su Mac](connect
 
 ## Download
 
-[Scarica PDF](../pdf/fscant-user-guide.it.pdf) — versione stampabile di questo manuale (generata insieme al sito).
+[Scarica PDF](../pdf/fscant-user-guide.it.pdf) — versione stampabile di questo manuale.

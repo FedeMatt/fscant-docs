@@ -37,4 +37,4 @@ Kroki dotyczące sterownika USB na Macu: [Podłączanie F-SCAN na Macu](connect-
 
 ## Pobieranie
 
-[Pobierz PDF](../pdf/fscant-user-guide.pl.pdf) — wersja do druku tego podręcznika (generowana wraz ze stroną).
+[Pobierz PDF](../pdf/fscant-user-guide.pl.pdf) — wersja do druku tego podręcznika.

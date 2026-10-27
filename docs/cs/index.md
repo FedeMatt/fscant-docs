@@ -37,4 +37,4 @@ Kroky ovladače USB specifické pro Mac: [Připojení F-SCAN na Macu](connect-ma
 
 ## Stáhnout
 
-[Stáhnout PDF](../pdf/fscant-user-guide.cs.pdf) — tisknutelná verze tohoto návodu (vytvořená spolu se stránkou).
+[Stáhnout PDF](../pdf/fscant-user-guide.cs.pdf) — tisknutelná verze tohoto návodu.

@@ -12,6 +12,51 @@
   --md-accent-bg-color--light: #ffffffb3;
   --md-typeset-a-color: #1F40C8;
   --md-typeset-mark-color: #1F40C84d; /* search.highlight */
+  /* Match language md-select caret (.md-select__inner:after uses .2rem). */
+  --md-tooltip-tail: 0.2rem;
+}
+
+/*
+ * Title tooltips (palette + PDF via content.tooltips) should match the
+ * language selector dropdown: .md-select__list is .8rem / normal weight.
+ * Keep role=dialog content tooltips on Material defaults.
+ */
+[role="tooltip"] > .md-tooltip2__inner {
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 0.2rem 0.6rem;
+}
+
+.md-tooltip--inline .md-tooltip__inner,
+.md-tooltip__inner {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+/*
+ * .md-tooltip has no built-in caret; md-tooltip2 tails only show with
+ * --top/--bottom. Mirror .md-select__inner:after so palette/PDF tips
+ * point at their icon like the language dropdown.
+ */
+.md-tooltip::after,
+.md-tooltip2[role="tooltip"]::after {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin-top: -0.2rem;
+  margin-left: -0.2rem;
+  content: "";
+  border: 0.2rem solid transparent;
+  border-top: 0;
+  border-bottom-color: var(--md-default-bg-color);
+}
+
+/* Avoid a second Material host-x caret on short title tips. */
+.md-tooltip2[role="tooltip"]::before {
+  content: none;
 }
 
 /* mkdocs-to-pdf injects a legacy class; match Material header button spacing. */

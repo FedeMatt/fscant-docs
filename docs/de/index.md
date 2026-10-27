@@ -37,4 +37,4 @@ USB-Treiberschritte speziell für Mac: [F-SCAN auf einem Mac verbinden](connect-
 
 ## Download
 
-[PDF herunterladen](../pdf/fscant-user-guide.de.pdf) — druckbare Version dieses Handbuchs (wird beim Erzeugen der Website erstellt).
+[PDF herunterladen](../pdf/fscant-user-guide.de.pdf) — druckbare Version dieses Handbuchs.
