@@ -6,7 +6,7 @@ You need:
 
 - F-SCANT
 - The F-SCAN, turned on and showing its home screen
-- A USB cable plugged straight into the Mac
+- A USB cable (into the Mac, or a hub or a dock)
 - The F-Code from your F-SCANT invoice
 
 ## 1. Install the driver included with F-SCANT
@@ -50,7 +50,7 @@ If macOS also shows a separate button to allow system software from Silicon Labs
 
 ## 3. Plug in the F-SCAN
 
-Turn the F-SCAN on and leave it on its home screen. Plug the USB cable into the Mac itself, not into a hub or a dock.
+Turn the F-SCAN on and leave it on its home screen. Plug the USB cable into the Mac or using a hub or a dock.
 
 ## 4. Connect in F-SCANT
 
@@ -63,7 +63,7 @@ Click **Connect**. If F-SCANT asks for an F-Code, enter the code from your F-SCA
 Check these before you try again:
 
 - The Silicon Labs extension is turned on.
-- The cable is plugged directly into the Mac.
+- The cable is plugged into the Mac, or into a hub or a dock.
 - The F-SCAN is on and showing its home screen.
 - The F-Code matches the invoice.
 
