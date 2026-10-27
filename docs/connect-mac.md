@@ -31,7 +31,7 @@ macOS still asks you to allow the driver after the installer finishes. On the Ma
 2. Under **Extensions**, open **Driver Extensions** (it lists `com.silabs.cp210x`).
 3. Turn on **CP210xVCPDriver**. Enter your Mac password if asked, then click **Done**.
 
-A newer macOS may use a slightly different name for that pane. Use the video below.
+A newer macOS may use a slightly different name for that panel. Use the video below.
 
 No restart was needed on that Mac.
 
