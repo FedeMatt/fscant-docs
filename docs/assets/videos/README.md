@@ -4,7 +4,7 @@ Compressed MP4s published with the site (encode from gitignored `videos-images/`
 
 | File | Guide caption |
 |------|---------------|
-| `driver-extension-mac-intel.mp4` | Video 1 — enable Silicon Labs driver on macOS (install) |
+| `driver-extension-mac-intel.mp4` | Video 1 — enable Silicon Labs driver on macOS (`connect-mac` only) |
 | `connect-device.mp4` | Video 2 — connecting the device |
 | `bluebox-sizes.mp4` | Video 3 — expand / collapse the device panel |
 | `new-user-dirp.mp4` | Video 4 — new user, then start a DIRP |

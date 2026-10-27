@@ -31,10 +31,6 @@ The F-Code is on the F-SCANT APP invoice. If you cannot find it, please contact 
 
 When the panel shows **Connected** and a serial number and a version, you are done. The first successful connection also shows **Connection succeeded!** before bringing you to the home screen.
 
-Figure 2. **F-Code** entry.
-
-![Please enter your F-Code](assets/images/fscant-user-guide/02-f-code.png)
-
 Video 2. Connecting the device.
 
 <div class="guide-video">
@@ -46,7 +42,7 @@ Video 2. Connecting the device.
   </p>
 </div>
 
-On a Mac, detailed USB driver pictures are in [Connect the F-SCAN on a Mac](connect-mac.md).
+On a Mac, detailed USB driver steps are in [Connect the F-SCAN on a Mac](connect-mac.md).
 
 ## If connection does not work
 
@@ -84,18 +80,14 @@ Video 3. Expand and collapse the device panel.
   </p>
 </div>
 
-Figure 3. Device panel showing **Connected**, serial number, and version.
-
-![Device panel showing Connected, serial number, and version](assets/images/fscant-user-guide/03-device-connected.png)
-
 ## The home screen
 
 The home screen provides three options: **Create or import DIRP**, **Load DIRP**, and **Manage users**.
 
-Figure 4. Home screen, F-SCAN not connected.
+Figure 2. Home screen, F-SCAN not connected.
 
 ![Home screen, F-SCAN not connected](assets/images/fscant-user-guide/04-home-disconnected.png)
 
-Figure 5. Home screen, F-SCAN connected.
+Figure 3. Home screen, F-SCAN connected.
 
 ![Home screen, F-SCAN connected](assets/images/fscant-user-guide/05-home-connected.png)

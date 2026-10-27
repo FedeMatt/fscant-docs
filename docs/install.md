@@ -16,22 +16,7 @@ If Windows asks you to allow apps that did not come from the store, allow it for
 
 1. Copy **F-SCANT** into the Applications folder.
 2. Install the USB helper that came in the same folder as F-SCANT. Read **SILICON-LABS-VCP-LICENSE.txt** first. Open **Mac_OSX_VCP_Driver.zip**, open the disk image inside, and run **Install CP210x VCP Driver**. This helper lets the Mac see the F-SCAN on USB.
-3. When macOS asks you to allow software from Silicon Labs, turn that permission on.
+3. When macOS asks you to allow software from Silicon Labs, turn that permission on. After the installer finishes, allow the driver in **System Settings → General → Login Items & Extensions**: under **Extensions**, open **Driver Extensions**, turn on **CP210xVCPDriver** (`com.silabs.cp210x`), and enter your Mac password if asked. The full steps and Video 1 are in [Connect the F-SCAN on a Mac](connect-mac.md).
 4. Open **F-SCANT**.
-
-Pictures of the USB helper steps are in [Connect the F-SCAN on a Mac](connect-mac.md).
-
-### Enable Silabs driver on macOS Intel
-
-Video 1. Enable the Silicon Labs driver on a Mac.
-
-<div class="guide-video">
-  <video controls preload="none" width="100%" src="../assets/videos/driver-extension-mac-intel.mp4">
-  </video>
-  <p class="guide-video-fallback" hidden>
-    <strong>Video 1.</strong> Enable the Silicon Labs driver on a Mac. Watch online:
-    <a href="https://FedeMatt.github.io/fscant-docs/install/">fscant-docs/install/</a>
-  </p>
-</div>
 
 If macOS says the developer cannot be verified, it means the Mac is blocking an app that did not come from the App Store. That is expected for F-SCANT. Open it with Apple’s [Open Anyway](https://support.apple.com/en-us/102445) steps for this one app. You do not need to turn off security for every app on the Mac.

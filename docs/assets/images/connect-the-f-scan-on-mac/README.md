@@ -1,21 +1,18 @@
 # Pictures for the Mac connect guide
 
-These PNG files are not here yet. Add each one with the name below. The guide already links to them.
+Only stills that Video 1 does not already cover. Enabling **CP210xVCPDriver** under **Driver Extensions** is Video 1 only (no on/off stills).
 
-- `01-installer-with-app.png` — the extracted kit with the Silicon Labs installer beside F-SCANT.app
-- `02-silabs-installer.png` — the installer window (the step that asks to allow the extension, if it appears)
-- `03-extension-off.png` — System Settings with the Silicon Labs / `com.silabs.cp210x` control still off
-- `04-extension-on.png` — the same control after you turn it on
-- `05-privacy-allow.png` — only if macOS also shows a separate “allow system software” button under Privacy & Security; skip the file if that screen never appears
-- `06-app-disconnected.png` — F-SCANT with **Connect** visible before the device is connected
-- `07-f-code.png` — the F-Code prompt, if Connect asks for it
-- `08-app-connected.png` — the panel after a successful Connect, showing **Connected**
+| File | Present | Guide use |
+|------|---------|-----------|
+| `01-installer-with-app.png` | no | Figure 4 — kit folder with Silicon Labs installer beside F-SCANT.app |
+| `02-silabs-installer.png` | yes | Figure 5 — Silicon Labs installer window |
 
-Plug the F-SCAN directly into the Mac for the last shots. No Accessibility permission is required to take them.
+Optional (not linked unless you add it back): `05-privacy-allow.png` — only if macOS shows a separate “allow system software” button under Privacy & Security. Skip if that screen never appears.
 
-Draft screenshots (rename to the numbered names above when you confirm which shot is which):
+Connect / F-Code / Connected stills are not used here; see Video 2 on [How to connect the F-SCAN](../../../connect.md).
 
-- `Screenshot-2026-10-08-16.12.41.png`
-- `Screenshot-2026-10-08-16.13.19.png`
-- `Screenshot-2026-10-08-16.13.41.png`
+Remaining drafts (not used as Figure 4 — they show the DMG / later installer steps, not the F-SCANT kit folder):
 
+- `Screenshot-2026-10-08-16.12.41.png` — Silicon Labs VCP Driver Install Disk
+- `Screenshot-2026-10-08-16.13.19.png` — source copied to `02-silabs-installer.png`
+- `Screenshot-2026-10-08-16.13.41.png` — installer Info step

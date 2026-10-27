@@ -4,7 +4,7 @@ A **user** in F-SCANT is a person you keep DIRP results for. It is not a login o
 
 **Manage users** lists everyone stored in F-SCANT, with **Name**, **DIRPs**, **Memory**, **Date** and **Time**. Open a row to see that person’s DIRPs and program.
 
-Figure 23. **Manage users**, one row expanded.
+Figure 9. **Manage users**, one row expanded.
 
 ![Manage users table with one row expanded](assets/images/fscant-user-guide/15-manage-users.png)
 
@@ -52,10 +52,6 @@ To send a DIRP or a program to the device, use **Transfer DIRP to device** or **
 If nothing happens when you click **Compare DIRPs**, check that exactly *two* DIRPs are selected.
 
 The comparison opens as a graph. **Switch to program** and **Switch to DIRP** change the display. **Export** saves both DIRPs together into one **CSV** spreadsheet.
-
-Figure 24. Compare two DIRPs in graph or table view.
-
-![Two DIRPs in graph or table view](assets/images/fscant-user-guide/16-compare-dirps.png)
 
 Video 9. Compare two DIRPs.
 

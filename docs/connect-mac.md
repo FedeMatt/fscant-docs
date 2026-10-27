@@ -15,33 +15,38 @@ In the folder that came with F-SCANT, read **SILICON-LABS-VCP-LICENSE.txt** befo
 
 The installer may ask for your Mac password. This is Silicon Labs CP210x VCP 6.0.3. Silicon Labs says it is for Mac OS X 10.11 and later. F-SCANT has been checked with this driver on an Intel Mac running macOS 15. That check does not cover every older or newer macOS.
 
-Figure 6. The F-SCANT folder with the Silicon Labs installer beside the app.
+Figure 4. The F-SCANT folder with the Silicon Labs installer beside the app.
 
 ![The F-SCANT folder with the Silicon Labs installer beside the app](assets/images/connect-the-f-scan-on-mac/01-installer-with-app.png)
 
-Figure 7. The Silicon Labs installer.
+Figure 5. The Silicon Labs installer.
 
 ![The Silicon Labs installer](assets/images/connect-the-f-scan-on-mac/02-silabs-installer.png)
 
 ## 2. Allow the Silicon Labs extension
 
-macOS still asks you to allow the driver after the installer finishes. On the Mac where this was last checked, that control was **System Settings → General → Login Items & Extensions**, named `com.silabs.cp210x`. Turn it on. A newer macOS may use a slightly different name for that pane. Use the pictures below, and turn on the Silicon Labs control you see there.
+macOS still asks you to allow the driver after the installer finishes. On the Mac where this was last checked:
+
+1. Open **System Settings → General → Login Items & Extensions**.
+2. Under **Extensions**, open **Driver Extensions** (it lists `com.silabs.cp210x`).
+3. Turn on **CP210xVCPDriver**. Enter your Mac password if asked, then click **Done**.
+
+A newer macOS may use a slightly different name for that pane. Use the video below.
 
 No restart was needed on that Mac.
 
-Figure 8. The Silicon Labs extension turned off.
+Video 1. Enable the Silicon Labs driver on a Mac.
 
-![The Silicon Labs extension turned off](assets/images/connect-the-f-scan-on-mac/03-extension-off.png)
-
-Figure 9. The Silicon Labs extension turned on.
-
-![The Silicon Labs extension turned on](assets/images/connect-the-f-scan-on-mac/04-extension-on.png)
+<div class="guide-video">
+  <video controls preload="none" width="100%" src="../assets/videos/driver-extension-mac-intel.mp4">
+  </video>
+  <p class="guide-video-fallback" hidden>
+    <strong>Video 1.</strong> Enable the Silicon Labs driver on a Mac. Watch online:
+    <a href="https://FedeMatt.github.io/fscant-docs/connect-mac/">fscant-docs/connect-mac/</a>
+  </p>
+</div>
 
 If macOS also shows a separate button to allow system software from Silicon Labs, allow it.
-
-Figure 10. Allow system software, if macOS shows this.
-
-![Allow system software, if macOS shows this](assets/images/connect-the-f-scan-on-mac/05-privacy-allow.png)
 
 ## 3. Plug in the F-SCAN
 
@@ -51,19 +56,7 @@ Turn the F-SCAN on and leave it on its home screen. Plug the USB cable into the 
 
 Open **F-SCANT**. If macOS says the developer cannot be verified, use Apple’s steps to open that app anyway: [Open Anyway](https://support.apple.com/en-us/102445). Do not turn off the security check for every app.
 
-Click **Connect**. If F-SCANT asks for an F-Code, enter the code from your F-SCANT invoice. When the panel says **Connected** and shows a serial number and a version, you are done.
-
-Figure 11. F-SCANT before **Connect**.
-
-![F-SCANT before Connect](assets/images/connect-the-f-scan-on-mac/06-app-disconnected.png)
-
-Figure 12. The **F-Code** prompt.
-
-![The F-Code prompt](assets/images/connect-the-f-scan-on-mac/07-f-code.png)
-
-Figure 13. F-SCANT after a successful **Connect**.
-
-![F-SCANT after a successful Connect](assets/images/connect-the-f-scan-on-mac/08-app-connected.png)
+Click **Connect**. If F-SCANT asks for an F-Code, enter the code from your F-SCANT invoice. When the panel says **Connected** and shows a serial number and a version, you are done. The connect flow is also shown in [Video 2 on How to connect the F-SCAN](connect.md).
 
 ## If Connect does not succeed
 

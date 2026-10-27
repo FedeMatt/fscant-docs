@@ -11,7 +11,7 @@ After clicking **Create or import DIRP** on the home screen, or **DIRP** in the 
 - **Start new DIRP now:** run a new DIRP from F-SCANT
 - **Import DIRP from device:** import a DIRP that is already on your F-SCAN device
 
-Figure 14. DIRP start: **Start new DIRP now** or **Import DIRP from device**.
+Figure 6. DIRP start: **Start new DIRP now** or **Import DIRP from device**.
 
 ![DIRP start: Start new DIRP now or Import DIRP from device](assets/images/fscant-user-guide/06-dirp-start.png)
 
@@ -24,10 +24,6 @@ Figure 14. DIRP start: **Start new DIRP now** or **Import DIRP from device**.
 ### Selecting a user
 
 **Select user** lists the people already stored in F-SCANT. Click a name, or click **New user** to add someone, then **Continue**.
-
-Figure 15. **Select user** and **New user**.
-
-![Select user with New user in the list](assets/images/fscant-user-guide/07-select-user.png)
 
 Video 4. Create a new user, then start a DIRP.
 
@@ -52,7 +48,7 @@ The range screen offers:
 
 Note: **Fmin** must be lower than **Fmax**. You can set **Fmin** from 50 Hz, **Fmax** up to 2 MHz, and **Delta F** from 1 Hz to 10 000 Hz. If a value is outside those ranges, F-SCANT will show an error. Please correct the number to continue.
 
-Figure 16. Frequency range: last used values, presets, and **Custom**.
+Figure 7. Frequency range: last used values, presets, and **Custom**.
 
 ![Frequency range: last used values, presets, and Custom](assets/images/fscant-user-guide/08-dirp-range.png)
 
@@ -84,10 +80,6 @@ The chart will show the scan from **Fmin** to **Fmax**, whereas:
 
 Wait until the graph reaches **Fmax** and the status shows **Completed**. The DIRP will automatically be saved both on F-SCANT and on your device.
 
-Figure 17. Live DIRP chart with **Start** / **Stop**, **CLIP**, **HITS**, and **ZOOM**.
-
-![Live DIRP chart with Start / Stop, CLIP, HITS, ZOOM](assets/images/fscant-user-guide/09-dirp-scanning.png)
-
 Video 6. Running a live DIRP.
 
 <div class="guide-video">
@@ -104,7 +96,3 @@ If you want a different set of **HITS**, you can move the clipping level by ente
 If you stop the scan before it reaches Fmax, a message asks whether you really want to stop. Stopping early means the scan is incomplete, and F-SCANT can’t save partial results. So only stop if you’re happy to discard this DIRP. If you’d rather keep it, choose **Stay** and the scan carries on.
 
 If you switch to another menu via the top menu bar while a DIRP is still running, you will get the same choice. **Stay** keeps you on the chart. **Stop** or **Leave** leaves the scan.
-
-Figure 18. DIRP completed.
-
-![DIRP completed](assets/images/fscant-user-guide/10-dirp-complete.png)
