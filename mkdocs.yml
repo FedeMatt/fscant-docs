@@ -1,6 +1,6 @@
 site_name: F-SCANT
 site_description: Instruction manual for the F-SCANT computer software
-site_url: https://FedeMatt.github.io/fscant-docs/
+site_url: https://fscant-docs.fscan.com/
 copyright: Copyright &copy; 2026 TB-ELECTRONICS
 
 docs_dir: docs
@@ -34,22 +34,44 @@ theme:
 
 extra:
   generator: false
-  alternate:
-    - name: English
-      link: /fscant-docs/
-      lang: en
 
 extra_css:
   - stylesheets/extra.v3.css
 
 plugins:
   - search
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          # EN_DEFAULT=false + IT_DEFAULT=true for Italian-only PDF (see scripts/build.sh).
+          default: !ENV [EN_DEFAULT, true]
+          name: English
+          # BUILD_EN=false for Italian-only PDF pass.
+          build: !ENV [BUILD_EN, true]
+        - locale: it
+          default: !ENV [IT_DEFAULT, false]
+          name: Italiano
+          # BUILD_IT=false for English-only PDF pass.
+          build: !ENV [BUILD_IT, true]
+          nav_translations:
+            Home: Home
+            How to install F-SCANT: Come installare F-SCANT
+            How to connect the F-SCAN: Come collegare l'F-SCAN
+            Connect the F-SCAN on a Mac: Collegare l'F-SCAN su Mac
+            How to create or import a DIRP: Come creare o importare un DIRP
+            How to analyze a DIRP: Come analizzare un DIRP
+            How to manage users: Come gestire gli utenti
+            Settings: Impostazioni
   - to-pdf:
       author: TB-ELECTRONICS GmbH
       cover_title: F-SCANT
-      cover_subtitle: Instruction manual
+      cover_subtitle: !ENV [PDF_COVER_SUBTITLE, "Instruction manual"]
       cover_logo: assets/logo.png
-      output_path: pdf/fscant-user-guide.pdf
+      output_path: !ENV [PDF_OUTPUT_PATH, "pdf/fscant-user-guide.pdf"]
       enabled_if_env: ENABLE_PDF_EXPORT
 
 nav:

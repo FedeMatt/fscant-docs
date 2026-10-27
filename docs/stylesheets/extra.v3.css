@@ -22,8 +22,8 @@
 
 /*
  * Desired header order (right side): mode, language, PDF, search.
- * mkdocs-to-pdf appends the PDF link after search; flex order swaps them.
- * Icon colors come from pdf_event_hook.py (white chrome, red PDF label).
+ * PDF control is in overrides/partials/header.html (locale-aware href).
+ * Flex order keeps PDF before search. Icon: white chrome, red PDF label.
  * Use .guide-pdf (not title=) so content.tooltips can rewrite title on hover.
  */
 .md-header__inner > a.guide-pdf {

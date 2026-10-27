@@ -13,7 +13,7 @@ If you see **Please select a user** or **Please select a DIRP**, nothing is chos
 Video 7. Open Analysis and load a DIRP.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="../assets/videos/analysis-navigation.mp4">
+  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/analysis-navigation.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 7.</strong> Open Analysis and load a DIRP. Watch online:
@@ -56,7 +56,7 @@ To see the matches:
 Video 8. Match pathogens and browse the pathogen database.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="../assets/videos/pathogens.mp4">
+  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/pathogens.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 8.</strong> Match pathogens and browse the pathogen database. Watch online:
@@ -76,4 +76,4 @@ A **program** is the list of frequencies taken from the **HITS** of a DIRP (wave
 
 Figure 8. Program list with **Save to** **Device** and **CSV**.
 
-![Program list with Save to Device and CSV](assets/images/fscant-user-guide/14-program-list.png)
+![Program list with Save to Device and CSV](../assets/images/fscant-user-guide/14-program-list.png)

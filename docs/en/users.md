@@ -6,7 +6,7 @@ A **user** in F-SCANT is a person you keep DIRP results for. It is not a login o
 
 Figure 9. **Manage users**, one row expanded.
 
-![Manage users table with one row expanded](assets/images/fscant-user-guide/15-manage-users.png)
+![Manage users table with one row expanded](../assets/images/fscant-user-guide/15-manage-users.png)
 
 ## Adding and finding users
 
@@ -56,7 +56,7 @@ The comparison opens as a graph. **Switch to program** and **Switch to DIRP** ch
 Video 9. Compare two DIRPs.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="../assets/videos/dirp-comparison.mp4">
+  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/dirp-comparison.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 9.</strong> Compare two DIRPs. Watch online:

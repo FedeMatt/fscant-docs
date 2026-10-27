@@ -17,11 +17,11 @@ The installer may ask for your Mac password. This is Silicon Labs CP210x VCP 6.0
 
 Figure 4. The F-SCANT folder with the Silicon Labs installer beside the app.
 
-![The F-SCANT folder with the Silicon Labs installer beside the app](assets/images/connect-the-f-scan-on-mac/01-installer-with-app.png)
+![The F-SCANT folder with the Silicon Labs installer beside the app](../assets/images/connect-the-f-scan-on-mac/01-installer-with-app.png)
 
 Figure 5. The Silicon Labs installer.
 
-![The Silicon Labs installer](assets/images/connect-the-f-scan-on-mac/02-silabs-installer.png)
+![The Silicon Labs installer](../assets/images/connect-the-f-scan-on-mac/02-silabs-installer.png)
 
 ## 2. Allow the Silicon Labs extension
 
@@ -38,7 +38,7 @@ No restart was needed on that Mac.
 Video 1. Enable the Silicon Labs driver on a Mac.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="../assets/videos/driver-extension-mac-intel.mp4">
+  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/driver-extension-mac-intel.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 1.</strong> Enable the Silicon Labs driver on a Mac. Watch online:

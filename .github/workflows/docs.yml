@@ -8,7 +8,12 @@ on:
       - "docs/**"
       - "mkdocs.yml"
       - "requirements.txt"
+      - "requirements-dev.txt"
       - "templates/**"
+      - "overrides/**"
+      - "pdf_event_hook.py"
+      - "scripts/**"
+      - "tests/**"
       - ".github/workflows/docs.yml"
   workflow_dispatch:
 
@@ -45,12 +50,18 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
 
-      - name: Build
-        env:
-          ENABLE_PDF_EXPORT: "1"
-        run: mkdocs build
+      - name: Fast PDF link tests
+        run: pytest tests/test_pdf_links.py -q
+
+      - name: Build site and PDFs
+        run: ./scripts/build.sh
+
+      - name: Post-build PDF artifact tests
+        run: pytest tests/test_pdf_artifacts.py -q
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

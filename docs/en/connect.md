@@ -4,7 +4,7 @@ After **Welcome to F-SCANT APP!**, F-SCANT asks: **Do you want to connect your d
 
 Figure 1. First connection question with **Yes** and **No**.
 
-![Do you want to connect your device? with Yes and No](assets/images/fscant-user-guide/01-connect-question.png)
+![Do you want to connect your device? with Yes and No](../assets/images/fscant-user-guide/01-connect-question.png)
 
 - **Yes** starts the connection steps.
 - **No** brings you to the home screen. You can always connect later, using the device panel in the bottom right.
@@ -34,7 +34,7 @@ When the panel shows **Connected** and a serial number and a version, you are do
 Video 2. Connecting the device.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="../assets/videos/connect-device.mp4">
+  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/connect-device.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 2.</strong> Connecting the device. Watch online:
@@ -72,7 +72,7 @@ You can expand and collapse the panel using the white “up” and “down” ar
 Video 3. Expand and collapse the device panel.
 
 <div class="guide-video">
-  <video controls preload="none" width="100%" src="../assets/videos/bluebox-sizes.mp4">
+  <video controls preload="none" width="100%" src="/fscant-docs/assets/videos/bluebox-sizes.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
     <strong>Video 3.</strong> Expand and collapse the device panel. Watch online:
@@ -86,8 +86,8 @@ The home screen provides three options: **Create or import DIRP**, **Load DIRP**
 
 Figure 2. Home screen, F-SCAN not connected.
 
-![Home screen, F-SCAN not connected](assets/images/fscant-user-guide/04-home-disconnected.png)
+![Home screen, F-SCAN not connected](../assets/images/fscant-user-guide/04-home-disconnected.png)
 
 Figure 3. Home screen, F-SCAN connected.
 
-![Home screen, F-SCAN connected](assets/images/fscant-user-guide/05-home-connected.png)
+![Home screen, F-SCAN connected](../assets/images/fscant-user-guide/05-home-connected.png)
