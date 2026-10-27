@@ -30,6 +30,7 @@ theme:
     - navigation.top
     - search.highlight
     - toc.follow
+    - content.tooltips
 
 extra:
   generator: false
@@ -39,7 +40,7 @@ extra:
       lang: en
 
 extra_css:
-  - stylesheets/extra.v2.css
+  - stylesheets/extra.v3.css
 
 plugins:
   - search

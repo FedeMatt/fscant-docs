@@ -24,18 +24,19 @@
  * Desired header order (right side): mode, language, PDF, search.
  * mkdocs-to-pdf appends the PDF link after search; flex order swaps them.
  * Icon colors come from pdf_event_hook.py (white chrome, red PDF label).
+ * Use .guide-pdf (not title=) so content.tooltips can rewrite title on hover.
  */
-.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] {
+.md-header__inner > a.guide-pdf {
   order: 9;
   color: var(--md-primary-bg-color);
 }
 
 /* Material sets fill on .md-icon svg; keep the red label + white letters. */
-.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] svg path[fill="#F15642"] {
+.md-header__inner > a.guide-pdf svg path[fill="#F15642"] {
   fill: #F15642 !important;
 }
 
-.md-header__inner > a.md-header-nav__button.md-icon[title="PDF"] svg g[fill="#fff"] path {
+.md-header__inner > a.guide-pdf svg g[fill="#fff"] path {
   fill: #fff !important;
 }
 

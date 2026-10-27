@@ -48,8 +48,11 @@ def inject_link(html: str, pdf_path: str, page: Page, logger: Logger) -> str:
         a = soup.new_tag(
             "a",
             href=pdf_path,
-            title="PDF",
-            attrs={"class": "md-header-nav__button md-icon"},
+            title="Generate PDF of documentation",
+            attrs={
+                "class": "md-header-nav__button md-icon guide-pdf",
+                "aria-label": "Generate PDF of documentation",
+            },
         )
         a.append(BeautifulSoup(_PDF_ICON, "html.parser"))
         nav.append(a)
