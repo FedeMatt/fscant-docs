@@ -112,3 +112,31 @@
     background: #f7f8fc;
   }
 }
+
+/* Prev/next footer nav: use brand accent on hover, not opacity fade. */
+.md-footer__link:focus,
+.md-footer__link:hover {
+  opacity: 1;
+  color: var(--md-accent-fg-color);
+}
+
+/* Light mode only: F-SCANT table-header grey footer; dark text for contrast.
+ * Slate keeps Material's previous dark footer. */
+[data-md-color-scheme="default"] .md-footer {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #D9D9D9;
+}
+
+[data-md-color-scheme="default"] .md-footer-meta {
+  background-color: #000000de;
+  color: #fff;
+}
+
+html[data-md-color-scheme="default"] .md-footer-meta.md-typeset a {
+  color: #ffffffb3;
+}
+
+html[data-md-color-scheme="default"] .md-footer-meta.md-typeset a:focus,
+html[data-md-color-scheme="default"] .md-footer-meta.md-typeset a:hover {
+  color: #fff;
+}
