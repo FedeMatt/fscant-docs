@@ -9,6 +9,6 @@ Only stills that Video 1 does not already cover. Enabling **CP210xVCPDriver** un
 
 Optional (not linked unless you add it back): `05-privacy-allow.png` — only if macOS shows a separate “allow system software” button under Privacy & Security. Skip if that screen never appears.
 
-Connect / F-Code / Connected stills are not used here; see Video 2 on [How to connect the F-SCAN](../../../connect.md).
+Connect / L-Code / Connected stills are not used here; see Video 2 on [How to connect the F-SCAN](../../../connect.md).
 
 All kept stills are present. Masters stay in gitignored `videos-images/`.

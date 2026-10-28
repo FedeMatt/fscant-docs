@@ -7,7 +7,7 @@ Potrzebujesz:
 - F-SCANT
 - F-SCAN włączonego, wyświetlającego ekran główny
 - Kabla USB (do Maca — bezpośrednio albo przez hub lub dok)
-- F-Code z faktury F-SCANT
+- L-Code z faktury F-SCANT
 
 ## 1. Zainstaluj sterownik dołączony do F-SCANT
 
@@ -56,7 +56,7 @@ Włącz F-SCAN i pozostaw go na ekranie głównym. Podłącz kabel USB do Maca �
 
 Otwórz **F-SCANT**. Jeśli macOS zgłosi, że deweloper nie może zostać zweryfikowany, skorzystaj z kroków Apple, aby mimo to otworzyć tę aplikację: [Open Anyway](https://support.apple.com/en-us/102445). Nie wyłączaj kontroli bezpieczeństwa dla wszystkich aplikacji.
 
-Kliknij **Połącz**. Jeśli F-SCANT poprosi o F-Code, wpisz kod z faktury F-SCANT. Gdy panel pokazuje **Połączono** oraz numer seryjny i wersję, jesteś gotowy. Przebieg połączenia jest też pokazany w [Filmie 2 w Jak podłączyć F-SCAN](connect.md).
+Kliknij **Połącz**. Jeśli F-SCANT poprosi o L-Code, wpisz kod z faktury F-SCANT. Gdy panel pokazuje **Połączono** oraz numer seryjny i wersję, jesteś gotowy. Przebieg połączenia jest też pokazany w [Filmie 2 w Jak podłączyć F-SCAN](connect.md).
 
 ## Jeśli **Połącz** nie działa
 
@@ -65,6 +65,6 @@ Sprawdź to przed ponowną próbą:
 - Rozszerzenie Silicon Labs jest włączone.
 - Kabel jest podłączony do Maca albo do hubu lub doku.
 - F-SCAN jest włączony i pokazuje ekran główny.
-- F-Code zgadza się z fakturą.
+- L-Code zgadza się z fakturą.
 
-Błędny F-Code pokazuje **BŁĄD: Wprowadzono nieprawidłowy F-Code. Spróbuj ponownie!**
+Błędny L-Code pokazuje **BŁĄD: Wprowadzono nieprawidłowy L-Code. Spróbuj ponownie!**

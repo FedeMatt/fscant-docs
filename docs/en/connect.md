@@ -1,6 +1,6 @@
 # How to connect the F-SCAN
 
-After **Welcome to F-SCANT APP!**, F-SCANT asks: **Do you want to connect your device?**
+After **Welcome to F-SCANT!**, F-SCANT asks: **Do you want to connect your device?**
 
 Figure 1. First connection question with **Yes** and **No**.
 
@@ -18,16 +18,16 @@ You need:
 - F-SCANT, installed (see [How to install F-SCANT](install.md))
 - The F-SCAN, switched on, showing its home screen
 - A USB cable
-- The **F-Code** from your F-SCANT invoice
+- The **L-Code** from your F-SCANT invoice
 
 Plug the USB cable into a USB port on the computer itself. Do not plug it into a USB hub (a small box that turns one port into several) or into a docking station or a monitor that has extra USB ports. Those extras often stop the computer from recognizing the F-SCAN.
 
 1. Switch the F-SCAN on and leave it on its home screen.
 2. Plug in the USB cable as described above.
 3. Click the **Connect** button in the F-SCANT software.
-4. If F-SCANT shows **Please enter your F-Code**, type the code from the invoice and click **Submit**.
+4. If F-SCANT shows **Please enter your L-Code**, type the code from the invoice and click **Submit**.
 
-The F-Code is on the F-SCANT APP invoice. If you cannot find it, please contact TB-Electronics.
+The L-Code is on the F-SCANT invoice. If you cannot find it, please contact TB-Electronics.
 
 When the panel shows **Connected** and a serial number and a version, you are done. The first successful connection also shows **Connection succeeded!** before bringing you to the home screen.
 
@@ -54,7 +54,7 @@ If nothing happens, or the panel stays on **Connecting…**:
 - Plug the cable into the computer itself, not a hub, dock, or monitor (see above).
 - The F-SCAN must be on, showing its home screen.
 
-If you see **ERROR: Wrong F-Code entered. Please try again!**, the code you typed does not match this F-SCAN. F-SCANT checks the code against the invoice for that device. Type the F-Code again from the invoice. If it still fails, please contact TB-Electronics.
+If you see **ERROR: Wrong L-Code entered. Please try again!**, the code you typed does not match this F-SCAN. F-SCANT checks the code against the invoice for that device. Type the L-Code again from the invoice. If it still fails, please contact TB-Electronics.
 
 ## The device panel
 

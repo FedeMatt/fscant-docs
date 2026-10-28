@@ -1,6 +1,6 @@
 # Jak připojit F-SCAN
 
-Po zobrazení **Vítejte v aplikaci F-SCANT!** se F-SCANT zeptá: **Chcete připojit zařízení?**
+Po zobrazení **Vítejte ve F-SCANT!** se F-SCANT zeptá: **Chcete připojit zařízení?**
 
 Obrázek 1. První otázka o připojení s **Ano** a **Ne**.
 
@@ -18,16 +18,16 @@ Budete potřebovat:
 - F-SCANT, nainstalovaný (viz [Jak nainstalovat F-SCANT](install.md))
 - F-SCAN zapnutý a zobrazující úvodní obrazovku
 - USB kabel
-- **F-Code** z faktury F-SCANT
+- **L-Code** z faktury F-SCANT
 
 USB kabel zapojte přímo do USB portu počítače. Nezapojujte jej do USB hubu (malé krabičky, která z jednoho portu udělá několik), ani do dokovací stanice nebo monitoru s dalšími USB porty. Tyto doplňky často zabrání počítači rozpoznat F-SCAN.
 
 1. Zapněte F-SCAN a nechte jej na úvodní obrazovce.
 2. Zapojte USB kabel, jak je popsáno výše.
 3. V softwaru F-SCANT klikněte na tlačítko **Připojit**.
-4. Pokud F-SCANT zobrazí **Zadejte F-Code**, zadejte kód z faktury a klikněte na **Odeslat**.
+4. Pokud F-SCANT zobrazí **Zadejte L-Code**, zadejte kód z faktury a klikněte na **Odeslat**.
 
-F-Code je na faktuře F-SCANT APP. Pokud jej nemůžete najít, kontaktujte TB-Electronics.
+L-Code je na faktuře F-SCANT. Pokud jej nemůžete najít, kontaktujte TB-Electronics.
 
 Když panel zobrazí **Připojeno** spolu se sériovým číslem a verzí, jste hotovi. Při prvním úspěšném připojení se také zobrazí **Připojení bylo úspěšné!** a poté se otevře úvodní obrazovka.
 
@@ -54,7 +54,7 @@ Pokud se nic nestane, nebo panel zůstane na **Připojování…**:
 - Zapojte kabel přímo do počítače, ne do hubu, doku ani monitoru (viz výše).
 - F-SCAN musí být zapnutý a zobrazovat úvodní obrazovku.
 
-Pokud vidíte **CHYBA: Byl zadán nesprávný F-Code. Zkuste to znovu!**, zadaný kód neodpovídá tomuto F-SCAN. F-SCANT kontroluje kód podle faktury k danému zařízení. Zadejte F-Code znovu z faktury. Pokud to stále selže, kontaktujte TB-Electronics.
+Pokud vidíte **CHYBA: Byl zadán nesprávný L-Code. Zkuste to znovu!**, zadaný kód neodpovídá tomuto F-SCAN. F-SCANT kontroluje kód podle faktury k danému zařízení. Zadejte L-Code znovu z faktury. Pokud to stále selže, kontaktujte TB-Electronics.
 
 ## Panel zařízení
 

@@ -7,7 +7,7 @@ Ti serve:
 - F-SCANT
 - L’F-SCAN, acceso e sulla schermata iniziale
 - Un cavo USB (collegato al Mac, oppure a un hub o a una dock)
-- L’F-Code dalla fattura F-SCANT
+- Il L-Code dalla fattura F-SCANT
 
 ## 1. Installa il driver incluso con F-SCANT
 
@@ -56,7 +56,7 @@ Accendi l’F-SCAN e lascialo sulla schermata iniziale. Collega il cavo USB al M
 
 Apri **F-SCANT**. Se macOS dice che lo sviluppatore non può essere verificato, usa i passaggi Apple per aprire comunque quell’app: [Open Anyway](https://support.apple.com/en-us/102445). Non disattivare il controllo di sicurezza per tutte le app.
 
-Fai clic su **Connetti**. Se F-SCANT chiede un F-Code, inserisci il codice dalla fattura F-SCANT. Quando il pannello dice **Connesso** e mostra un numero di serie e una versione, hai finito. Il flusso di connessione è anche nel [Video 2 di Come collegare l’F-SCAN](connect.md).
+Fai clic su **Connetti**. Se F-SCANT chiede un L-Code, inserisci il codice dalla fattura F-SCANT. Quando il pannello dice **Connesso** e mostra un numero di serie e una versione, hai finito. Il flusso di connessione è anche nel [Video 2 di Come collegare l’F-SCAN](connect.md).
 
 ## Se Connetti non riesce
 
@@ -65,6 +65,6 @@ Controlla questi punti prima di riprovare:
 - L’estensione Silicon Labs è attiva.
 - Il cavo è collegato al Mac, o a un hub o una dock.
 - L’F-SCAN è acceso e sulla schermata iniziale.
-- L’F-Code corrisponde alla fattura.
+- Il L-Code corrisponde alla fattura.
 
-Un F-Code errato mostra **ERRORE: F-Code errato. Riprova!**
+Un L-Code errato mostra **ERRORE: L-Code errato. Riprova!**

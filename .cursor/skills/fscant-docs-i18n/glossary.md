@@ -8,7 +8,7 @@ Keep these exact forms in every language (including inside **bold** when the app
 - F-SCAN
 - F-SCANT APP
 - TB-Electronics / TB-ELECTRONICS / TB-ELECTRONICS GmbH
-- F-Code
+- L-Code
 - Silicon Labs
 - CP210x / CP210xVCPDriver
 - info@fscan.com
