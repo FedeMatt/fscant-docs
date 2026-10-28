@@ -7,7 +7,7 @@ Sie benötigen:
 - F-SCANT
 - Den F-SCAN, eingeschaltet und mit angezeigtem Startbildschirm
 - Ein USB-Kabel (am Mac oder über einen Hub bzw. ein Dock)
-- Den L-Code von Ihrer F-SCANT-Rechnung
+- Den L-CODE von Ihrer F-SCANT-Rechnung
 
 ## 1. Den mit F-SCANT gelieferten Treiber installieren
 
@@ -56,7 +56,7 @@ Schalten Sie den F-SCAN ein und lassen Sie ihn auf dem Startbildschirm. Stecken 
 
 Öffnen Sie **F-SCANT**. Wenn macOS meldet, dass der Entwickler nicht verifiziert werden kann, folgen Sie den Apple-Schritten, um diese App trotzdem zu öffnen: [Open Anyway](https://support.apple.com/en-us/102445). Deaktivieren Sie die Sicherheitsprüfung nicht für jede App.
 
-Klicken Sie auf **Verbinden**. Wenn F-SCANT nach einem L-Code fragt, geben Sie den Code von Ihrer F-SCANT-Rechnung ein. Wenn das Fenster **Verbunden** anzeigt und eine Seriennummer sowie eine Version zeigt, sind Sie fertig. Der Verbindungsablauf ist auch in [Video 2 unter F-SCAN verbinden](connect.md) zu sehen.
+Klicken Sie auf **Verbinden**. Wenn F-SCANT nach einem L-CODE fragt, geben Sie den Code von Ihrer F-SCANT-Rechnung ein. Wenn das Fenster **Verbunden** anzeigt und eine Seriennummer sowie eine Version zeigt, sind Sie fertig. Der Verbindungsablauf ist auch in [Video 2 unter F-SCAN verbinden](connect.md) zu sehen.
 
 ## Wenn Verbinden nicht gelingt
 
@@ -65,6 +65,6 @@ Prüfen Sie Folgendes, bevor Sie es erneut versuchen:
 - Die Silicon-Labs-Erweiterung ist eingeschaltet.
 - Das Kabel steckt im Mac oder in einem Hub bzw. Dock.
 - Der F-SCAN ist eingeschaltet und zeigt den Startbildschirm.
-- Der L-Code stimmt mit der Rechnung überein.
+- Der L-CODE stimmt mit der Rechnung überein.
 
-Ein falscher L-Code zeigt **FEHLER: Falscher L-Code. Bitte erneut versuchen!**
+Ein falscher L-CODE zeigt **FEHLER: Falscher L-CODE. Bitte erneut versuchen!**

@@ -18,16 +18,16 @@ Sie benötigen:
 - F-SCANT, installiert (siehe [F-SCANT installieren](install.md))
 - Den F-SCAN, eingeschaltet und mit angezeigtem Startbildschirm
 - Ein USB-Kabel
-- Den **L-Code** von Ihrer F-SCANT-Rechnung
+- Den **L-CODE** von Ihrer F-SCANT-Rechnung
 
 Stecken Sie das USB-Kabel in einen USB-Anschluss am Computer selbst. Stecken Sie es nicht in einen USB-Hub (eine kleine Box, die einen Anschluss in mehrere umwandelt) und auch nicht in eine Dockingstation oder einen Monitor mit zusätzlichen USB-Anschlüssen. Solche Zusätze verhindern oft, dass der Computer den F-SCAN erkennt.
 
 1. Schalten Sie den F-SCAN ein und lassen Sie ihn auf dem Startbildschirm.
 2. Stecken Sie das USB-Kabel wie oben beschrieben ein.
 3. Klicken Sie in der F-SCANT-Software auf die Schaltfläche **Verbinden**.
-4. Wenn F-SCANT **L-Code eingeben** anzeigt, geben Sie den Code von der Rechnung ein und klicken Sie auf **Absenden**.
+4. Wenn F-SCANT **L-CODE eingeben** anzeigt, geben Sie den Code von der Rechnung ein und klicken Sie auf **Absenden**.
 
-Der L-Code steht auf der F-SCANT-Rechnung. Wenn Sie ihn nicht finden, kontaktieren Sie bitte TB-Electronics.
+Der L-CODE steht auf der F-SCANT-Rechnung. Wenn Sie ihn nicht finden, kontaktieren Sie bitte TB-Electronics.
 
 Wenn das Fenster **Verbunden** sowie eine Seriennummer und eine Version anzeigt, sind Sie fertig. Bei der ersten erfolgreichen Verbindung erscheint außerdem **Verbindung erfolgreich!**, bevor Sie zum Startbildschirm gelangen.
 
@@ -54,7 +54,7 @@ Wenn nichts passiert oder das Fenster bei **Verbindung wird hergestellt…** ble
 - Stecken Sie das Kabel in den Computer selbst, nicht in einen Hub, ein Dock oder einen Monitor (siehe oben).
 - Der F-SCAN muss eingeschaltet sein und den Startbildschirm anzeigen.
 
-Wenn Sie **FEHLER: Falscher L-Code. Bitte erneut versuchen!** sehen, stimmt der eingegebene Code nicht mit diesem F-SCAN überein. F-SCANT prüft den Code anhand der Rechnung für dieses Gerät. Geben Sie den L-Code erneut von der Rechnung ein. Wenn es weiterhin fehlschlägt, kontaktieren Sie bitte TB-Electronics.
+Wenn Sie **FEHLER: Falscher L-CODE. Bitte erneut versuchen!** sehen, stimmt der eingegebene Code nicht mit diesem F-SCAN überein. F-SCANT prüft den Code anhand der Rechnung für dieses Gerät. Geben Sie den L-CODE erneut von der Rechnung ein. Wenn es weiterhin fehlschlägt, kontaktieren Sie bitte TB-Electronics.
 
 ## Das Gerätefenster
 

@@ -18,16 +18,16 @@ Ti serve:
 - F-SCANT, installato (vedi [Come installare F-SCANT](install.md))
 - L’F-SCAN, acceso, sulla schermata iniziale
 - Un cavo USB
-- Il **L-Code** dalla fattura F-SCANT
+- Il **L-CODE** dalla fattura F-SCANT
 
 Collega il cavo USB a una porta USB del computer stesso. Non collegarlo a un hub USB (una piccola scatola che trasforma una porta in più porte) né a una docking station o a un monitor con porte USB aggiuntive. Quegli accessori spesso impediscono al computer di riconoscere l’F-SCAN.
 
 1. Accendi l’F-SCAN e lascialo sulla schermata iniziale.
 2. Collega il cavo USB come descritto sopra.
 3. Fai clic sul pulsante **Connetti** nel software F-SCANT.
-4. Se F-SCANT mostra **Inserisci L-Code**, digita il codice dalla fattura e fai clic su **Invia**.
+4. Se F-SCANT mostra **Inserisci L-CODE**, digita il codice dalla fattura e fai clic su **Invia**.
 
-Il L-Code si trova nella fattura dell’app F-SCANT. Se non lo trovi, contatta TB-Electronics.
+Il L-CODE si trova nella fattura dell’app F-SCANT. Se non lo trovi, contatta TB-Electronics.
 
 Quando il pannello mostra **Connesso** insieme a un numero di serie e a una versione, hai finito. Alla prima connessione riuscita compare anche **Connessione riuscita!** prima di passare alla schermata iniziale.
 
@@ -54,7 +54,7 @@ Se non succede nulla, o il pannello resta su **Connessione…**:
 - Collega il cavo al computer stesso, non a un hub, dock o monitor (vedi sopra).
 - L’F-SCAN deve essere acceso, sulla schermata iniziale.
 
-Se vedi **ERRORE: L-Code errato. Riprova!**, il codice digitato non corrisponde a questo F-SCAN. F-SCANT verifica il codice rispetto alla fattura di quel dispositivo. Digita di nuovo il L-Code dalla fattura. Se fallisce ancora, contatta TB-Electronics.
+Se vedi **ERRORE: L-CODE errato. Riprova!**, il codice digitato non corrisponde a questo F-SCAN. F-SCANT verifica il codice rispetto alla fattura di quel dispositivo. Digita di nuovo il L-CODE dalla fattura. Se fallisce ancora, contatta TB-Electronics.
 
 ## Il pannello dispositivo
 

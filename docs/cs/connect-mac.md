@@ -7,7 +7,7 @@ Budete potřebovat:
 - F-SCANT
 - F-SCAN zapnutý a zobrazující úvodní obrazovku
 - USB kabel (do Macu, nebo přes hub či dok)
-- L-Code z faktury F-SCANT
+- L-CODE z faktury F-SCANT
 
 ## 1. Nainstalujte ovladač dodaný s F-SCANT
 
@@ -56,7 +56,7 @@ Zapněte F-SCAN a nechte jej na úvodní obrazovce. USB kabel zapojte do Macu, n
 
 Otevřete **F-SCANT**. Pokud macOS uvede, že vývojáře nelze ověřit, otevřete tuto aplikaci podle pokynů Apple: [Open Anyway](https://support.apple.com/en-us/102445). Nevypínejte bezpečnostní kontrolu pro všechny aplikace.
 
-Klikněte na **Připojit**. Pokud F-SCANT požádá o L-Code, zadejte kód z faktury F-SCANT. Když panel zobrazí **Připojeno** spolu se sériovým číslem a verzí, jste hotovi. Průběh připojení je také ve [Videu 2 v Jak připojit F-SCAN](connect.md).
+Klikněte na **Připojit**. Pokud F-SCANT požádá o L-CODE, zadejte kód z faktury F-SCANT. Když panel zobrazí **Připojeno** spolu se sériovým číslem a verzí, jste hotovi. Průběh připojení je také ve [Videu 2 v Jak připojit F-SCAN](connect.md).
 
 ## Pokud **Připojit** nefunguje
 
@@ -65,6 +65,6 @@ Před dalším pokusem zkontrolujte:
 - Rozšíření Silicon Labs je zapnuté.
 - Kabel je zapojený do Macu, nebo do hubu či doku.
 - F-SCAN je zapnutý a zobrazuje úvodní obrazovku.
-- L-Code odpovídá faktuře.
+- L-CODE odpovídá faktuře.
 
-Nesprávný L-Code zobrazí **CHYBA: Byl zadán nesprávný L-Code. Zkuste to znovu!**
+Nesprávný L-CODE zobrazí **CHYBA: Byl zadán nesprávný L-CODE. Zkuste to znovu!**
