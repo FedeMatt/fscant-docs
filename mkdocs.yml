@@ -37,7 +37,7 @@ extra:
   generator: false
 
 extra_css:
-  - stylesheets/extra.v8.css
+  - stylesheets/extra.v9.css
 
 plugins:
   - search

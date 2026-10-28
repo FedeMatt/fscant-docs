@@ -59,29 +59,46 @@
   content: none;
 }
 
-/* mkdocs-to-pdf injects a legacy class; match Material header button spacing. */
-.md-header a.md-header-nav__button.md-icon {
-  margin: 0.2rem;
-  padding: 0.4rem;
+/*
+ * Keep scrollbars grey on hover/focus. Brand accent (--md-accent-fg-color)
+ * would otherwise turn Material's thin scrollbars blue.
+ */
+.md-sidebar__scrollwrap:focus-within,
+.md-sidebar__scrollwrap:hover,
+.md-typeset pre > code:hover,
+.md-search__scrollwrap:hover {
+  scrollbar-color: var(--md-default-fg-color--lighter) transparent;
+}
+
+.md-sidebar__scrollwrap:focus-within::-webkit-scrollbar-thumb:hover,
+.md-sidebar__scrollwrap:hover::-webkit-scrollbar-thumb:hover,
+.md-typeset pre > code::-webkit-scrollbar-thumb:hover,
+.md-search__scrollwrap::-webkit-scrollbar-thumb:hover {
+  background-color: var(--md-default-fg-color--lighter);
 }
 
 /*
  * Desired header order (right side): mode, language, PDF, search.
- * PDF control is in overrides/partials/header.html (locale-aware href).
- * Flex order keeps PDF before search. Icon: white chrome, red PDF label.
+ * PDF control is in overrides/partials/header.html (locale-aware href),
+ * wrapped in .md-header__option so it hides with palette/language when
+ * search is open. Flex order keeps PDF before search.
+ * Icon: white chrome, red PDF label.
  * Use .guide-pdf (not title=) so content.tooltips can rewrite title on hover.
  */
-.md-header__inner > a.guide-pdf {
+.md-header__inner > .md-header__option:has(> a.guide-pdf) {
   order: 9;
+}
+
+.md-header__inner a.guide-pdf {
   color: var(--md-primary-bg-color);
 }
 
 /* Material sets fill on .md-icon svg; keep the red label + white letters. */
-.md-header__inner > a.guide-pdf svg path[fill="#F15642"] {
+.md-header__inner a.guide-pdf svg path[fill="#F15642"] {
   fill: #F15642 !important;
 }
 
-.md-header__inner > a.guide-pdf svg g[fill="#fff"] path {
+.md-header__inner a.guide-pdf svg g[fill="#fff"] path {
   fill: #fff !important;
 }
 
