@@ -13,7 +13,7 @@ Abbildung 9. **Benutzer verwalten**, eine Zeile aufgeklappt.
 - **Neuen Benutzer hinzufügen:** Geben Sie einen Namen ein und klicken Sie auf **Hinzufügen**.
 - **Suche:** Geben Sie einen Namen ein und bestätigen Sie die Suche. Die Liste filtert nicht während der Eingabe; Sie müssen die Suche bestätigen.
 
-Sie können eine Person auch mit **Neuer Benutzer** hinzufügen, wenn Sie ein DIRP starten.
+Sie können eine Person auch mit **Neuer Benutzer** hinzufügen, wenn Sie einen DIRP starten.
 
 Wenn Sie **Ein Patient mit diesem Namen existiert bereits.** sehen, ist dieser Name bereits in Ihrer Liste. F-SCANT kann nicht zwei Benutzer unter demselben Namen speichern; wählen Sie daher einen anderen Namen, zum Beispiel mit einem mittleren Initial oder einer Zahl.
 
@@ -31,17 +31,17 @@ In einer geöffneten Benutzerzeile:
 **DIRP verwalten**
 
 - **DIRP laden:** öffnet das DIRP-Diagramm (siehe [DIRP analysieren](analysis.md)).
-- **Pathogene analysieren:** öffnet den Pathogenabgleich für dieses DIRP.
-- **DIRP von diesem Benutzer entfernen:** löscht dieses DIRP in F-SCANT für diesen Benutzer.
+- **Pathogene analysieren:** öffnet den Pathogenabgleich für diesen DIRP.
+- **DIRP von diesem Benutzer entfernen:** löscht diesen DIRP in F-SCANT für diesen Benutzer.
 - **Speicherort ändern:** setzt eine Speichernummer von 1 bis 100 für diesen Benutzer.
 
 **Programm verwalten**
 
 - **Programm öffnen:** öffnet die Frequenzliste.
-- **Programm von diesem Benutzer entfernen:** löscht das Programm (aber nicht das zugehörige DIRP).
+- **Programm von diesem Benutzer entfernen:** löscht das Programm (aber nicht den zugehörigen DIRP).
 - **Speicherort ändern:** setzt eine Speichernummer von 1 bis 100.
 
-Um ein DIRP oder ein Programm an das Gerät zu senden, verwenden Sie **DIRP auf Gerät übertragen** oder **Speichern auf** **Gerät** (siehe [DIRP erstellen oder importieren](dirp.md) und [DIRP analysieren](analysis.md)).
+Um einen DIRP oder ein Programm an das Gerät zu senden, verwenden Sie **DIRP auf Gerät übertragen** oder **Speichern auf** **Gerät** (siehe [DIRP erstellen oder importieren](dirp.md) und [DIRP analysieren](analysis.md)).
 
 ## Zwei DIRPs vergleichen
 
@@ -66,7 +66,7 @@ Video 9. Zwei DIRPs vergleichen.
 
 ## Einen Speicherort ändern
 
-Jeder Benutzer kann in F-SCANT Speichernummern von 1 bis 100 haben. Diese Nummern helfen Ihnen, ein DIRP wiederzufinden. Sie entsprechen nicht Ordnern auf Ihrem Computer.
+Jeder Benutzer kann in F-SCANT Speichernummern von 1 bis 100 haben. Diese Nummern helfen Ihnen, einen DIRP wiederzufinden. Sie entsprechen nicht Ordnern auf Ihrem Computer.
 
 1. Klicken Sie auf **Speicherort ändern**.
 2. Wählen Sie eine Nummer von 1 bis 100.

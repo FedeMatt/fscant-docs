@@ -15,7 +15,7 @@ Keep these exact forms in every language (including inside **bold** when the app
 
 ## Procedure / metrics
 
-- DIRP (Dual Integration Resonance Procedure — expand only when explaining once)
+- DIRP (Dual Integration Resonance Procedure — expand only when explaining once; German gender: masculine, der DIRP)
 - Fmin / Fmax / Delta F
 - HITS / HIT
 - CLIP / Clip / Clipping level (UI may translate the phrase “Clipping level”; the token CLIP stays)

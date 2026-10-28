@@ -1,22 +1,22 @@
 # DIRP analysieren
 
-## Ein gespeichertes DIRP laden
+## Einen gespeicherten DIRP laden
 
 1. Klicken Sie auf dem Startbildschirm auf **DIRP laden** oder in der oberen Leiste auf **Analyse**.
-2. Wählen Sie den Benutzer und dann das DIRP, das Sie analysieren möchten.
+2. Wählen Sie den Benutzer und dann den DIRP, den Sie analysieren möchten.
 3. Das gespeicherte Diagramm öffnet sich.
 
 Sie können dasselbe Diagramm auch über **Benutzer verwalten**, **DIRP verwalten** und dann **DIRP laden** öffnen.
 
-Wenn Sie **Bitte einen Benutzer wählen** oder **Bitte ein DIRP wählen** sehen, ist noch nichts ausgewählt. Wählen Sie einen Benutzer und ein DIRP aus den Listen und fahren Sie fort.
+Wenn Sie **Bitte einen Benutzer wählen** oder **Bitte ein DIRP wählen** sehen, ist noch nichts ausgewählt. Wählen Sie einen Benutzer und einen DIRP aus den Listen und fahren Sie fort.
 
-Video 7. Analyse öffnen und ein DIRP laden.
+Video 7. Analyse öffnen und einen DIRP laden.
 
 <div class="guide-video">
   <video controls preload="none" width="100%" src="/assets/videos/analysis-navigation.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
-    <strong>Video 7.</strong> Analyse öffnen und ein DIRP laden. Online ansehen:
+    <strong>Video 7.</strong> Analyse öffnen und einen DIRP laden. Online ansehen:
     <a href="https://fscant-docs.fscan.com/de/analysis/">fscant-docs/de/analysis/</a>
   </p>
 </div>
@@ -33,7 +33,7 @@ Das Diagramm ist dasselbe wie bei einem Live-Scan:
 - **ZOOM:** mit + vergrößern Sie das Diagramm und mit − verkleinern Sie es. Vergrößern Sie es, wenn die Balken zu klein sind, und verkleinern Sie es, wenn sie zu groß sind.
 - **CLIP** / **Clipping-Level:** die Linie, die entscheidet, welche Balken als **HITS** zählen. Nach dem Scan setzt **AUTO** sie für Sie. Wenn Sie mehr oder weniger HITS möchten, verschieben Sie die Linie nach unten oder oben.
 
-Die Pfeile neben der DIRP-Nummer öffnen das vorherige oder nächste gespeicherte DIRP für diesen Benutzer.
+Die Pfeile neben der DIRP-Nummer öffnen den vorherigen oder nächsten gespeicherten DIRP für diesen Benutzer.
 
 ## Pathogene abgleichen
 
@@ -43,7 +43,7 @@ Was als „nah genug“ gilt, legen Sie mit **Schwelle ± Hz** fest. Das üblich
 
 So sehen Sie die Übereinstimmungen:
 
-1. Öffnen Sie ein gespeichertes **DIRP**, oder schließen Sie ein neues ab.
+1. Öffnen Sie einen gespeicherten **DIRP**, oder schließen Sie einen neuen ab.
 2. Klicken Sie auf **Pathogene abgleichen**.
 3. Lesen Sie die Tabelle. Ändern Sie **Schwelle ± Hz**, wenn Sie ein breiteres oder engeres Fenster möchten.
 4. Wählen Sie, was als Nächstes geschehen soll:

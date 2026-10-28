@@ -11,7 +11,7 @@ Bedienungsanleitung für die Computersoftware, die mit Ihrem F-SCAN zusammenarbe
 
 F-SCANT ist ein Programm, das Sie auf Ihrem Computer installieren. Es erweitert die Möglichkeiten Ihres F-SCAN-Geräts. Damit können Sie:
 
-- **DIRP:** ein neues DIRP starten oder eines von Ihrem F-SCAN-Gerät importieren
+- **DIRP:** einen neuen DIRP starten oder einen von Ihrem F-SCAN-Gerät importieren
 - **Analyse:** DIRPs analysieren, Pathogene abgleichen und mit Programmen arbeiten
 - **Benutzer verwalten:** Ihre Benutzerliste sowie deren DIRPs und Programme verwalten
 - **Einstellungen:** Datums- und Uhrzeitformat sowie Sprache einstellen, Daten aus älterer Software importieren

@@ -8,14 +8,14 @@ Der Scan läuft von einer unteren Frequenz (**Fmin**) bis zu einer oberen Freque
 
 Nachdem Sie auf dem Startbildschirm auf **DIRP erstellen oder importieren** oder in der Menüleiste oben auf **DIRP** geklickt haben, können Sie wählen, wie Sie beginnen möchten:
 
-- **Neues DIRP jetzt starten:** ein neues DIRP von F-SCANT aus durchführen
-- **DIRP vom Gerät importieren:** ein DIRP importieren, das bereits auf Ihrem F-SCAN-Gerät gespeichert ist
+- **Neues DIRP jetzt starten:** einen neuen DIRP von F-SCANT aus durchführen
+- **DIRP vom Gerät importieren:** einen DIRP importieren, der bereits auf Ihrem F-SCAN-Gerät gespeichert ist
 
 Abbildung 6. DIRP-Start: **Neues DIRP jetzt starten** oder **DIRP vom Gerät importieren**.
 
 ![DIRP-Start: Neues DIRP jetzt starten oder DIRP vom Gerät importieren](../assets/images/fscant-user-guide/06-dirp-start.png)
 
-## Ein neues DIRP starten
+## Einen neuen DIRP starten
 
 1. Wählen Sie einen Benutzer und klicken Sie dann auf **Weiter**.
 2. Wählen Sie einen Frequenzbereich und fahren Sie fort.
@@ -25,13 +25,13 @@ Abbildung 6. DIRP-Start: **Neues DIRP jetzt starten** oder **DIRP vom Gerät imp
 
 **Benutzer auswählen** listet die Personen, die bereits in F-SCANT gespeichert sind. Klicken Sie auf einen Namen, oder klicken Sie auf **Neuer Benutzer**, um jemanden hinzuzufügen, und dann auf **Weiter**.
 
-Video 4. Neuen Benutzer anlegen und dann ein DIRP starten.
+Video 4. Neuen Benutzer anlegen und dann einen DIRP starten.
 
 <div class="guide-video">
   <video controls preload="none" width="100%" src="/assets/videos/new-user-dirp.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
-    <strong>Video 4.</strong> Neuen Benutzer anlegen und dann ein DIRP starten. Online ansehen:
+    <strong>Video 4.</strong> Neuen Benutzer anlegen und dann einen DIRP starten. Online ansehen:
     <a href="https://fscant-docs.fscan.com/de/dirp/">fscant-docs/de/dirp/</a>
   </p>
 </div>
@@ -65,9 +65,9 @@ Video 5. Einen benutzerdefinierten Frequenzbereich wählen.
 
 ### Vor dem Start des DIRP
 
-Richten Sie den F-SCAN für ein DIRP wie in der Gerätebedienungsanleitung ein (Sensor am angezeigten Geräteausgang, Person angeschlossen). F-SCANT startet den Scan und speichert das Diagramm. Es ersetzt nicht die Sensor-Einrichtung am Gerät.
+Richten Sie den F-SCAN für einen DIRP wie in der Gerätebedienungsanleitung ein (Sensor am angezeigten Geräteausgang, Person angeschlossen). F-SCANT startet den Scan und speichert das Diagramm. Es ersetzt nicht die Sensor-Einrichtung am Gerät.
 
-### Ein DIRP durchführen
+### Einen DIRP durchführen
 
 Nachdem Sie Ihr Gerät eingerichtet haben, klicken Sie auf **Start.**
 
@@ -78,7 +78,7 @@ Das Diagramm zeigt den Scan von **Fmin** bis **Fmax**, wobei:
 - **CV** ein Hintergrundwert für die Person ist.
 - Die Zoomfunktion (− / +) die Balken höher oder niedriger darstellt, damit sie leichter lesbar sind. Sie ändert nicht, wie viele **HITS** es gibt.
 
-Warten Sie, bis das Diagramm **Fmax** erreicht und der Status **Abgeschlossen** anzeigt. Das DIRP wird automatisch sowohl in F-SCANT als auch auf Ihrem Gerät gespeichert.
+Warten Sie, bis das Diagramm **Fmax** erreicht und der Status **Abgeschlossen** anzeigt. Der DIRP wird automatisch sowohl in F-SCANT als auch auf Ihrem Gerät gespeichert.
 
 Video 6. Live-DIRP durchführen.
 
@@ -93,6 +93,6 @@ Video 6. Live-DIRP durchführen.
 
 Wenn Sie eine andere Anzahl von **HITS** möchten, können Sie das Clipping-Level verschieben, indem Sie in den DIRP-Einstellungen im grauen Kasten rechts neben dem Diagramm einen Wert zwischen 0 und 100 eingeben. Bei der Nutzung von F-SCANT verschieben Sie das Clipping-Level bitte nur in der Software (nicht am F-SCAN-Gerät). **DIRP speichern** erscheint, wenn das Clipping-Level vom bereits gespeicherten Wert abweicht.
 
-Wenn Sie den Scan stoppen, bevor Fmax erreicht ist, erscheint eine Meldung mit der Frage, ob Sie wirklich stoppen möchten. Ein vorzeitiger Stopp bedeutet, dass der Scan unvollständig ist, und F-SCANT kann Teilergebnisse nicht speichern. Stoppen Sie daher nur, wenn Sie dieses DIRP verwerfen möchten. Wenn Sie es behalten möchten, wählen Sie **Bleiben**, und der Scan läuft weiter.
+Wenn Sie den Scan stoppen, bevor Fmax erreicht ist, erscheint eine Meldung mit der Frage, ob Sie wirklich stoppen möchten. Ein vorzeitiger Stopp bedeutet, dass der Scan unvollständig ist, und F-SCANT kann Teilergebnisse nicht speichern. Stoppen Sie daher nur, wenn Sie diesen DIRP verwerfen möchten. Wenn Sie ihn behalten möchten, wählen Sie **Bleiben**, und der Scan läuft weiter.
 
 Wenn Sie über die obere Menüleiste zu einem anderen Menü wechseln, während ein DIRP noch läuft, erhalten Sie dieselbe Wahl. **Bleiben** lässt Sie beim Diagramm. **Stopp** oder **Verlassen** beendet den Scan.
