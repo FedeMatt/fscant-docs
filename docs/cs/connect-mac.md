@@ -7,7 +7,7 @@ Budete potřebovat:
 - F-SCANT
 - F-SCAN zapnutý a zobrazující úvodní obrazovku
 - USB kabel (do Macu, nebo přes hub či dok)
-- L-CODE z faktury F-SCANT
+- L-CODE z faktury F-SCANT nebo zaslaný e-mailem od prodejce.
 
 ## 1. Nainstalujte ovladač dodaný s F-SCANT
 
@@ -50,13 +50,13 @@ Pokud macOS zobrazí také samostatné tlačítko pro povolení systémového so
 
 ## 3. Zapojte F-SCAN
 
-Zapněte F-SCAN a nechte jej na úvodní obrazovce. USB kabel zapojte do Macu, nebo přes hub či dok.
+Zapněte F-SCAN a nechte jej na úvodní obrazovce. V menu SETUP zařízení se ujistěte, že AUTO POWER OFF je vypnuté. USB kabel zapojte do Macu, nebo přes hub či dok.
 
 ## 4. Připojení ve F-SCANT
 
 Otevřete **F-SCANT**. Pokud macOS uvede, že vývojáře nelze ověřit, otevřete tuto aplikaci podle pokynů Apple: [Open Anyway](https://support.apple.com/en-us/102445). Nevypínejte bezpečnostní kontrolu pro všechny aplikace.
 
-Klikněte na **Připojit**. Pokud F-SCANT požádá o L-CODE, zadejte kód z faktury F-SCANT. Když panel zobrazí **Připojeno** spolu se sériovým číslem a verzí, jste hotovi. Průběh připojení je také ve [Videu 2 v Jak připojit F-SCAN](connect.md).
+Klikněte na **Připojit**. Pokud F-SCANT požádá o L-CODE, zadejte kód z faktury F-SCANT nebo z e-mailu od prodejce. Když panel zobrazí **Připojeno** spolu se sériovým číslem a verzí, jste hotovi. Průběh připojení je také ve [Videu 2 v Jak připojit F-SCAN](connect.md).
 
 ## Pokud **Připojit** nefunguje
 

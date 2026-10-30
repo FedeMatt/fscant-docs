@@ -7,7 +7,7 @@ You need:
 - F-SCANT
 - The F-SCAN, turned on and showing its home screen
 - A USB cable (into the Mac, or a hub or a dock)
-- The L-CODE from your F-SCANT invoice
+- The L-CODE from your F-SCANT invoice or sent to you by email from your retailer.
 
 ## 1. Install the driver included with F-SCANT
 
@@ -50,13 +50,13 @@ If macOS also shows a separate button to allow system software from Silicon Labs
 
 ## 3. Plug in the F-SCAN
 
-Turn the F-SCAN on and leave it on its home screen. Plug the USB cable into the Mac or using a hub or a dock.
+Turn the F-SCAN on and leave it on its home screen. Make sure in the SETUP menu of the device that AUTO POWER OFF is disabled. Plug the USB cable into the Mac or using a hub or a dock.
 
 ## 4. Connect in F-SCANT
 
 Open **F-SCANT**. If macOS says the developer cannot be verified, use Apple’s steps to open that app anyway: [Open Anyway](https://support.apple.com/en-us/102445). Do not turn off the security check for every app.
 
-Click **Connect**. If F-SCANT asks for an L-CODE, enter the code from your F-SCANT invoice. When the panel says **Connected** and shows a serial number and a version, you are done. The connect flow is also shown in [Video 2 on How to connect the F-SCAN](connect.md).
+Click **Connect**. If F-SCANT asks for an L-CODE, enter the code from your F-SCANT invoice or from the email sent by your retailer. When the panel says **Connected** and shows a serial number and a version, you are done. The connect flow is also shown in [Video 2 on How to connect the F-SCAN](connect.md).
 
 ## If Connect does not succeed
 

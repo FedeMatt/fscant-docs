@@ -18,16 +18,16 @@ Potrzebujesz:
 - F-SCANT, zainstalowanego (zobacz [Jak zainstalować F-SCANT](install.md))
 - F-SCAN włączonego, wyświetlającego ekran główny
 - Kabla USB
-- **L-CODE** z faktury F-SCANT
+- **L-CODE** z faktury F-SCANT lub wysłany e-mailem przez sprzedawcę.
 
 Podłącz kabel USB do portu USB samego komputera. Nie podłączaj go do koncentratora USB (małego urządzenia dzielącego jeden port na kilka), stacji dokującej ani monitora z dodatkowymi portami USB. Takie akcesoria często uniemożliwiają komputerowi rozpoznanie F-SCAN.
 
-1. Włącz F-SCAN i pozostaw go na ekranie głównym.
+1. Włącz F-SCAN i pozostaw go na ekranie głównym. Upewnij się w menu SETUP urządzenia, że AUTO POWER OFF jest wyłączone.
 2. Podłącz kabel USB jak opisano powyżej.
 3. Kliknij przycisk **Połącz** w oprogramowaniu F-SCANT.
 4. Jeśli F-SCANT pokaże **Wprowadź L-CODE**, wpisz kod z faktury i kliknij **Zatwierdź**.
 
-L-CODE znajduje się na fakturze F-SCANT. Jeśli go nie znajdziesz, skontaktuj się z TB-Electronics.
+L-CODE znajduje się na fakturze F-SCANT lub został wysłany e-mailem przez sprzedawcę. Jeśli go nie znajdziesz, skontaktuj się ze sprzedawcą.
 
 Gdy panel pokazuje **Połączono** oraz numer seryjny i wersję, jesteś gotowy. Przy pierwszym udanym połączeniu pojawia się też **Połączenie powiodło się!** przed przejściem na ekran główny.
 
@@ -54,7 +54,7 @@ Jeśli nic się nie dzieje albo panel pozostaje na **Łączenie…**:
 - Podłącz kabel do samego komputera, nie do hubu, doku ani monitora (jak wyżej).
 - F-SCAN musi być włączony i pokazywać ekran główny.
 
-Jeśli widzisz **BŁĄD: Wprowadzono nieprawidłowy L-CODE. Spróbuj ponownie!**, wpisany kod nie pasuje do tego F-SCAN. F-SCANT weryfikuje kod na podstawie faktury tego urządzenia. Wpisz ponownie L-CODE z faktury. Jeśli nadal się nie uda, skontaktuj się z TB-Electronics.
+Jeśli widzisz **BŁĄD: Wprowadzono nieprawidłowy L-CODE. Spróbuj ponownie!**, wpisany kod nie pasuje do tego F-SCAN. F-SCANT weryfikuje kod na podstawie faktury tego urządzenia. Wpisz ponownie L-CODE z faktury. Jeśli nadal się nie uda, skontaktuj się ze sprzedawcą.
 
 ## Panel urządzenia
 

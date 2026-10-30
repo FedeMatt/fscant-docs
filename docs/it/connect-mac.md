@@ -7,7 +7,7 @@ Ti serve:
 - F-SCANT
 - L’F-SCAN, acceso e sulla schermata iniziale
 - Un cavo USB (collegato al Mac, oppure a un hub o a una dock)
-- Il L-CODE dalla fattura F-SCANT
+- Il L-CODE dalla fattura F-SCANT o inviato via email dal tuo rivenditore.
 
 ## 1. Installa il driver incluso con F-SCANT
 
@@ -50,13 +50,13 @@ Se macOS mostra anche un pulsante separato per consentire software di sistema da
 
 ## 3. Collega l’F-SCAN
 
-Accendi l’F-SCAN e lascialo sulla schermata iniziale. Collega il cavo USB al Mac o tramite un hub o una dock.
+Accendi l’F-SCAN e lascialo sulla schermata iniziale. Assicurati nel menu SETUP del dispositivo che AUTO POWER OFF sia disattivato. Collega il cavo USB al Mac o tramite un hub o una dock.
 
 ## 4. Connetti in F-SCANT
 
 Apri **F-SCANT**. Se macOS dice che lo sviluppatore non può essere verificato, usa i passaggi Apple per aprire comunque quell’app: [Open Anyway](https://support.apple.com/en-us/102445). Non disattivare il controllo di sicurezza per tutte le app.
 
-Fai clic su **Connetti**. Se F-SCANT chiede un L-CODE, inserisci il codice dalla fattura F-SCANT. Quando il pannello dice **Connesso** e mostra un numero di serie e una versione, hai finito. Il flusso di connessione è anche nel [Video 2 di Come collegare l’F-SCAN](connect.md).
+Fai clic su **Connetti**. Se F-SCANT chiede un L-CODE, inserisci il codice dalla fattura F-SCANT o dall’email inviata dal tuo rivenditore. Quando il pannello dice **Connesso** e mostra un numero di serie e una versione, hai finito. Il flusso di connessione è anche nel [Video 2 di Come collegare l’F-SCAN](connect.md).
 
 ## Se Connetti non riesce
 
