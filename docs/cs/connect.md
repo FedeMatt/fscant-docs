@@ -22,7 +22,7 @@ Budete potřebovat:
 
 USB kabel zapojte přímo do USB portu počítače. Nezapojujte jej do USB hubu (malé krabičky, která z jednoho portu udělá několik), ani do dokovací stanice nebo monitoru s dalšími USB porty. Tyto doplňky často zabrání počítači rozpoznat F-SCAN.
 
-1. Zapněte F-SCAN a nechte jej na úvodní obrazovce. V menu SETUP zařízení se ujistěte, že AUTO POWER OFF je vypnuté.
+1. Zapněte F-SCAN a nechte jej na úvodní obrazovce. V menu SETUP zařízení se ujistěte, že AUTO OFF je vypnuté.
 2. Zapojte USB kabel, jak je popsáno výše.
 3. V softwaru F-SCANT klikněte na tlačítko **Připojit**.
 4. Pokud F-SCANT zobrazí **Zadejte L-CODE**, zadejte kód z faktury a klikněte na **Odeslat**.
@@ -63,7 +63,7 @@ Panel zařízení je modrý rámeček vpravo dole na obrazovce. Vždy zobrazuje 
 - **Zařízení:** název připojeného zařízení F-SCAN
 - **Sériové číslo:** sériové číslo F-SCAN
 - **Verze:** verze F-SCAN
-- **Časovač:** pokud jste na zařízení nastavili časovač, po kterém se F-SCAN automaticky vypne, zobrazí se zde. Pro ideální použití s F-SCANT doporučujeme časovač v nastavení zařízení vypnout.
+- **Časovač:** pokud jste v menu SETUP zařízení nastavili **AUTO OFF** (časovač, po kterém se F-SCAN automaticky vypne), zobrazí se zde. Pro ideální použití s F-SCANT doporučujeme **AUTO OFF** v menu SETUP vypnout.
 
 Klikněte na **Odpojit**, když chcete kabel odpojit. F-SCANT se sám znovu nepřipojí, pokud jste odpojili kabel nebo vypnuli F-SCAN. Až bude zařízení znovu připravené, klikněte na **Připojit**.
 

@@ -27,7 +27,7 @@ Im Diagramm nutzen **Pathogene abgleichen** und **Programm öffnen** das bereits
 
 Das Diagramm ist dasselbe wie bei einem Live-Scan:
 
-- **CV** (Conductivity Value): ein persönlicher Basiswert für die analysierte Person. Für aussagekräftige Ergebnisse sollte er zwischen 5 % und 25 % liegen.
+- **CV** (Conductivity Value): ein persönlicher Basiswert für den analysierten Benutzer. Für aussagekräftige Ergebnisse sollte er zwischen 5 % und 25 % liegen.
 - **MV** (Measured Value): wie stark eine Frequenz registriert wurde. Sie erscheint als grüner Balken; je höher der Balken, desto stärker die Messung.
 - **HITS:** die Balken oberhalb der CLIP-Linie. Das sind die stärksten Ergebnisse des Scans.
 - **ZOOM:** mit + vergrößern Sie das Diagramm und mit − verkleinern Sie es. Vergrößern Sie es, wenn die Balken zu klein sind, und verkleinern Sie es, wenn sie zu groß sind.

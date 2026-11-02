@@ -30,7 +30,7 @@ Under **Import from a previous software version** you can bring in data from old
 
 For each one, click **Choose file** and pick the export from the old software, or paste the text of that export where the screen asks for it. The screen mentions a JSON array; that is simply the file format of the old export.
 
-**Please note:** import adds or replaces data on this computer, depending on the file. Check that you have the right file before you continue. This does not change what is stored on the F-SCAN until you transfer something.
+**Please note:** import adds or replaces data on this computer, depending on the file. Check that you have the correct file before you continue. This does not change what is stored on the F-SCAN until you transfer something.
 
 ## Contact TB-Electronics
 

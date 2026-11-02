@@ -27,7 +27,7 @@ Na grafu **Přiřadit patogeny** a **Otevřít program** používají již ulož
 
 Graf je stejný jako při živém snímání:
 
-- **CV** (Conductivity Value): osobní základní hodnota pro analyzovanou osobu. Pro užitečné výsledky by měla být mezi 5 % a 25 %.
+- **CV** (Conductivity Value): osobní základní hodnota pro analyzovaného uživatele. Pro užitečné výsledky by měla být mezi 5 % a 25 %.
 - **MV** (Measured Value): síla odezvy frekvence. Zobrazuje se jako zelený sloupec — čím vyšší sloupec, tím silnější hodnota.
 - **HITS:** sloupce nad čárou CLIP. Jsou to nejsilnější výsledky snímání.
 - **ZOOM:** pomocí + graf vizuálně zvýšíte a pomocí − snížíte. Zvyšte jej, když jsou sloupce příliš malé, a snižte, když jsou příliš velké.

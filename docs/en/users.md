@@ -1,6 +1,6 @@
 # How to manage users
 
-A **user** in F-SCANT is a person you keep DIRP results for. It is not a login or a password.
+A **user** in F-SCANT is someone you keep DIRP results for. It is not a login or a password.
 
 **Manage users** lists everyone stored in F-SCANT, with **Name**, **DIRPs**, **Memory**, **Date** and **Time**. Open a row to see that person’s DIRPs and program.
 
@@ -15,7 +15,7 @@ Figure 9. **Manage users**, one row expanded.
 
 You can also add a person with **New user** when you start a DIRP.
 
-If you see **A patient with this name already exists.**, that name is already in your list. F-SCANT can’t save two users under the same name, so choose a different name, for example by adding a middle initial or number.
+If you see **A user with this name already exists.**, that name is already in your list. F-SCANT can’t save two users under the same name, so choose a different name, for example by adding a middle initial or number.
 
 ## Renaming or deleting a user
 
@@ -70,4 +70,4 @@ Each user can have memory numbers 1 to 100 in F-SCANT. These numbers help you fi
 
 1. Click **Change memory location**.
 2. Choose a number from 1 to 100.
-3. If F-SCANT asks **REPLACE?** and tells you there is already something stored in this memory location, that number is already used for this user. Click **Replace** to overwrite what is there, or **Cancel** to keep the old item and pick another number.
+3. If F-SCANT asks **REPLACE?** and tells you there is already something stored in this memory location, that number is already used for this user. Click **Replace** to overwrite what is there, or **Cancel** to keep the old item and pick another number. Please note that the program in the device will be overwritten.

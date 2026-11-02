@@ -22,7 +22,7 @@ Potrzebujesz:
 
 Podłącz kabel USB do portu USB samego komputera. Nie podłączaj go do koncentratora USB (małego urządzenia dzielącego jeden port na kilka), stacji dokującej ani monitora z dodatkowymi portami USB. Takie akcesoria często uniemożliwiają komputerowi rozpoznanie F-SCAN.
 
-1. Włącz F-SCAN i pozostaw go na ekranie głównym. Upewnij się w menu SETUP urządzenia, że AUTO POWER OFF jest wyłączone.
+1. Włącz F-SCAN i pozostaw go na ekranie głównym. Upewnij się w menu SETUP urządzenia, że AUTO OFF jest wyłączone.
 2. Podłącz kabel USB jak opisano powyżej.
 3. Kliknij przycisk **Połącz** w oprogramowaniu F-SCANT.
 4. Jeśli F-SCANT pokaże **Wprowadź L-CODE**, wpisz kod z faktury i kliknij **Zatwierdź**.
@@ -63,7 +63,7 @@ Panel urządzenia to niebieskie pole w prawym dolnym rogu ekranu. Zawsze pokazuj
 - **Urządzenie:** nazwa podłączonego urządzenia F-SCAN
 - **Numer seryjny:** numer seryjny F-SCAN
 - **Wersja:** wersja F-SCAN
-- **Timer:** jeśli na urządzeniu ustawiono timer, po którym F-SCAN ma się automatycznie wyłączyć, jest on tu wyświetlany. Dla najlepszej współpracy z F-SCANT zalecamy wyłączenie timera w ustawieniach urządzenia.
+- **Timer:** jeśli w menu SETUP urządzenia ustawiono **AUTO OFF** (timer, po którym F-SCAN ma się automatycznie wyłączyć), jest on tu wyświetlany. Dla najlepszej współpracy z F-SCANT zalecamy wyłączenie **AUTO OFF** w menu SETUP.
 
 Kliknij **Rozłącz**, gdy chcesz odłączyć. F-SCANT nie łączy się ponownie sam, jeśli odłączyłeś kabel lub wyłączyłeś F-SCAN. Gdy urządzenie jest znowu gotowe, kliknij **Połącz**.
 

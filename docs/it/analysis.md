@@ -27,7 +27,7 @@ Sul grafico, **Abbina patogeni** e **Apri programma** usano il livello di clippi
 
 Il grafico è lo stesso di una scansione in tempo reale:
 
-- **CV** (Conductivity Value): un valore di riferimento personale per la persona analizzata. Per risultati utili dovrebbe essere tra 5% e 25%.
+- **CV** (Conductivity Value): un valore di riferimento personale per l’utente analizzato. Per risultati utili dovrebbe essere tra 5% e 25%.
 - **MV** (Measured Value): quanto è forte la risposta a una frequenza. Compare come barra verde: più è alta, più è forte la lettura.
 - **HITS:** le barre sopra la linea CLIP. Sono i risultati più forti della scansione.
 - **ZOOM:** usa + per rendere il grafico più alto e − per renderlo più basso. Alzalo quando le barre sono troppo piccole, abbassalo quando sono troppo grandi.

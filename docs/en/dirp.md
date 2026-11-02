@@ -2,7 +2,7 @@
 
 **Needs F-SCAN**
 
-DIRP stands for Dual Integration Resonance Procedure and is essentially a scan across a range of frequencies. The F-SCAN sends each frequency in turn and F-SCANT draws a graph of the answers.
+DIRP stands for Dual Integration Resonance Procedure and is essentially a scan across a range of frequencies. The F-SCAN sends each frequency in turn and F-SCANT draws a graph of the sensor-feedback.
 
 The scan runs from a lower frequency (**Fmin**) to an upper frequency (**Fmax**), in steps of **Delta F**.
 
@@ -46,7 +46,7 @@ The range screen offers:
 
 **Fmin** is where the scan starts. **Fmax** is where it ends. **Delta F** is the gap between one frequency and the next. The **DIRP mode** field shows **AUTO** or **FAST** for that range.
 
-Note: **Fmin** must be lower than **Fmax**. You can set **Fmin** from 50 Hz, **Fmax** up to 2 MHz, and **Delta F** from 1 Hz to 10 000 Hz. If a value is outside those ranges, F-SCANT will show an error. Please correct the number to continue.
+Note: **Fmin** must be lower than **Fmax**. You can set **Fmin** from 50 Hz, **Fmax** up to 2 MHz, and **Delta F** from 1 Hz to 10 000 Hz. If a value is outside those ranges, F-SCANT will show an error. Please correct the number to continue. The maximum number of steps is 1000. The system/device stops after 1000 steps have been reached although **Fmax** has not yet been reached.
 
 Figure 7. Frequency range: last used values, presets, and **Custom**.
 
@@ -75,10 +75,10 @@ The chart will show the scan from **Fmin** to **Fmax**, whereas:
 
 - Green bars are the answers at each frequency (**MV** is how high each bar is).
 - The lilac-colored line is the clipping level (**Clip**). Bars above this line count as **HITS**.
-- **CV** is a background reading for the person.
+- **CV** (Conductivity Value): a personal baseline value for the user being analyzed. For useful results it should be between 5% and 25%.
 - The zooming function (- / + ) makes the bars look taller or shorter for easier reading. It does not change how many **HITS** there are.
 
-Wait until the graph reaches **Fmax** and the status shows **Completed**. The DIRP will automatically be saved both on F-SCANT and on your device.
+Wait until the graph reaches **Fmax** and the status shows **Completed**. The DIRP will automatically be saved both on F-SCANT and on your device. The program of the device will be overwritten.
 
 Video 6. Running a live DIRP.
 

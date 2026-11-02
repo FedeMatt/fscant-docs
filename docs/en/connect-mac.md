@@ -50,7 +50,7 @@ If macOS also shows a separate button to allow system software from Silicon Labs
 
 ## 3. Plug in the F-SCAN
 
-Turn the F-SCAN on and leave it on its home screen. Make sure in the SETUP menu of the device that AUTO POWER OFF is disabled. Plug the USB cable into the Mac or using a hub or a dock.
+Turn the F-SCAN on and leave it on its home screen. Make sure in the SETUP menu of the device that AUTO OFF is disabled. Plug the USB cable into the Mac or using a hub or a dock.
 
 ## 4. Connect in F-SCANT
 

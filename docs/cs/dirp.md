@@ -2,7 +2,7 @@
 
 **Needs F-SCAN**
 
-DIRP znamená Dual Integration Resonance Procedure a jde v podstatě o snímání v rozsahu frekvencí. F-SCAN postupně vysílá jednotlivé frekvence a F-SCANT vykreslí graf odpovědí.
+DIRP znamená Dual Integration Resonance Procedure a jde v podstatě o snímání v rozsahu frekvencí. F-SCAN postupně vysílá jednotlivé frekvence a F-SCANT vykreslí graf zpětné vazby senzoru.
 
 Snímání probíhá od nižší frekvence (**Fmin**) po vyšší frekvenci (**Fmax**) v krocích **Delta F**.
 
@@ -46,7 +46,7 @@ Obrazovka rozsahu nabízí:
 
 **Fmin** je začátek snímání. **Fmax** je jeho konec. **Delta F** je rozestup mezi jednou frekvencí a další. Pole **Režim DIRP** u daného rozsahu zobrazuje **AUTO** nebo **FAST**.
 
-Poznámka: **Fmin** musí být nižší než **Fmax**. **Fmin** lze nastavit od 50 Hz, **Fmax** až do 2 MHz a **Delta F** od 1 Hz do 10 000 Hz. Pokud je hodnota mimo tyto rozsahy, F-SCANT zobrazí chybu. Pro pokračování číslo opravte.
+Poznámka: **Fmin** musí být nižší než **Fmax**. **Fmin** lze nastavit od 50 Hz, **Fmax** až do 2 MHz a **Delta F** od 1 Hz do 10 000 Hz. Pokud je hodnota mimo tyto rozsahy, F-SCANT zobrazí chybu. Pro pokračování číslo opravte. Maximální počet kroků je 1000. Systém/zařízení se zastaví po dosažení 1000 kroků, i když **Fmax** ještě nebylo dosaženo.
 
 Obrázek 7. Frekvenční rozsah: naposledy použité hodnoty, předvolby a **Vlastní**.
 
@@ -75,10 +75,10 @@ Graf zobrazí snímání od **Fmin** do **Fmax**, přičemž:
 
 - Zelené sloupce jsou odpovědi na jednotlivých frekvencích (**MV** je výška každého sloupce).
 - Fialová čára je úroveň ořezu (**Clip**). Sloupce nad touto čárou se počítají jako **HITS**.
-- **CV** je základní hodnota pro danou osobu.
+- **CV** (Conductivity Value): osobní základní hodnota pro analyzovaného uživatele. Pro užitečné výsledky by měla být mezi 5 % a 25 %.
 - Funkce **ZOOM** (− / +) sloupce vizuálně zvýší nebo sníží pro snazší čtení. Nemění počet **HITS**.
 
-Počkejte, až graf dosáhne **Fmax** a stav zobrazí **Dokončeno**. DIRP se automaticky uloží ve F-SCANT i na zařízení.
+Počkejte, až graf dosáhne **Fmax** a stav zobrazí **Dokončeno**. DIRP se automaticky uloží ve F-SCANT i na zařízení. Program zařízení bude přepsán.
 
 Video 6. Průběh živého DIRP.
 

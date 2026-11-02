@@ -50,7 +50,7 @@ Wenn macOS zusätzlich eine separate Schaltfläche anzeigt, um Systemsoftware vo
 
 ## 3. F-SCAN anschließen
 
-Schalten Sie den F-SCAN ein und lassen Sie ihn auf dem Startbildschirm. Stellen Sie im SETUP-Menü des Geräts sicher, dass AUTO POWER OFF deaktiviert ist. Stecken Sie das USB-Kabel in den Mac oder über einen Hub bzw. ein Dock.
+Schalten Sie den F-SCAN ein und lassen Sie ihn auf dem Startbildschirm. Stellen Sie im SETUP-Menü des Geräts sicher, dass AUTO OFF deaktiviert ist. Stecken Sie das USB-Kabel in den Mac oder über einen Hub bzw. ein Dock.
 
 ## 4. In F-SCANT verbinden
 

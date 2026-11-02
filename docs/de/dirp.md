@@ -2,7 +2,7 @@
 
 **Needs F-SCAN**
 
-DIRP steht für Dual Integration Resonance Procedure und ist im Wesentlichen ein Scan über einen Frequenzbereich. Der F-SCAN sendet nacheinander jede Frequenz, und F-SCANT zeichnet die Antworten in einem Diagramm auf.
+DIRP steht für Dual Integration Resonance Procedure und ist im Wesentlichen ein Scan über einen Frequenzbereich. Der F-SCAN sendet nacheinander jede Frequenz, und F-SCANT zeichnet das Sensor-Feedback in einem Diagramm auf.
 
 Der Scan läuft von einer unteren Frequenz (**Fmin**) bis zu einer oberen Frequenz (**Fmax**), in Schritten von **Delta F**.
 
@@ -46,7 +46,7 @@ Der Bereichsbildschirm bietet:
 
 **Fmin** ist der Start des Scans. **Fmax** ist das Ende. **Delta F** ist der Abstand zwischen einer Frequenz und der nächsten. Das Feld **DIRP-Modus** zeigt **AUTO** oder **FAST** für diesen Bereich.
 
-Hinweis: **Fmin** muss kleiner als **Fmax** sein. Sie können **Fmin** ab 50 Hz, **Fmax** bis 2 MHz und **Delta F** von 1 Hz bis 10 000 Hz einstellen. Liegt ein Wert außerhalb dieser Bereiche, zeigt F-SCANT einen Fehler. Bitte korrigieren Sie die Zahl, um fortzufahren.
+Hinweis: **Fmin** muss kleiner als **Fmax** sein. Sie können **Fmin** ab 50 Hz, **Fmax** bis 2 MHz und **Delta F** von 1 Hz bis 10 000 Hz einstellen. Liegt ein Wert außerhalb dieser Bereiche, zeigt F-SCANT einen Fehler. Bitte korrigieren Sie die Zahl, um fortzufahren. Die maximale Anzahl der Schritte beträgt 1000. System/Gerät stoppt, nachdem 1000 Schritte erreicht wurden, auch wenn **Fmax** noch nicht erreicht wurde.
 
 Abbildung 7. Frequenzbereich: zuletzt verwendete Werte, Voreinstellungen und **Benutzerdefiniert**.
 
@@ -75,10 +75,10 @@ Das Diagramm zeigt den Scan von **Fmin** bis **Fmax**, wobei:
 
 - Grüne Balken die Antworten bei jeder Frequenz sind (**MV** ist die Höhe jedes Balkens).
 - Die lilafarbene Linie das Clipping-Level ist (**Clip**). Balken oberhalb dieser Linie zählen als **HITS**.
-- **CV** ein Hintergrundwert für die Person ist.
+- **CV** (Conductivity Value): ein persönlicher Basiswert für den analysierten Benutzer. Für aussagekräftige Ergebnisse sollte er zwischen 5 % und 25 % liegen.
 - Die Zoomfunktion (− / +) die Balken höher oder niedriger darstellt, damit sie leichter lesbar sind. Sie ändert nicht, wie viele **HITS** es gibt.
 
-Warten Sie, bis das Diagramm **Fmax** erreicht und der Status **Abgeschlossen** anzeigt. Der DIRP wird automatisch sowohl in F-SCANT als auch auf Ihrem Gerät gespeichert.
+Warten Sie, bis das Diagramm **Fmax** erreicht und der Status **Abgeschlossen** anzeigt. Der DIRP wird automatisch sowohl in F-SCANT als auch auf Ihrem Gerät gespeichert. Das Programm des Geräts wird überschrieben.
 
 Video 6. Live-DIRP durchführen.
 

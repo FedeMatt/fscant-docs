@@ -1,6 +1,6 @@
 # Benutzer verwalten
 
-Ein **Benutzer** in F-SCANT ist eine Person, für die Sie DIRP-Ergebnisse speichern. Es ist weder ein Login noch ein Passwort.
+Ein **Benutzer** in F-SCANT ist jemand, für den Sie DIRP-Ergebnisse speichern. Es ist weder ein Login noch ein Passwort.
 
 **Benutzer verwalten** listet alle in F-SCANT gespeicherten Personen mit **Name**, **DIRPs**, **Speicher**, **Datum** und **Zeit**. Öffnen Sie eine Zeile, um die DIRPs und das Programm dieser Person zu sehen.
 
@@ -15,7 +15,7 @@ Abbildung 9. **Benutzer verwalten**, eine Zeile aufgeklappt.
 
 Sie können eine Person auch mit **Neuer Benutzer** hinzufügen, wenn Sie einen DIRP starten.
 
-Wenn Sie **Ein Patient mit diesem Namen existiert bereits.** sehen, ist dieser Name bereits in Ihrer Liste. F-SCANT kann nicht zwei Benutzer unter demselben Namen speichern; wählen Sie daher einen anderen Namen, zum Beispiel mit einem mittleren Initial oder einer Zahl.
+Wenn Sie **Ein Benutzer mit diesem Namen existiert bereits.** sehen, ist dieser Name bereits in Ihrer Liste. F-SCANT kann nicht zwei Benutzer unter demselben Namen speichern; wählen Sie daher einen anderen Namen, zum Beispiel mit einem mittleren Initial oder einer Zahl.
 
 ## Benutzer umbenennen oder löschen
 
@@ -70,4 +70,4 @@ Jeder Benutzer kann in F-SCANT Speichernummern von 1 bis 100 haben. Diese Nummer
 
 1. Klicken Sie auf **Speicherort ändern**.
 2. Wählen Sie eine Nummer von 1 bis 100.
-3. Wenn F-SCANT **ERSETZEN?** fragt und meldet, dass an diesem Speicherort bereits etwas gespeichert ist, ist diese Nummer für diesen Benutzer bereits belegt. Klicken Sie auf **Ersetzen**, um den vorhandenen Eintrag zu überschreiben, oder auf **Abbrechen**, um den alten Eintrag zu behalten und eine andere Nummer zu wählen.
+3. Wenn F-SCANT **ERSETZEN?** fragt und meldet, dass an diesem Speicherort bereits etwas gespeichert ist, ist diese Nummer für diesen Benutzer bereits belegt. Klicken Sie auf **Ersetzen**, um den vorhandenen Eintrag zu überschreiben, oder auf **Abbrechen**, um den alten Eintrag zu behalten und eine andere Nummer zu wählen. Bitte beachten Sie, dass das Programm im Gerät überschrieben wird.

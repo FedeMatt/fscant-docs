@@ -2,7 +2,7 @@
 
 **Needs F-SCAN**
 
-DIRP oznacza Dual Integration Resonance Procedure i w praktyce jest skanem w zakresie częstotliwości. F-SCAN wysyła kolejno każdą częstotliwość, a F-SCANT rysuje wykres odpowiedzi.
+DIRP oznacza Dual Integration Resonance Procedure i w praktyce jest skanem w zakresie częstotliwości. F-SCAN wysyła kolejno każdą częstotliwość, a F-SCANT rysuje wykres sprzężenia zwrotnego czujnika.
 
 Skan przebiega od dolnej częstotliwości (**Fmin**) do górnej (**Fmax**), w krokach **Delta F**.
 
@@ -46,7 +46,7 @@ Ekran zakresu oferuje:
 
 **Fmin** to początek skanu. **Fmax** to koniec. **Delta F** to odstęp między kolejnymi częstotliwościami. Pole **Tryb DIRP** pokazuje **AUTO** lub **FAST** dla tego zakresu.
 
-Uwaga: **Fmin** musi być niższe niż **Fmax**. Możesz ustawić **Fmin** od 50 Hz, **Fmax** do 2 MHz, a **Delta F** od 1 Hz do 10 000 Hz. Jeśli wartość jest poza tymi zakresami, F-SCANT pokaże błąd. Popraw liczbę, aby kontynuować.
+Uwaga: **Fmin** musi być niższe niż **Fmax**. Możesz ustawić **Fmin** od 50 Hz, **Fmax** do 2 MHz, a **Delta F** od 1 Hz do 10 000 Hz. Jeśli wartość jest poza tymi zakresami, F-SCANT pokaże błąd. Popraw liczbę, aby kontynuować. Maksymalna liczba kroków wynosi 1000. System/urządzenie zatrzymuje się po osiągnięciu 1000 kroków, nawet jeśli **Fmax** nie zostało jeszcze osiągnięte.
 
 Rysunek 7. Zakres częstotliwości: ostatnie wartości, ustawienia wstępne i **Niestandardowy**.
 
@@ -75,10 +75,10 @@ Wykres pokazuje skan od **Fmin** do **Fmax**:
 
 - Zielone słupki to odpowiedzi przy każdej częstotliwości (**MV** to wysokość każdego słupka).
 - Liliowa linia to poziom przycinania (**Clip**). Słupki powyżej tej linii liczą się jako **HITS**.
-- **CV** to odczyt tła dla osoby.
+- **CV** (Conductivity Value): osobista wartość bazowa analizowanego użytkownika. Dla użytecznych wyników powinna wynosić od 5% do 25%.
 - Funkcja powiększenia (− / +) sprawia, że słupki wyglądają na wyższe lub niższe, co ułatwia odczyt. Nie zmienia liczby **HITS**.
 
-Poczekaj, aż wykres dojdzie do **Fmax** i status pokaże **Zakończono**. DIRP zostanie automatycznie zapisany zarówno w F-SCANT, jak i na urządzeniu.
+Poczekaj, aż wykres dojdzie do **Fmax** i status pokaże **Zakończono**. DIRP zostanie automatycznie zapisany zarówno w F-SCANT, jak i na urządzeniu. Program urządzenia zostanie nadpisany.
 
 Film 6. Przebieg DIRP na żywo.
 

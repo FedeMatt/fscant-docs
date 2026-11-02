@@ -2,7 +2,7 @@
 
 **Needs F-SCAN**
 
-DIRP sta per Dual Integration Resonance Procedure ed è, in sostanza, una scansione su un intervallo di frequenze. L’F-SCAN invia ciascuna frequenza a turno e F-SCANT disegna un grafico delle risposte.
+DIRP sta per Dual Integration Resonance Procedure ed è, in sostanza, una scansione su un intervallo di frequenze. L’F-SCAN invia ciascuna frequenza a turno e F-SCANT disegna un grafico del feedback del sensore.
 
 La scansione va da una frequenza inferiore (**Fmin**) a una superiore (**Fmax**), a passi di **Delta F**.
 
@@ -46,7 +46,7 @@ La schermata dell’intervallo offre:
 
 **Fmin** è dove inizia la scansione. **Fmax** è dove termina. **Delta F** è lo scarto tra una frequenza e la successiva. Il campo **Modalità DIRP** mostra **AUTO** o **FAST** per quell’intervallo.
 
-Nota: **Fmin** deve essere inferiore a **Fmax**. Puoi impostare **Fmin** da 50 Hz, **Fmax** fino a 2 MHz e **Delta F** da 1 Hz a 10 000 Hz. Se un valore è fuori da questi intervalli, F-SCANT mostra un errore. Correggi il numero per continuare.
+Nota: **Fmin** deve essere inferiore a **Fmax**. Puoi impostare **Fmin** da 50 Hz, **Fmax** fino a 2 MHz e **Delta F** da 1 Hz a 10 000 Hz. Se un valore è fuori da questi intervalli, F-SCANT mostra un errore. Correggi il numero per continuare. Il numero massimo di passi è 1000. Il sistema/dispositivo si ferma dopo aver raggiunto 1000 passi anche se **Fmax** non è ancora stato raggiunto.
 
 Figura 7. Intervallo di frequenza: ultimi valori, preset e **Personalizzato**.
 
@@ -75,10 +75,10 @@ Il grafico mostra la scansione da **Fmin** a **Fmax**:
 
 - Le barre verdi sono le risposte a ciascuna frequenza (**MV** è l’altezza di ciascuna barra).
 - La linea lilla è il livello di clipping (**Clip**). Le barre sopra questa linea contano come **HITS**.
-- **CV** è una lettura di base per la persona.
+- **CV** (Conductivity Value): un valore di riferimento personale per l’utente analizzato. Per risultati utili dovrebbe essere tra 5% e 25%.
 - La funzione di zoom (− / +) rende le barre più alte o più basse per una lettura più facile. Non cambia quanti **HITS** ci sono.
 
-Attendi che il grafico raggiunga **Fmax** e che lo stato mostri **Completato**. Il DIRP viene salvato automaticamente sia su F-SCANT sia sul dispositivo.
+Attendi che il grafico raggiunga **Fmax** e che lo stato mostri **Completato**. Il DIRP viene salvato automaticamente sia su F-SCANT sia sul dispositivo. Il programma del dispositivo verrà sovrascritto.
 
 Video 6. Esecuzione di un DIRP in tempo reale.
 

@@ -30,7 +30,7 @@ Sotto **Importa da una versione precedente** puoi portare dati da software F-SCA
 
 Per ciascuno, fai clic su **Scegli file** e seleziona l’export del software precedente, oppure incolla il testo di quell’export dove richiesto. Lo schermo indica un array JSON: è semplicemente il formato file del vecchio export.
 
-**Nota:** l’importazione aggiunge o sostituisce dati su questo computer, a seconda del file. Verifica di avere il file giusto prima di continuare. Questo non modifica ciò che è memorizzato sull’F-SCAN finché non trasferisci qualcosa.
+**Nota:** l’importazione aggiunge o sostituisce dati su questo computer, a seconda del file. Verifica di avere il file corretto prima di continuare. Questo non modifica ciò che è memorizzato sull’F-SCAN finché non trasferisci qualcosa.
 
 ## Contatta TB-Electronics
 

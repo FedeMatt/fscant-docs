@@ -1,6 +1,6 @@
 # Jak zarządzać użytkownikami
 
-**Użytkownik** w F-SCANT to osoba, dla której przechowujesz wyniki DIRP. To nie jest login ani hasło.
+**Użytkownik** w F-SCANT to ktoś, dla kogo przechowujesz wyniki DIRP. To nie jest login ani hasło.
 
 **Zarządzaj użytkownikami** pokazuje wszystkich zapisanych w F-SCANT, z kolumnami **Nazwa**, **DIRPs**, **Pamięć**, **Data** i **Czas**. Otwórz wiersz, aby zobaczyć DIRP i program tej osoby.
 
@@ -15,7 +15,7 @@ Rysunek 9. **Zarządzaj użytkownikami**, jeden wiersz rozwinięty.
 
 Możesz też dodać osobę przez **Nowy użytkownik**, gdy uruchamiasz DIRP.
 
-Jeśli widzisz **Pacjent o tej nazwie już istnieje.**, ta nazwa jest już na liście. F-SCANT nie może zapisać dwóch użytkowników pod tą samą nazwą, więc wybierz inną — na przykład dodając inicjał lub numer.
+Jeśli widzisz **Użytkownik o tej nazwie już istnieje.**, ta nazwa jest już na liście. F-SCANT nie może zapisać dwóch użytkowników pod tą samą nazwą, więc wybierz inną — na przykład dodając inicjał lub numer.
 
 ## Zmiana nazwy lub usuwanie użytkownika
 
@@ -70,4 +70,4 @@ Każdy użytkownik może mieć numery pamięci od 1 do 100 w F-SCANT. Te numery 
 
 1. Kliknij **Zmień lokalizację pamięci**.
 2. Wybierz numer od 1 do 100.
-3. Jeśli F-SCANT pyta **ZASTĄPIĆ?** i informuje, że w tej lokalizacji pamięci coś już jest, ten numer jest już używany dla tego użytkownika. Kliknij **Zastąp**, aby nadpisać zawartość, albo **Anuluj**, aby zachować poprzedni element i wybrać inny numer.
+3. Jeśli F-SCANT pyta **ZASTĄPIĆ?** i informuje, że w tej lokalizacji pamięci coś już jest, ten numer jest już używany dla tego użytkownika. Kliknij **Zastąp**, aby nadpisać zawartość, albo **Anuluj**, aby zachować poprzedni element i wybrać inny numer. Uwaga: program w urządzeniu zostanie nadpisany.

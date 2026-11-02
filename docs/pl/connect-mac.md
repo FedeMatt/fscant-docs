@@ -50,7 +50,7 @@ Jeśli macOS pokaże osobny przycisk zezwolenia na oprogramowanie systemowe od S
 
 ## 3. Podłącz F-SCAN
 
-Włącz F-SCAN i pozostaw go na ekranie głównym. Upewnij się w menu SETUP urządzenia, że AUTO POWER OFF jest wyłączone. Podłącz kabel USB do Maca — bezpośrednio albo przez hub lub dok.
+Włącz F-SCAN i pozostaw go na ekranie głównym. Upewnij się w menu SETUP urządzenia, że AUTO OFF jest wyłączone. Podłącz kabel USB do Maca — bezpośrednio albo przez hub lub dok.
 
 ## 4. Połącz w F-SCANT
 

@@ -50,7 +50,7 @@ Pokud macOS zobrazí také samostatné tlačítko pro povolení systémového so
 
 ## 3. Zapojte F-SCAN
 
-Zapněte F-SCAN a nechte jej na úvodní obrazovce. V menu SETUP zařízení se ujistěte, že AUTO POWER OFF je vypnuté. USB kabel zapojte do Macu, nebo přes hub či dok.
+Zapněte F-SCAN a nechte jej na úvodní obrazovce. V menu SETUP zařízení se ujistěte, že AUTO OFF je vypnuté. USB kabel zapojte do Macu, nebo přes hub či dok.
 
 ## 4. Připojení ve F-SCANT
 

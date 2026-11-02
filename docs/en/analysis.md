@@ -27,7 +27,7 @@ On the chart, **Match pathogens** and **Open program** use the clipping level al
 
 The chart is the same as during a live scan:
 
-- **CV** (Conductivity Value): a personal baseline value for the person being analyzed. For useful results it should be between 5% and 25%.
+- **CV** (Conductivity Value): a personal baseline value for the user being analyzed. For useful results it should be between 5% and 25%.
 - **MV** (Measured Value): how strong a frequency registered. It shows as a green bar, and the taller the bar, the stronger the reading.
 - **HITS:** the bars above the CLIP line. These are the strongest results of the scan.
 - **ZOOM:** use + to make the graph taller and − to make it shorter. Make it taller when the bars are too small, and shorter when they are too big.

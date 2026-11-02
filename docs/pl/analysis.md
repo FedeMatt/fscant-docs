@@ -27,7 +27,7 @@ Na wykresie **Dopasuj patogeny** i **Otwórz program** korzystają z już zapisa
 
 Wykres jest taki sam jak podczas skanu na żywo:
 
-- **CV** (Conductivity Value): osobista wartość bazowa osoby analizowanej. Dla użytecznych wyników powinna wynosić od 5% do 25%.
+- **CV** (Conductivity Value): osobista wartość bazowa analizowanego użytkownika. Dla użytecznych wyników powinna wynosić od 5% do 25%.
 - **MV** (Measured Value): jak silnie zarejestrowała się częstotliwość. Widać ją jako zielony słupek — im wyższy, tym silniejszy odczyt.
 - **HITS:** słupki powyżej linii CLIP. To najsilniejsze wyniki skanu.
 - **ZOOM:** użyj +, aby wykres był wyższy, i −, aby był niższy. Podnieś go, gdy słupki są za małe, obniż, gdy są za duże.

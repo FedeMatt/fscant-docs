@@ -1,6 +1,6 @@
 # Jak spravovat uživatele
 
-**Uživatel** ve F-SCANT je osoba, pro kterou uchováváte výsledky DIRP. Nejde o přihlášení ani heslo.
+**Uživatel** ve F-SCANT je někdo, pro koho uchováváte výsledky DIRP. Nejde o přihlášení ani heslo.
 
 **Spravovat uživatele** zobrazí všechny osoby uložené ve F-SCANT se sloupci **Jméno**, **DIRPs**, **Paměť**, **Datum** a **Čas**. Otevřením řádku zobrazíte DIRP a program dané osoby.
 
@@ -15,7 +15,7 @@ Obrázek 9. **Spravovat uživatele**, jeden řádek rozbalený.
 
 Osobu můžete přidat také přes **Nový uživatel** při spuštění DIRP.
 
-Pokud vidíte **Pacient s tímto jménem již existuje.**, toto jméno už je v seznamu. F-SCANT nemůže uložit dva uživatele pod stejným jménem, proto zvolte jiné jméno, například přidáním prostředního iniciálu nebo čísla.
+Pokud vidíte **Uživatel s tímto jménem již existuje.**, toto jméno už je v seznamu. F-SCANT nemůže uložit dva uživatele pod stejným jménem, proto zvolte jiné jméno, například přidáním prostředního iniciálu nebo čísla.
 
 ## Přejmenování nebo smazání uživatele
 
@@ -70,4 +70,4 @@ Každý uživatel může mít ve F-SCANT čísla paměti 1 až 100. Tato čísla
 
 1. Klikněte na **Změnit umístění v paměti**.
 2. Zvolte číslo od 1 do 100.
-3. Pokud se F-SCANT zeptá **NAHRADIT?** a uvede, že v tomto umístění už něco je, toto číslo je u daného uživatele už použité. Klikněte na **Nahradit** pro přepsání stávající položky, nebo na **Zrušit** pro zachování staré položky a výběr jiného čísla.
+3. Pokud se F-SCANT zeptá **NAHRADIT?** a uvede, že v tomto umístění už něco je, toto číslo je u daného uživatele už použité. Klikněte na **Nahradit** pro přepsání stávající položky, nebo na **Zrušit** pro zachování staré položky a výběr jiného čísla. Upozornění: program v zařízení bude přepsán.

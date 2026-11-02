@@ -22,7 +22,7 @@ You need:
 
 Plug the USB cable into a USB port on the computer itself. Do not plug it into a USB hub (a small box that turns one port into several) or into a docking station or a monitor that has extra USB ports. Those extras often stop the computer from recognizing the F-SCAN.
 
-1. Switch the F-SCAN on and leave it on its home screen. Make sure in the SETUP menu of the device that AUTO POWER OFF is disabled.
+1. Switch the F-SCAN on and leave it on its home screen. Make sure in the SETUP menu of the device that AUTO OFF is disabled.
 2. Plug in the USB cable as described above.
 3. Click the **Connect** button in the F-SCANT software.
 4. If F-SCANT shows **Please enter your L-CODE**, type the code from the invoice and click **Submit**.
@@ -63,7 +63,7 @@ The device panel is the blue box at the bottom right of your screen. It is inten
 - **Device:** Name of the connected F-SCAN device
 - **Serial:** Serial number of the F-SCAN
 - **Version:** Version of the F-SCAN
-- **Timer:** If you’ve set a timer on your device after which your F-SCAN should automatically switch off, this is displayed here. For ideal use with F-SCANT, we recommend turning off the timer from the device settings.
+- **Timer:** If you’ve set **AUTO OFF** in the SETUP menu of your device (a timer after which your F-SCAN should automatically switch off), this is displayed here. For ideal use with F-SCANT, we recommend turning **AUTO OFF** off in the SETUP menu.
 
 Click **Disconnect** when you want to unplug. F-SCANT does not reconnect by itself if you unplugged the cable or switched the F-SCAN off. When the device is ready again, click **Connect**.
 
