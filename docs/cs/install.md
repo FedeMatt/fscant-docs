@@ -1,10 +1,10 @@
 # Jak nainstalovat F-SCANT
 
-Instalace se mírně liší podle počítače. Na Windows dostanete instalační soubor (**F-SCANT-windows-x64-1.0.11.0.exe**). Na Macu dostanete ZIP pojmenovaný **F-SCANT-macos-arm64-1.0.11.zip** nebo **F-SCANT-macos-x64-1.0.11.zip** (podle typu Macu); rozbalte jej a umístěte aplikaci F-SCANT do složky Aplikace. F-SCANT se neprodává v Microsoft Store ani v Mac App Store.
+Instalace se mírně liší podle počítače. Na Windows dostanete instalátor, jehož název začíná **F-SCANT-windows-x64** a končí **.exe**. Na Macu dostanete ZIP, jehož název začíná **F-SCANT-macos-arm64** nebo **F-SCANT-macos-x64** (podle typu Macu); rozbalte jej a umístěte aplikaci F-SCANT do složky Aplikace. F-SCANT se neprodává v Microsoft Store ani v Mac App Store.
 
 ## Jak nainstalovat na Windows
 
-1. Poklepejte na instalátor, který jste obdrželi (**F-SCANT-windows-x64-1.0.11.0.exe**). Pokud Windows požádá o oprávnění, povolte je (může být vyžadováno heslo správce).
+1. Poklepejte na instalátor, který jste obdrželi (soubor, jehož název začíná **F-SCANT-windows-x64** a končí **.exe**). Pokud Windows požádá o oprávnění, povolte je (může být vyžadováno heslo správce).
 2. Přijměte licenci F-SCANT a licenci Silicon Labs, jakmile se zobrazí. Silicon Labs vyrábí malý USB ovladač, díky kterému počítač komunikuje s F-SCAN. Instalátor tento ovladač na PC nainstaluje za vás.
 3. Otevřete **F-SCANT** z nabídky Start ve Windows.
 
@@ -14,7 +14,7 @@ Pokud Windows požádá o povolení aplikací, které nepocházejí z obchodu, p
 
 ## Jak nainstalovat na Macu
 
-1. Rozbalte ZIP, který jste obdrželi (**F-SCANT-macos-arm64-1.0.11.zip** na Apple Silicon, nebo **F-SCANT-macos-x64-1.0.11.zip** na Intelu). Zkopírujte **F-SCANT** do složky Aplikace.
+1. Rozbalte ZIP, který jste obdrželi (název začíná **F-SCANT-macos-arm64** na Apple Silicon, nebo **F-SCANT-macos-x64** na Intelu). Zkopírujte **F-SCANT** do složky Aplikace.
 2. Nainstalujte USB ovladač, který je ve stejné složce jako F-SCANT. Nejprve si přečtěte **SILICON-LABS-VCP-LICENSE.txt**. Otevřete **Mac_OSX_VCP_Driver.zip**, otevřete diskový obraz uvnitř a spusťte **Install CP210x VCP Driver**. Tento ovladač umožní Macu rozpoznat F-SCAN přes USB.
 3. Když macOS požádá o povolení softwaru od Silicon Labs, toto oprávnění zapněte. Po dokončení instalátoru povolte ovladač v **Nastavení systému → Obecné → Přihlašovací položky a rozšíření**: pod **Rozšíření** otevřete **Rozšíření ovladačů**, zapněte **CP210xVCPDriver** (`com.silabs.cp210x`) a v případě potřeby zadejte heslo Macu. Podrobné kroky a Video 1 jsou v [Připojení F-SCAN na Macu](connect-mac.md).
 4. Otevřete **F-SCANT**.

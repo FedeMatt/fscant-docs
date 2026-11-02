@@ -54,8 +54,12 @@ jobs:
           pip install -r requirements.txt
           pip install -r requirements-dev.txt
 
-      - name: Fast PDF link tests
-        run: pytest tests/test_pdf_links.py -q
+      - name: Fast source tests
+        run: |
+          pytest tests/test_pdf_links.py \
+            tests/test_index_meta_hardbreaks.py \
+            tests/test_install_filenames_versionless.py \
+            tests/test_scrollbar_grey.py -q
 
       - name: Build site and PDFs
         run: ./scripts/build.sh

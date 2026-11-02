@@ -33,7 +33,9 @@ Keep these exact forms in every language (including inside **bold** when the app
 
 ## Installer / OS identifiers
 
-- F-SCANT-Setup-x64.exe
+- F-SCANT-windows-x64
+- F-SCANT-macos-arm64
+- F-SCANT-macos-x64
 - SILICON-LABS-VCP-LICENSE.txt
 - Mac_OSX_VCP_Driver.zip
 - SiLabsUSBDriverDisk.dmg

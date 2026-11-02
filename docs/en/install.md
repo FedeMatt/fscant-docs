@@ -1,10 +1,10 @@
 # How to install F-SCANT
 
-The installation will vary a bit depending on your computer. On Windows you receive an installer file (**F-SCANT-windows-x64-1.0.11.0.exe**). On a Mac you receive a ZIP named **F-SCANT-macos-arm64-1.0.11.zip** or **F-SCANT-macos-x64-1.0.11.zip** (use the one that matches your Mac); extract it and put the F-SCANT app in the Applications folder. F-SCANT is not sold in the Microsoft Store or the Mac App Store.
+The installation will vary a bit depending on your computer. On Windows you receive an installer whose name starts with **F-SCANT-windows-x64** and ends with **.exe**. On a Mac you receive a ZIP whose name starts with **F-SCANT-macos-arm64** or **F-SCANT-macos-x64** (use the one that matches your Mac); extract it and put the F-SCANT app in the Applications folder. F-SCANT is not sold in the Microsoft Store or the Mac App Store.
 
 ## How to install on Windows
 
-1. Double-click the installer you received (**F-SCANT-windows-x64-1.0.11.0.exe**). If Windows asks for permission, allow it (you may need an administrator password).
+1. Double-click the installer you received (the file whose name starts with **F-SCANT-windows-x64** and ends with **.exe**). If Windows asks for permission, allow it (you may need an administrator password).
 2. Accept the F-SCANT licence and the Silicon Labs licence when they appear. Silicon Labs makes the small USB helper that lets the computer talk to the F-SCAN. The installer puts that helper on the PC for you.
 3. Open **F-SCANT** from the Windows Start menu.
 
@@ -14,7 +14,7 @@ If Windows asks you to allow apps that did not come from the store, allow it for
 
 ## How to install on a Mac
 
-1. Extract the ZIP you received (**F-SCANT-macos-arm64-1.0.11.zip** on Apple Silicon, or **F-SCANT-macos-x64-1.0.11.zip** on Intel). Copy **F-SCANT** into the Applications folder.
+1. Extract the ZIP you received (name starts with **F-SCANT-macos-arm64** on Apple Silicon, or **F-SCANT-macos-x64** on Intel). Copy **F-SCANT** into the Applications folder.
 2. Install the USB helper that came in the same folder as F-SCANT. Read **SILICON-LABS-VCP-LICENSE.txt** first. Open **Mac_OSX_VCP_Driver.zip**, open the disk image inside, and run **Install CP210x VCP Driver**. This helper lets the Mac see the F-SCAN on USB.
 3. When macOS asks you to allow software from Silicon Labs, turn that permission on. After the installer finishes, allow the driver in **System Settings → General → Login Items & Extensions**: under **Extensions**, open **Driver Extensions**, turn on **CP210xVCPDriver** (`com.silabs.cp210x`), and enter your Mac password if asked. The full steps and Video 1 are in [Connect the F-SCAN on a Mac](connect-mac.md).
 4. Open **F-SCANT**.
