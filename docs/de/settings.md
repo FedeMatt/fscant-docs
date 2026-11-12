@@ -2,9 +2,9 @@
 
 Klicken Sie auf das Zahnrad im oberen Menü, um **Einstellungen** zu öffnen.
 
-Abbildung 10. **Einstellungen**: Datumsformat, 24-Stunden-Format, Sprache und Import.
+Abbildung 10. **Einstellungen**: Datumsformat, 24-Stunden-Format, Sprache, **Softwaredaten importieren** und **Softwaredaten exportieren**.
 
-![Einstellungen: Datumsformat, 24-Stunden-Format, Sprache, Import](../assets/images/fscant-user-guide/17-settings.png)
+![Einstellungen: Datumsformat, 24-Stunden-Format, Sprache, Softwaredaten importieren, Softwaredaten exportieren](../assets/images/fscant-user-guide/17-settings.png)
 
 ## Datum und Uhrzeit einstellen
 

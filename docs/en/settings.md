@@ -2,9 +2,9 @@
 
 Click the gear in the top menu to open **Settings**.
 
-Figure 10. **Settings**: date format, 24-hour time, language, and import.
+Figure 10. **Settings**: date format, 24-hour time, language, **Import software data** and **Export software data**.
 
-![Settings: date format, 24-hour time, language, import](../assets/images/fscant-user-guide/17-settings.png)
+![Settings: date format, 24-hour time, language, Import software data, Export software data](../assets/images/fscant-user-guide/17-settings.png)
 
 ## How to set date and time
 
