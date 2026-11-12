@@ -47,7 +47,7 @@ To see the matches:
 2. Click **Match to catalog**.
 3. Read the table. Change **Match range ± Hz** if you want a wider or narrower range.
 4. Choose what to do next:
-    - **Export** saves a CSV spreadsheet.
+    - **Save to** saves a CSV spreadsheet.
     - **Open frequency catalog** lets you browse the full catalog. You can search by name, sort from A to Z or by frequency. Selected rows can be added to the analysis table with the button **Add to analysis**.
     - **Save as program** creates and stores a program based on the rows you selected.
 

@@ -47,7 +47,7 @@ So sehen Sie die Treffer:
 2. Klicken Sie auf **Mit Katalog abgleichen**.
 3. Lesen Sie die Tabelle. Ändern Sie **Trefferbereich ± Hz**, wenn Sie einen breiteren oder engeren Bereich möchten.
 4. Wählen Sie, was als Nächstes geschehen soll:
-    - **Exportieren** speichert eine CSV-Tabelle.
+    - **Speichern auf** speichert eine CSV-Tabelle.
     - **Frequenzkatalog öffnen** ermöglicht Ihnen, den vollständigen Katalog zu durchsuchen. Sie können nach Namen suchen und von A bis Z oder nach Frequenz sortieren. Ausgewählte Zeilen können Sie mit der Schaltfläche **Zur Analyse hinzufügen** zur Analysetabelle hinzufügen.
     - **Als Programm speichern** erstellt und speichert ein Programm auf Basis der ausgewählten Zeilen.
 

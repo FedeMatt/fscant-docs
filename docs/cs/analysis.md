@@ -47,7 +47,7 @@ Pro zobrazení shod:
 2. Klikněte na **Porovnat s katalogem**.
 3. Prohlédněte tabulku. Změňte **Rozsah shody ± Hz**, pokud chcete širší nebo užší rozsah.
 4. Zvolte další postup:
-    - **Exportovat** uloží tabulku CSV.
+    - **Uložit do** uloží tabulku CSV.
     - **Otevřít katalog frekvencí** umožní prohlížet celý katalog. Můžete hledat podle názvu a řadit od A do Z nebo podle frekvence. Vybrané řádky lze přidat do tabulky analýzy tlačítkem **Přidat do analýzy**.
     - **Uložit jako program** vytvoří a uloží program na základě vybraných řádků.
 

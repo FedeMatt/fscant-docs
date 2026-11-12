@@ -51,7 +51,7 @@ Aby wysłać DIRP lub program na urządzenie, użyj **Prześlij DIRP na urządze
 
 Jeśli po kliknięciu **Porównaj DIRPs** nic się nie dzieje, sprawdź, czy zaznaczone są dokładnie *dwa* DIRP.
 
-Porównanie otwiera się jako wykres. **Przełącz na program** i **Przełącz na DIRP** zmieniają widok. **Eksportuj** zapisuje oba DIRP razem w jednym arkuszu **CSV**.
+Porównanie otwiera się jako wykres. **Przełącz na program** i **Przełącz na DIRP** zmieniają widok. **Zapisz do** zapisuje oba DIRP razem w jednym arkuszu **CSV**.
 
 Film 9. Porównanie dwóch DIRP.
 

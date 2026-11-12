@@ -47,7 +47,7 @@ Aby zobaczyć dopasowania:
 2. Kliknij **Dopasuj do katalogu**.
 3. Przeczytaj tabelę. Zmień **Zakres dopasowania ± Hz**, jeśli chcesz szerszy lub węższy zakres.
 4. Wybierz, co dalej:
-    - **Eksportuj** zapisuje arkusz CSV.
+    - **Zapisz do** zapisuje arkusz CSV.
     - **Otwórz katalog częstotliwości** pozwala przeglądać pełny katalog. Możesz szukać po nazwie, sortować od A do Z lub według częstotliwości. Zaznaczone wiersze można dodać do tabeli analizy przyciskiem **Dodaj do analizy**.
     - **Zapisz jako program** tworzy i zapisuje program na podstawie zaznaczonych wierszy.
 

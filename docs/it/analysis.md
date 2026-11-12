@@ -47,7 +47,7 @@ Per vedere le corrispondenze:
 2. Fai clic su **Confronta con il catalogo**.
 3. Leggi la tabella. Modifica **Intervallo di corrispondenza ± Hz** se vuoi un intervallo più ampio o più stretto.
 4. Scegli cosa fare dopo:
-    - **Esporta** salva un foglio CSV.
+    - **Salva su** salva un foglio CSV.
     - **Apri catalogo frequenze** permette di sfogliare l’intero catalogo. Puoi cercare per nome, ordinare dalla A alla Z o per frequenza. Le righe selezionate si possono aggiungere alla tabella di analisi con il pulsante **Aggiungi all’analisi**.
     - **Salva come programma** crea e memorizza un programma basato sulle righe selezionate.
 

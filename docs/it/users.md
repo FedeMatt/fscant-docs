@@ -51,7 +51,7 @@ Per inviare un DIRP o un programma al dispositivo, usa **Trasferisci DIRP al dis
 
 Se non succede nulla quando fai clic su **Confronta DIRPs**, verifica che siano selezionati esattamente *due* DIRP.
 
-Il confronto si apre come grafico. **Passa a programma** e **Passa a DIRP** cambiano la visualizzazione. **Esporta** salva entrambi i DIRP insieme in un foglio **CSV**.
+Il confronto si apre come grafico. **Passa a programma** e **Passa a DIRP** cambiano la visualizzazione. **Salva su** salva entrambi i DIRP insieme in un foglio **CSV**.
 
 Video 9. Confrontare due DIRP.
 

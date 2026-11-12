@@ -51,7 +51,7 @@ Pro odeslání DIRP nebo programu do zařízení použijte **Přenést DIRP do z
 
 Pokud se po kliknutí na **Porovnat DIRPs** nic nestane, zkontrolujte, že jsou vybrána právě *dvě* DIRP.
 
-Porovnání se otevře jako graf. **Přepnout na program** a **Přepnout na DIRP** změní zobrazení. **Exportovat** uloží obě DIRP společně do jednoho souboru **CSV**.
+Porovnání se otevře jako graf. **Přepnout na program** a **Přepnout na DIRP** změní zobrazení. **Uložit do** uloží obě DIRP společně do jednoho souboru **CSV**.
 
 Video 9. Porovnání dvou DIRP.
 

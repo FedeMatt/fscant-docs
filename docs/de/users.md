@@ -51,7 +51,7 @@ Um einen DIRP oder ein Programm an das Gerät zu senden, verwenden Sie **DIRP au
 
 Wenn beim Klicken auf **DIRPs vergleichen** nichts passiert, prüfen Sie, ob genau *zwei* DIRPs ausgewählt sind.
 
-Der Vergleich öffnet sich als Diagramm. **Zur Program wechseln** und **Zur DIRP wechseln** ändern die Anzeige. **Exportieren** speichert beide DIRPs zusammen in einer **CSV**-Tabelle.
+Der Vergleich öffnet sich als Diagramm. **Zur Program wechseln** und **Zur DIRP wechseln** ändern die Anzeige. **Speichern auf** speichert beide DIRPs zusammen in einer **CSV**-Tabelle.
 
 Video 9. Zwei DIRPs vergleichen.
 

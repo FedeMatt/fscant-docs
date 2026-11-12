@@ -51,7 +51,7 @@ To send a DIRP or a program to the device, use **Transfer DIRP to device** or **
 
 If nothing happens when you click **Compare DIRPs**, check that exactly *two* DIRPs are selected.
 
-The comparison opens as a graph. **Switch to program** and **Switch to DIRP** change the display. **Export** saves both DIRPs together into one **CSV** spreadsheet.
+The comparison opens as a graph. **Switch to program** and **Switch to DIRP** change the display. **Save to** saves both DIRPs together into one **CSV** spreadsheet.
 
 Video 9. Compare two DIRPs.
 
