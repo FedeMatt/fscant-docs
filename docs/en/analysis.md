@@ -21,7 +21,7 @@ Video 7. Open Analysis and load a DIRP.
   </p>
 </div>
 
-On the chart, **Match pathogens** and **Open program** use the clipping level already saved.
+On the chart, **Match to catalog** and **Open program** use the clipping level already saved.
 
 ## How to read the chart
 
@@ -35,31 +35,31 @@ The chart is the same as during a live scan:
 
 The arrows next to the DIRP number open the previous or next saved DIRP for that user.
 
-## How to match pathogens
+## How to match HITS to the frequency catalog
 
-Match pathogens compares your HITS with the pathogen list stored in F-SCANT. For each pathogen on the list, it checks whether that pathogen’s frequency is close to one of your HITS. If it is, the pathogen appears in the table as a possible match.
+**Match to catalog** compares your HITS with the frequency catalog stored in F-SCANT. For each catalog entry, it checks whether its frequency is within the match range of one of your HITS. If it is, the entry appears in the table as a catalog match.
 
-How close is “close enough” is set by **Match ± Hz**. The usual window is 1000 Hz. A wider window gives you more possible matches, a narrower one gives you fewer. You can change the window on the results screen (not in **Settings**).
+How close is “close enough” is set by **Match range ± Hz**. The usual range is 1000 Hz. A wider range gives you more catalog matches, a narrower one gives you fewer. You can change the range on the results screen (not in **Settings**).
 
 To see the matches:
 
 1. Open a saved **DIRP**, or finish a new one.
-2. Click **Match pathogens**.
-3. Read the table. Change **Match ± Hz** if you want a wider or narrower window.
+2. Click **Match to catalog**.
+3. Read the table. Change **Match range ± Hz** if you want a wider or narrower range.
 4. Choose what to do next:
     - **Export** saves a CSV spreadsheet.
-    - **Open pathogen database** lets you browse the full list. You can search by pathogen, sort from A to Z or by frequency. Selected rows can be added to the analysis table with the button **Add to analysis**.
+    - **Open frequency catalog** lets you browse the full catalog. You can search by name, sort from A to Z or by frequency. Selected rows can be added to the analysis table with the button **Add to analysis**.
     - **Save program** creates and stores a program based on the rows you selected.
 
-**Please note:** the pathogen table is only a comparison with the stored list. It is not a medical diagnosis.
+**Please note:** the results table only lists catalog entries whose frequency is close to your HITS. It is not a medical diagnosis.
 
-Video 8. Match pathogens and browse the pathogen database.
+Video 8. Match HITS to the catalog and browse the frequency catalog.
 
 <div class="guide-video">
   <video controls preload="none" width="100%" src="/assets/videos/pathogens.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
-    <strong>Video 8.</strong> Match pathogens and browse the pathogen database. Watch online:
+    <strong>Video 8.</strong> Match HITS to the catalog and browse the frequency catalog. Watch online:
     <a href="https://fscant-docs.fscan.com/analysis/">fscant-docs/analysis/</a>
   </p>
 </div>

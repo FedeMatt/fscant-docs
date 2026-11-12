@@ -12,7 +12,7 @@ Instrukcja obsługi oprogramowania komputerowego, które współpracuje z Twoim 
 F-SCANT to program instalowany na komputerze, który rozszerza to, co możesz zrobić z urządzeniem F-SCAN. Pozwala:
 
 - **DIRP:** uruchomić nowy DIRP lub zaimportować go z urządzenia F-SCAN
-- **Analiza:** analizować DIRP, dopasowywać patogeny i pracować z programami
+- **Analiza:** analizować DIRP, dopasowywać HITS do katalogu częstotliwości i pracować z programami
 - **Zarządzaj użytkownikami:** zarządzać listą użytkowników, ich DIRP i programami
 - **Ustawienia:** ustawiać format daty i czasu oraz język, importować dane ze starszego oprogramowania
 

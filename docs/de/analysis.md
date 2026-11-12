@@ -21,7 +21,7 @@ Video 7. Analyse öffnen und einen DIRP laden.
   </p>
 </div>
 
-Im Diagramm nutzen **Pathogene abgleichen** und **Programm öffnen** das bereits gespeicherte Clipping-Level.
+Im Diagramm nutzen **Mit Katalog abgleichen** und **Programm öffnen** das bereits gespeicherte Clipping-Level.
 
 ## Das Diagramm lesen
 
@@ -35,31 +35,31 @@ Das Diagramm ist dasselbe wie bei einem Live-Scan:
 
 Die Pfeile neben der DIRP-Nummer öffnen den vorherigen oder nächsten gespeicherten DIRP für diesen Benutzer.
 
-## Pathogene abgleichen
+## HITS mit dem Frequenzkatalog abgleichen
 
-Pathogene abgleichen vergleicht Ihre HITS mit der in F-SCANT gespeicherten Pathogenliste. Für jedes Pathogen auf der Liste wird geprüft, ob dessen Frequenz nahe an einem Ihrer HITS liegt. Wenn ja, erscheint das Pathogen in der Tabelle als mögliche Übereinstimmung.
+**Mit Katalog abgleichen** vergleicht Ihre HITS mit dem in F-SCANT gespeicherten Frequenzkatalog. Für jeden Katalogeintrag wird geprüft, ob dessen Frequenz im Trefferbereich eines Ihrer HITS liegt. Wenn ja, erscheint der Eintrag in der Tabelle als Katalogtreffer.
 
-Was als „nah genug“ gilt, legen Sie mit **Schwelle ± Hz** fest. Das übliche Fenster beträgt 1000 Hz. Ein breiteres Fenster ergibt mehr mögliche Übereinstimmungen, ein engeres weniger. Sie können das Fenster auf dem Ergebnisbildschirm ändern (nicht unter **Einstellungen**).
+Was als „nah genug“ gilt, legen Sie mit **Trefferbereich ± Hz** fest. Der übliche Bereich beträgt 1000 Hz. Ein breiterer Bereich ergibt mehr Katalogtreffer, ein engerer weniger. Sie können den Bereich auf dem Ergebnisbildschirm ändern (nicht unter **Einstellungen**).
 
-So sehen Sie die Übereinstimmungen:
+So sehen Sie die Treffer:
 
 1. Öffnen Sie einen gespeicherten **DIRP**, oder schließen Sie einen neuen ab.
-2. Klicken Sie auf **Pathogene abgleichen**.
-3. Lesen Sie die Tabelle. Ändern Sie **Schwelle ± Hz**, wenn Sie ein breiteres oder engeres Fenster möchten.
+2. Klicken Sie auf **Mit Katalog abgleichen**.
+3. Lesen Sie die Tabelle. Ändern Sie **Trefferbereich ± Hz**, wenn Sie einen breiteren oder engeren Bereich möchten.
 4. Wählen Sie, was als Nächstes geschehen soll:
     - **Exportieren** speichert eine CSV-Tabelle.
-    - **Erregerdatenbank öffnen** ermöglicht Ihnen, die vollständige Liste durchzusuchen. Sie können nach Pathogen suchen und von A bis Z oder nach Frequenz sortieren. Ausgewählte Zeilen können Sie mit der Schaltfläche **Zur Analyse hinzufügen** zur Analysetabelle hinzufügen.
+    - **Frequenzkatalog öffnen** ermöglicht Ihnen, den vollständigen Katalog zu durchsuchen. Sie können nach Namen suchen und von A bis Z oder nach Frequenz sortieren. Ausgewählte Zeilen können Sie mit der Schaltfläche **Zur Analyse hinzufügen** zur Analysetabelle hinzufügen.
     - **Programm speichern** erstellt und speichert ein Programm auf Basis der ausgewählten Zeilen.
 
-**Bitte beachten Sie:** Die Pathogentabelle ist nur ein Vergleich mit der gespeicherten Liste. Sie ist keine medizinische Diagnose.
+**Bitte beachten Sie:** Die Ergebnistabelle listet nur Katalogeinträge, deren Frequenz nahe an Ihren HITS liegt. Sie ist keine medizinische Diagnose.
 
-Video 8. Pathogene abgleichen und die Erregerdatenbank durchsuchen.
+Video 8. HITS mit dem Katalog abgleichen und den Frequenzkatalog durchsuchen.
 
 <div class="guide-video">
   <video controls preload="none" width="100%" src="/assets/videos/pathogens.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
-    <strong>Video 8.</strong> Pathogene abgleichen und die Erregerdatenbank durchsuchen. Online ansehen:
+    <strong>Video 8.</strong> HITS mit dem Katalog abgleichen und den Frequenzkatalog durchsuchen. Online ansehen:
     <a href="https://fscant-docs.fscan.com/de/analysis/">fscant-docs/de/analysis/</a>
   </p>
 </div>

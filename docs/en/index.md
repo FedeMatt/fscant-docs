@@ -12,7 +12,7 @@ Instruction manual for the computer software that works with your F-SCAN.
 F-SCANT is a program you install on your computer, enhancing what you can do with an F-SCAN device. It allows you to:
 
 - **DIRP:** start a new DIRP or import one from your F-SCAN device
-- **Analysis:** analyze DIRPs, match pathogens, and work with programs
+- **Analysis:** analyze DIRPs, match HITS to the frequency catalog, and work with programs
 - **Manage users:** manage your list of users, their DIRPs and programs
 - **Settings:** manage date & time format and language, import data from older software
 

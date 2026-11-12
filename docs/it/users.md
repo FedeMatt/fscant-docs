@@ -31,7 +31,7 @@ Su una riga utente aperta:
 **Gestisci DIRP**
 
 - **Carica DIRP:** apre il grafico DIRP (vedi [Come analizzare un DIRP](analysis.md)).
-- **Analizza patogeni:** apre l’abbinamento patogeni per quel DIRP.
+- **Confronta con il catalogo:** apre il confronto con il catalogo per quel DIRP.
 - **Rimuovi DIRP da questo utente:** elimina quel DIRP da F-SCANT per questo utente.
 - **Cambia posizione di memoria:** imposta un numero di memoria da 1 a 100 per questo utente.
 

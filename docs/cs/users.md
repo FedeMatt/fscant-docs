@@ -31,7 +31,7 @@ Na otevřeném řádku uživatele:
 **Spravovat DIRP**
 
 - **Načíst DIRP:** otevře graf DIRP (viz [Jak analyzovat DIRP](analysis.md)).
-- **Analyzovat patogeny:** otevře přiřazení patogenů pro dané DIRP.
+- **Porovnat s katalogem:** otevře porovnání s katalogem pro dané DIRP.
 - **Odebrat DIRP u tohoto uživatele:** smaže toto DIRP z F-SCANT pro daného uživatele.
 - **Změnit umístění v paměti:** nastaví číslo paměti od 1 do 100 pro tohoto uživatele.
 

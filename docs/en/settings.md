@@ -19,18 +19,20 @@ These settings only change how dates and times look in F-SCANT. They do not chan
 
 The menu shows **EN**, **IT**, **DE**, **PL**, **CZ** (English, Italian, German, Polish, Czech).
 
-Words such as DIRP, Hz, **Fmin**, **Fmax**, **HITS** and **CLIP** stay as they are in every language. People’s names and the pathogen list are also not translated.
+Words such as DIRP, Hz, **Fmin**, **Fmax**, **HITS** and **CLIP** stay as they are in every language. People’s names and the names in the frequency catalog are also not translated.
 
-## How to import from a previous software version
+## How to import and export software data
 
-Under **Import from a previous software version** you can bring in data from older F-SCANT software:
+**Import software data** brings users, DIRPs and the frequency catalog into F-SCANT from any version of the software.
 
-- **Import user data**
-- **Import pathogen list**
+1. Click **Import software data**.
+2. Pick one or more files, at most 50: an F-SCANT backup (`.json`) or an F-SCANT3 file (`.ft3`).
+3. Choose **Add only missing entries** or **Add everything (rename copies)**. Catalog entries with the same name and frequency are never duplicated.
+4. A summary shows what was imported and lists any file that failed.
 
-For each one, click **Choose file** and pick the export from the old software, or paste the text of that export where the screen asks for it. The screen mentions a JSON array; that is simply the file format of the old export.
+**Export software data** saves the users, DIRPs and frequency catalog on this computer to one backup file.
 
-**Please note:** import adds or replaces data on this computer, depending on the file. Check that you have the correct file before you continue. This does not change what is stored on the F-SCAN until you transfer something.
+**Please note:** import adds data on this computer. Check that you have the correct files before you continue. Nothing stored on the F-SCAN changes until you transfer something.
 
 ## Contact TB-Electronics
 

@@ -55,7 +55,7 @@ Plugin: `mkdocs-static-i18n` with `docs_structure: folder` in `mkdocs.yml`.
 
 ### Never translate (see `glossary.md`)
 
-Product names, procedure acronyms, metric labels, presets, file/format names, installer filenames, extension IDs, person names, pathogen names.
+Product names, procedure acronyms, metric labels, presets, file/format names, installer filenames, extension IDs, person names, frequency catalog entry names.
 
 ### Always translate
 

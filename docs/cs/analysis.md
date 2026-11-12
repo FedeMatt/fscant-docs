@@ -21,7 +21,7 @@ Video 7. Otevření Analýzy a načtení DIRP.
   </p>
 </div>
 
-Na grafu **Přiřadit patogeny** a **Otevřít program** používají již uloženou **Úroveň ořezu**.
+Na grafu **Porovnat s katalogem** a **Otevřít program** používají již uloženou **Úroveň ořezu**.
 
 ## Jak číst graf
 
@@ -35,31 +35,31 @@ Graf je stejný jako při živém snímání:
 
 Šipky vedle čísla DIRP otevřou předchozí nebo následující uložené DIRP pro daného uživatele.
 
-## Jak přiřadit patogeny
+## Jak porovnat HITS s katalogem frekvencí
 
-Přiřazení patogenů porovná vaše HITS se seznamem patogenů uloženým ve F-SCANT. U každého patogenu v seznamu zkontroluje, zda je frekvence patogenu blízko některému z vašich HITS. Pokud ano, patogen se v tabulce zobrazí jako možná shoda.
+**Porovnat s katalogem** porovná vaše HITS s katalogem frekvencí uloženým ve F-SCANT. U každé položky katalogu zkontroluje, zda její frekvence leží v rozsahu shody některého z vašich HITS. Pokud ano, položka se v tabulce zobrazí jako shoda v katalogu.
 
-Jak blízko je „dost blízko“, nastavuje **Práh ± Hz**. Obvyklé okno je 1000 Hz. Širší okno dá více možných shod, užší méně. Okno můžete změnit na obrazovce výsledků (ne v **Nastavení**).
+Jak blízko je „dost blízko“, nastavuje **Rozsah shody ± Hz**. Obvyklý rozsah je 1000 Hz. Širší rozsah dá více shod, užší méně. Rozsah můžete změnit na obrazovce výsledků (ne v **Nastavení**).
 
 Pro zobrazení shod:
 
 1. Otevřete uložené **DIRP**, nebo dokončete nové.
-2. Klikněte na **Přiřadit patogeny**.
-3. Prohlédněte tabulku. Změňte **Práh ± Hz**, pokud chcete širší nebo užší okno.
+2. Klikněte na **Porovnat s katalogem**.
+3. Prohlédněte tabulku. Změňte **Rozsah shody ± Hz**, pokud chcete širší nebo užší rozsah.
 4. Zvolte další postup:
     - **Exportovat** uloží tabulku CSV.
-    - **Otevřít databázi patogenů** umožní prohlížet celý seznam. Můžete hledat podle patogenu a řadit od A do Z nebo podle frekvence. Vybrané řádky lze přidat do tabulky analýzy tlačítkem **Přidat do analýzy**.
+    - **Otevřít katalog frekvencí** umožní prohlížet celý katalog. Můžete hledat podle názvu a řadit od A do Z nebo podle frekvence. Vybrané řádky lze přidat do tabulky analýzy tlačítkem **Přidat do analýzy**.
     - **Uložit program** vytvoří a uloží program na základě vybraných řádků.
 
-**Upozornění:** tabulka patogenů je pouze srovnání s uloženým seznamem. Nejde o lékařskou diagnózu.
+**Upozornění:** tabulka výsledků uvádí jen položky katalogu, jejichž frekvence je blízko vašim HITS. Nejde o lékařskou diagnózu.
 
-Video 8. Přiřazení patogenů a prohlížení databáze patogenů.
+Video 8. Porovnání HITS s katalogem a prohlížení katalogu frekvencí.
 
 <div class="guide-video">
   <video controls preload="none" width="100%" src="/assets/videos/pathogens.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
-    <strong>Video 8.</strong> Přiřazení patogenů a prohlížení databáze patogenů. Sledujte online:
+    <strong>Video 8.</strong> Porovnání HITS s katalogem a prohlížení katalogu frekvencí. Sledujte online:
     <a href="https://fscant-docs.fscan.com/cs/analysis/">fscant-docs/cs/analysis/</a>
   </p>
 </div>

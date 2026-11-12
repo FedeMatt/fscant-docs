@@ -19,18 +19,20 @@ Diese Einstellungen ändern nur, wie Datum und Uhrzeit in F-SCANT aussehen. Am F
 
 Das Menü zeigt **EN**, **IT**, **DE**, **PL**, **CZ** (Englisch, Italienisch, Deutsch, Polnisch, Tschechisch).
 
-Wörter wie DIRP, Hz, **Fmin**, **Fmax**, **HITS** und **CLIP** bleiben in jeder Sprache gleich. Personennamen und die Pathogenliste werden ebenfalls nicht übersetzt.
+Wörter wie DIRP, Hz, **Fmin**, **Fmax**, **HITS** und **CLIP** bleiben in jeder Sprache gleich. Personennamen und die Namen im Frequenzkatalog werden ebenfalls nicht übersetzt.
 
-## Import aus einer vorherigen Softwareversion
+## Softwaredaten importieren und exportieren
 
-Unter **Import aus einer vorherigen Softwareversion** können Sie Daten aus älterer F-SCANT-Software übernehmen:
+**Softwaredaten importieren** übernimmt Benutzer, DIRP und den Frequenzkatalog aus jeder Version der Software in F-SCANT.
 
-- **Benutzerdaten importieren**
-- **Pathogenliste importieren**
+1. Klicken Sie auf **Softwaredaten importieren**.
+2. Wählen Sie eine oder mehrere Dateien, höchstens 50: eine F-SCANT-Sicherung (`.json`) oder eine F-SCANT3-Datei (`.ft3`).
+3. Wählen Sie **Nur fehlende Einträge hinzufügen** oder **Alles hinzufügen (Kopien umbenennen)**. Katalogeinträge mit gleichem Namen und gleicher Frequenz werden nicht dupliziert.
+4. Eine Zusammenfassung zeigt, was importiert wurde, und listet fehlgeschlagene Dateien auf.
 
-Für beides klicken Sie auf **Datei wählen** und wählen den Export der alten Software, oder fügen Sie den Text dieses Exports an der vom Bildschirm angegebenen Stelle ein. Der Bildschirm erwähnt ein JSON-Array; das ist einfach das Dateiformat des alten Exports.
+**Softwaredaten exportieren** speichert die Benutzer, DIRP und den Frequenzkatalog dieses Computers in einer Sicherungsdatei.
 
-**Bitte beachten Sie:** Der Import fügt Daten auf diesem Computer hinzu oder ersetzt sie, je nach Datei. Prüfen Sie vor dem Fortfahren, dass Sie die richtige Datei haben. Am Speicher des F-SCAN ändert sich dadurch nichts, bis Sie etwas übertragen.
+**Bitte beachten Sie:** Der Import fügt Daten auf diesem Computer hinzu. Prüfen Sie vor dem Fortfahren, dass Sie die richtigen Dateien haben. Am Speicher des F-SCAN ändert sich dadurch nichts, bis Sie etwas übertragen.
 
 ## TB-Electronics kontaktieren
 
