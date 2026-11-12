@@ -2,9 +2,9 @@
 
 Fai clic sull’ingranaggio nel menu in alto per aprire **Impostazioni**.
 
-Figura 10. **Impostazioni**: formato data, formato 24 ore, lingua e importazione.
+Figura 10. **Impostazioni**: formato data, formato 24 ore, lingua, **Importa dati software** ed **Esporta dati software**.
 
-![Impostazioni: formato data, formato 24 ore, lingua, importazione](../assets/images/fscant-user-guide/17-settings.png)
+![Impostazioni: formato data, formato 24 ore, lingua, Importa dati software, Esporta dati software](../assets/images/fscant-user-guide/17-settings.png)
 
 ## Come impostare data e ora
 

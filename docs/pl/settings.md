@@ -2,9 +2,9 @@
 
 Kliknij koło zębate w górnym menu, aby otworzyć **Ustawienia**.
 
-Rysunek 10. **Ustawienia**: format daty, format 24-godzinny, język i import.
+Rysunek 10. **Ustawienia**: format daty, format 24-godzinny, język, **Importuj dane oprogramowania** i **Eksportuj dane oprogramowania**.
 
-![Ustawienia: format daty, format 24-godzinny, język, import](../assets/images/fscant-user-guide/17-settings.png)
+![Ustawienia: format daty, format 24-godzinny, język, Importuj dane oprogramowania, Eksportuj dane oprogramowania](../assets/images/fscant-user-guide/17-settings.png)
 
 ## Jak ustawić datę i godzinę
 

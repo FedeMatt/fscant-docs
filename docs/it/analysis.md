@@ -49,7 +49,7 @@ Per vedere le corrispondenze:
 4. Scegli cosa fare dopo:
     - **Esporta** salva un foglio CSV.
     - **Apri catalogo frequenze** permette di sfogliare l’intero catalogo. Puoi cercare per nome, ordinare dalla A alla Z o per frequenza. Le righe selezionate si possono aggiungere alla tabella di analisi con il pulsante **Aggiungi all’analisi**.
-    - **Salva programma** crea e memorizza un programma basato sulle righe selezionate.
+    - **Salva come programma** crea e memorizza un programma basato sulle righe selezionate.
 
 **Nota:** la tabella dei risultati elenca solo le voci del catalogo la cui frequenza è vicina ai tuoi HITS. Non è una diagnosi medica.
 
@@ -69,7 +69,7 @@ Video 8. Confrontare gli HITS con il catalogo e sfogliare il catalogo frequenze.
 Un **programma** è l’elenco di frequenze ricavato dagli **HITS** di un DIRP (forma d’onda, tempo, wobble, inviluppo e ampiezza). Modificare un programma non modifica il grafico DIRP originale.
 
 1. Apri il programma in uno di due modi: fai clic su **Apri programma** sul grafico DIRP dopo che il DIRP è completato, oppure usa **Gestisci programma** in **Gestisci utenti**.
-2. Modifica le righe se serve. Puoi cambiare Forma d’onda, Tempo, Wobble, Inviluppo e Ampiezza. Fai clic su **+ Nuova frequenza** per aggiungere una riga.
+2. Modifica le righe se serve. Puoi cambiare Forma d’onda, Tempo, Wobble, Inviluppo e Ampiezza. Fai clic su **+ Nuovo** per aggiungere una riga.
 3. Fai clic su **Salva su** e scegli dove salvarlo:
     - **CSV** salva le frequenze selezionate come foglio di calcolo.
     - **Dispositivo** invia il programma all’F-SCAN (**Needs F-SCAN**). F-SCANT non avvia l’uscita. Premi START sull’F-SCAN quando vuoi eseguirlo.

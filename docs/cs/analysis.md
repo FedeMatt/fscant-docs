@@ -49,7 +49,7 @@ Pro zobrazení shod:
 4. Zvolte další postup:
     - **Exportovat** uloží tabulku CSV.
     - **Otevřít katalog frekvencí** umožní prohlížet celý katalog. Můžete hledat podle názvu a řadit od A do Z nebo podle frekvence. Vybrané řádky lze přidat do tabulky analýzy tlačítkem **Přidat do analýzy**.
-    - **Uložit program** vytvoří a uloží program na základě vybraných řádků.
+    - **Uložit jako program** vytvoří a uloží program na základě vybraných řádků.
 
 **Upozornění:** tabulka výsledků uvádí jen položky katalogu, jejichž frekvence je blízko vašim HITS. Nejde o lékařskou diagnózu.
 
@@ -69,7 +69,7 @@ Video 8. Porovnání HITS s katalogem a prohlížení katalogu frekvencí.
 **Program** je seznam frekvencí převzatých z **HITS** DIRP (tvar vlny, čas, wobble, obálka a amplituda). Změna programu nemění původní graf DIRP.
 
 1. Program otevřete jedním ze dvou způsobů: po dokončení DIRP klikněte na grafu DIRP na **Otevřít program**, nebo použijte **Spravovat program** ve **Spravovat uživatele**.
-2. V případě potřeby upravte řádky. Můžete měnit **Tvar vlny**, **Čas**, **Wobble**, **Obálka** a **Amplituda**. Kliknutím na **+ Nová frekvence** přidáte řádek.
+2. V případě potřeby upravte řádky. Můžete měnit **Tvar vlny**, **Čas**, **Wobble**, **Obálka** a **Amplituda**. Kliknutím na **+ Nový** přidáte řádek.
 3. Klikněte na **Uložit do** a zvolte, kam uložit:
     - **CSV** uloží vybrané frekvence jako tabulkový soubor.
     - **Zařízení** odešle program do F-SCAN (**Needs F-SCAN**). F-SCANT výstup sám nespustí. Až jej chcete spustit, stiskněte na F-SCAN tlačítko START.

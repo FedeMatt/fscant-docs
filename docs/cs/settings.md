@@ -2,9 +2,9 @@
 
 Kliknutím na ozubené kolečko v horní nabídce otevřete **Nastavení**.
 
-Obrázek 10. **Nastavení**: formát data, 24hodinový formát, jazyk a import.
+Obrázek 10. **Nastavení**: formát data, 24hodinový formát, jazyk, **Importovat data softwaru** a **Exportovat data softwaru**.
 
-![Nastavení: formát data, 24hodinový formát, jazyk, import](../assets/images/fscant-user-guide/17-settings.png)
+![Nastavení: formát data, 24hodinový formát, jazyk, Importovat data softwaru, Exportovat data softwaru](../assets/images/fscant-user-guide/17-settings.png)
 
 ## Jak nastavit datum a čas
 

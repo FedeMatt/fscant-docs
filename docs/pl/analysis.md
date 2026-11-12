@@ -49,7 +49,7 @@ Aby zobaczyć dopasowania:
 4. Wybierz, co dalej:
     - **Eksportuj** zapisuje arkusz CSV.
     - **Otwórz katalog częstotliwości** pozwala przeglądać pełny katalog. Możesz szukać po nazwie, sortować od A do Z lub według częstotliwości. Zaznaczone wiersze można dodać do tabeli analizy przyciskiem **Dodaj do analizy**.
-    - **Zapisz program** tworzy i zapisuje program na podstawie zaznaczonych wierszy.
+    - **Zapisz jako program** tworzy i zapisuje program na podstawie zaznaczonych wierszy.
 
 **Uwaga:** tabela wyników zawiera tylko pozycje katalogu, których częstotliwość jest bliska Twoim HITS. Nie jest diagnozą medyczną.
 
@@ -69,7 +69,7 @@ Film 8. Dopasowanie HITS do katalogu i przeglądanie katalogu częstotliwości.
 **Program** to lista częstotliwości wzięta z **HITS** DIRP (przebieg, czas, Wobble, obwiednia i amplituda). Zmiana programu nie zmienia oryginalnego wykresu DIRP.
 
 1. Otwórz program na jeden z dwóch sposobów: kliknij **Otwórz program** na wykresie DIRP po zakończeniu DIRP albo użyj **Zarządzaj programem** w **Zarządzaj użytkownikami**.
-2. W razie potrzeby edytuj wiersze. Możesz zmienić Przebieg, Czas, Wobble, Obwiednię i Amplitudę. Kliknij **+ Nowa częstotliwość**, aby dodać wiersz.
+2. W razie potrzeby edytuj wiersze. Możesz zmienić Przebieg, Czas, Wobble, Obwiednię i Amplitudę. Kliknij **+ Nowy**, aby dodać wiersz.
 3. Kliknij **Zapisz do** i wybierz miejsce zapisu:
     - **CSV** zapisuje wybrane częstotliwości jako plik arkusza.
     - **Urządzenie** wysyła program na F-SCAN (**Needs F-SCAN**). F-SCANT nie uruchamia programu na urządzeniu. Naciśnij START na F-SCAN, gdy chcesz go uruchomić.

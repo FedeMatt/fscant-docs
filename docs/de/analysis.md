@@ -49,7 +49,7 @@ So sehen Sie die Treffer:
 4. Wählen Sie, was als Nächstes geschehen soll:
     - **Exportieren** speichert eine CSV-Tabelle.
     - **Frequenzkatalog öffnen** ermöglicht Ihnen, den vollständigen Katalog zu durchsuchen. Sie können nach Namen suchen und von A bis Z oder nach Frequenz sortieren. Ausgewählte Zeilen können Sie mit der Schaltfläche **Zur Analyse hinzufügen** zur Analysetabelle hinzufügen.
-    - **Programm speichern** erstellt und speichert ein Programm auf Basis der ausgewählten Zeilen.
+    - **Als Programm speichern** erstellt und speichert ein Programm auf Basis der ausgewählten Zeilen.
 
 **Bitte beachten Sie:** Die Ergebnistabelle listet nur Katalogeinträge, deren Frequenz nahe an Ihren HITS liegt. Sie ist keine medizinische Diagnose.
 
@@ -69,7 +69,7 @@ Video 8. HITS mit dem Katalog abgleichen und den Frequenzkatalog durchsuchen.
 Ein **Programm** ist die Frequenzliste aus den **HITS** eines DIRP (Wellenform, Zeit, Wobble, Hüllkurve und Amplitude). Das Ändern eines Programms ändert nicht das ursprüngliche DIRP-Diagramm.
 
 1. Öffnen Sie das Programm auf eine von zwei Arten: Klicken Sie nach Abschluss des DIRP im DIRP-Diagramm auf **Programm öffnen**, oder verwenden Sie **Programm verwalten** unter **Benutzer verwalten**.
-2. Bearbeiten Sie die Zeilen bei Bedarf. Sie können Wellenform, Zeit, Wobble, Hüllkurve und Amplitude ändern. Klicken Sie auf **+ Neue Frequenz**, um eine Zeile hinzuzufügen.
+2. Bearbeiten Sie die Zeilen bei Bedarf. Sie können Wellenform, Zeit, Wobble, Hüllkurve und Amplitude ändern. Klicken Sie auf **+ Neu**, um eine Zeile hinzuzufügen.
 3. Klicken Sie auf **Speichern auf** und wählen Sie den Speicherort:
     - **CSV** speichert die ausgewählten Frequenzen als Tabellendatei.
     - **Gerät** sendet das Programm an den F-SCAN (**Needs F-SCAN**). F-SCANT startet die Ausgabe nicht. Drücken Sie START am F-SCAN, wenn Sie es ausführen möchten.
