@@ -19,18 +19,20 @@ Queste impostazioni cambiano solo il modo in cui data e ora appaiono in F-SCANT.
 
 Il menu mostra **EN**, **IT**, **DE**, **PL**, **CZ** (inglese, italiano, tedesco, polacco, ceco).
 
-Parole come DIRP, Hz, **Fmin**, **Fmax**, **HITS** e **CLIP** restano uguali in ogni lingua. Anche i nomi delle persone e l’elenco patogeni non vengono tradotti.
+Parole come DIRP, Hz, **Fmin**, **Fmax**, **HITS** e **CLIP** restano uguali in ogni lingua. Anche i nomi delle persone e i nomi nel catalogo frequenze non vengono tradotti.
 
-## Come importare da una versione precedente del software
+## Come importare ed esportare i dati del software
 
-Sotto **Importa da una versione precedente** puoi portare dati da software F-SCANT più vecchio:
+**Importa dati software** porta in F-SCANT utenti, DIRP e il catalogo frequenze da qualsiasi versione del software.
 
-- **Importa dati utente**
-- **Importa lista patogeni**
+1. Fai clic su **Importa dati software**.
+2. Scegli uno o più file, al massimo 50: un backup F-SCANT (`.json`) o un file F-SCANT3 (`.ft3`).
+3. Scegli **Aggiungi solo le voci mancanti** o **Aggiungi tutto (rinomina le copie)**. Le voci del catalogo con lo stesso nome e frequenza non vengono mai duplicate.
+4. Un riepilogo mostra cosa è stato importato ed elenca i file non importati.
 
-Per ciascuno, fai clic su **Scegli file** e seleziona l’export del software precedente, oppure incolla il testo di quell’export dove richiesto. Lo schermo indica un array JSON: è semplicemente il formato file del vecchio export.
+**Esporta dati software** salva in un unico file di backup gli utenti, i DIRP e il catalogo frequenze presenti su questo computer.
 
-**Nota:** l’importazione aggiunge o sostituisce dati su questo computer, a seconda del file. Verifica di avere il file corretto prima di continuare. Questo non modifica ciò che è memorizzato sull’F-SCAN finché non trasferisci qualcosa.
+**Nota:** l’importazione aggiunge dati su questo computer. Verifica di avere i file corretti prima di continuare. Ciò che è memorizzato sull’F-SCAN non cambia finché non trasferisci qualcosa.
 
 ## Contatta TB-Electronics
 

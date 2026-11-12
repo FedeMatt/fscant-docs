@@ -12,7 +12,7 @@ Návod k obsluze počítačového softwaru, který pracuje s vaším F-SCAN.
 F-SCANT je program, který nainstalujete na počítač a který rozšiřuje možnosti zařízení F-SCAN. Umožňuje vám:
 
 - **DIRP:** spustit nové DIRP nebo jej importovat ze zařízení F-SCAN
-- **Analýza:** analyzovat DIRP, přiřazovat patogeny a pracovat s programy
+- **Analýza:** analyzovat DIRP, porovnávat HITS s katalogem frekvencí a pracovat s programy
 - **Spravovat uživatele:** spravovat seznam uživatelů, jejich DIRP a programy
 - **Nastavení:** spravovat formát data a času a jazyk, importovat data ze staršího softwaru
 

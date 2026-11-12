@@ -21,7 +21,7 @@ Film 7. Otwarcie Analizy i wczytanie DIRP.
   </p>
 </div>
 
-Na wykresie **Dopasuj patogeny** i **Otwórz program** korzystają z już zapisanego poziomu przycinania.
+Na wykresie **Dopasuj do katalogu** i **Otwórz program** korzystają z już zapisanego poziomu przycinania.
 
 ## Jak czytać wykres
 
@@ -35,31 +35,31 @@ Wykres jest taki sam jak podczas skanu na żywo:
 
 Strzałki obok numeru DIRP otwierają poprzedni lub następny zapisany DIRP tego użytkownika.
 
-## Jak dopasować patogeny
+## Jak dopasować HITS do katalogu częstotliwości
 
-**Dopasuj patogeny** porównuje Twoje HITS z listą patogenów zapisaną w F-SCANT. Dla każdego patogenu na liście sprawdza, czy jego częstotliwość jest bliska któremuś z Twoich HITS. Jeśli tak, patogen pojawia się w tabeli jako możliwe dopasowanie.
+**Dopasuj do katalogu** porównuje Twoje HITS z katalogiem częstotliwości zapisanym w F-SCANT. Dla każdej pozycji katalogu sprawdza, czy jej częstotliwość mieści się w zakresie dopasowania któregoś z Twoich HITS. Jeśli tak, pozycja pojawia się w tabeli jako dopasowanie z katalogu.
 
-**Próg ± Hz** określa, jak blisko muszą być częstotliwości, żeby uznać je za dopasowanie. Typowe okno to 1000 Hz. Szersze okno daje więcej możliwych dopasowań, węższe — mniej. Okno możesz zmienić na ekranie wyników (nie w **Ustawienia**).
+**Zakres dopasowania ± Hz** określa, jak blisko muszą być częstotliwości, żeby uznać je za dopasowanie. Typowy zakres to 1000 Hz. Szerszy zakres daje więcej dopasowań, węższy — mniej. Zakres możesz zmienić na ekranie wyników (nie w **Ustawienia**).
 
 Aby zobaczyć dopasowania:
 
 1. Otwórz zapisany **DIRP** albo dokończ nowy.
-2. Kliknij **Dopasuj patogeny**.
-3. Przeczytaj tabelę. Zmień **Próg ± Hz**, jeśli chcesz szersze lub węższe okno.
+2. Kliknij **Dopasuj do katalogu**.
+3. Przeczytaj tabelę. Zmień **Zakres dopasowania ± Hz**, jeśli chcesz szerszy lub węższy zakres.
 4. Wybierz, co dalej:
     - **Eksportuj** zapisuje arkusz CSV.
-    - **Otwórz bazę patogenów** pozwala przeglądać pełną listę. Możesz szukać po patogenie, sortować od A do Z lub według częstotliwości. Zaznaczone wiersze można dodać do tabeli analizy przyciskiem **Dodaj do analizy**.
+    - **Otwórz katalog częstotliwości** pozwala przeglądać pełny katalog. Możesz szukać po nazwie, sortować od A do Z lub według częstotliwości. Zaznaczone wiersze można dodać do tabeli analizy przyciskiem **Dodaj do analizy**.
     - **Zapisz program** tworzy i zapisuje program na podstawie zaznaczonych wierszy.
 
-**Uwaga:** tabela patogenów to tylko porównanie z zapisaną listą. Nie jest diagnozą medyczną.
+**Uwaga:** tabela wyników zawiera tylko pozycje katalogu, których częstotliwość jest bliska Twoim HITS. Nie jest diagnozą medyczną.
 
-Film 8. Dopasowanie patogenów i przeglądanie bazy patogenów.
+Film 8. Dopasowanie HITS do katalogu i przeglądanie katalogu częstotliwości.
 
 <div class="guide-video">
   <video controls preload="none" width="100%" src="/assets/videos/pathogens.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
-    <strong>Film 8.</strong> Dopasowanie patogenów i przeglądanie bazy patogenów. Obejrzyj online:
+    <strong>Film 8.</strong> Dopasowanie HITS do katalogu i przeglądanie katalogu częstotliwości. Obejrzyj online:
     <a href="https://fscant-docs.fscan.com/pl/analysis/">fscant-docs/pl/analysis/</a>
   </p>
 </div>

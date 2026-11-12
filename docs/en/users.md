@@ -31,7 +31,7 @@ On an open user row:
 **Manage DIRP**
 
 - **Load DIRP:** opens the DIRP chart (see [How to analyze a DIRP](analysis.md)).
-- **Analyze pathogens:** opens pathogen matching for that DIRP.
+- **Match to catalog:** opens catalog matching for that DIRP.
 - **Remove DIRP from this user:** deletes that DIRP from F-SCANT for this user.
 - **Change memory location:** sets a memory number from 1 to 100 for this user.
 

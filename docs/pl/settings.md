@@ -19,18 +19,20 @@ Te ustawienia zmieniają tylko wygląd dat i godzin w F-SCANT. Nie zmieniają F-
 
 Menu pokazuje **EN**, **IT**, **DE**, **PL**, **CZ** (angielski, włoski, niemiecki, polski, czeski).
 
-Słowa takie jak DIRP, Hz, **Fmin**, **Fmax**, **HITS** i **CLIP** pozostają bez zmian w każdym języku. Nazwiska osób i lista patogenów też nie są tłumaczone.
+Słowa takie jak DIRP, Hz, **Fmin**, **Fmax**, **HITS** i **CLIP** pozostają bez zmian w każdym języku. Nazwiska osób i nazwy w katalogu częstotliwości też nie są tłumaczone.
 
-## Jak importować z poprzedniej wersji oprogramowania
+## Jak importować i eksportować dane oprogramowania
 
-W **Import z poprzedniej wersji oprogramowania** możesz wczytać dane ze starszego oprogramowania F-SCANT:
+**Importuj dane oprogramowania** wczytuje do F-SCANT użytkowników, DIRP i katalog częstotliwości z dowolnej wersji oprogramowania.
 
-- **Importuj dane użytkownika**
-- **Importuj listę patogenów**
+1. Kliknij **Importuj dane oprogramowania**.
+2. Wybierz jeden lub więcej plików, co najwyżej 50: kopię F-SCANT (`.json`) albo plik F-SCANT3 (`.ft3`).
+3. Wybierz **Dodaj tylko brakujące pozycje** lub **Dodaj wszystko (zmień nazwy kopii)**. Pozycje katalogu o tej samej nazwie i częstotliwości nigdy nie są duplikowane.
+4. Podsumowanie pokazuje, co zostało zaimportowane, i wymienia pliki, których nie udało się zaimportować.
 
-Dla każdej opcji kliknij **Wybierz plik** i wskaż eksport ze starego oprogramowania albo wklej tekst tego eksportu w miejscu wskazanym na ekranie. Na ekranie jest mowa o tablicy JSON — to po prostu format pliku starego eksportu.
+**Eksportuj dane oprogramowania** zapisuje użytkowników, DIRP i katalog częstotliwości z tego komputera w jednym pliku kopii.
 
-**Uwaga:** import dodaje lub zastępuje dane na tym komputerze, w zależności od pliku. Sprawdź, czy masz właściwy plik, zanim kontynuujesz. To nie zmienia tego, co jest zapisane na F-SCAN, dopóki czegoś nie prześlesz.
+**Uwaga:** import dodaje dane na tym komputerze. Sprawdź, czy masz właściwe pliki, zanim kontynuujesz. To nie zmienia tego, co jest zapisane na F-SCAN, dopóki czegoś nie prześlesz.
 
 ## Kontakt z TB-Electronics
 

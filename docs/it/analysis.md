@@ -21,7 +21,7 @@ Video 7. Aprire Analisi e caricare un DIRP.
   </p>
 </div>
 
-Sul grafico, **Abbina patogeni** e **Apri programma** usano il livello di clipping già salvato.
+Sul grafico, **Confronta con il catalogo** e **Apri programma** usano il livello di clipping già salvato.
 
 ## Come leggere il grafico
 
@@ -35,31 +35,31 @@ Il grafico è lo stesso di una scansione in tempo reale:
 
 Le frecce accanto al numero DIRP aprono il DIRP salvato precedente o successivo di quell’utente.
 
-## Come abbinare i patogeni
+## Come confrontare gli HITS con il catalogo frequenze
 
-**Abbina patogeni** confronta i tuoi HITS con l’elenco patogeni memorizzato in F-SCANT. Per ogni patogeno dell’elenco, verifica se la sua frequenza è vicina a uno dei tuoi HITS. Se lo è, il patogeno compare nella tabella come possibile corrispondenza.
+**Confronta con il catalogo** confronta i tuoi HITS con il catalogo frequenze memorizzato in F-SCANT. Per ogni voce del catalogo, verifica se la sua frequenza rientra nell’intervallo di corrispondenza di uno dei tuoi HITS. Se è così, la voce compare nella tabella come corrispondenza nel catalogo.
 
-Quanto deve essere “abbastanza vicino” lo definisce **Soglia ± Hz**. Di solito la finestra è di 1000 Hz. Una finestra più ampia produce più possibili corrispondenze; una più stretta ne produce meno. Puoi cambiare la finestra nella schermata dei risultati (non in **Impostazioni**).
+Quanto deve essere “abbastanza vicino” lo definisce **Intervallo di corrispondenza ± Hz**. Di solito l’intervallo è di 1000 Hz. Un intervallo più ampio produce più corrispondenze; uno più stretto ne produce meno. Puoi cambiare l’intervallo nella schermata dei risultati (non in **Impostazioni**).
 
 Per vedere le corrispondenze:
 
 1. Apri un **DIRP** salvato, oppure terminane uno nuovo.
-2. Fai clic su **Abbina patogeni**.
-3. Leggi la tabella. Modifica **Soglia ± Hz** se vuoi una finestra più ampia o più stretta.
+2. Fai clic su **Confronta con il catalogo**.
+3. Leggi la tabella. Modifica **Intervallo di corrispondenza ± Hz** se vuoi un intervallo più ampio o più stretto.
 4. Scegli cosa fare dopo:
     - **Esporta** salva un foglio CSV.
-    - **Apri database patogeni** permette di sfogliare l’elenco completo. Puoi cercare per patogeno, ordinare dalla A alla Z o per frequenza. Le righe selezionate si possono aggiungere alla tabella di analisi con il pulsante **Aggiungi all’analisi**.
+    - **Apri catalogo frequenze** permette di sfogliare l’intero catalogo. Puoi cercare per nome, ordinare dalla A alla Z o per frequenza. Le righe selezionate si possono aggiungere alla tabella di analisi con il pulsante **Aggiungi all’analisi**.
     - **Salva programma** crea e memorizza un programma basato sulle righe selezionate.
 
-**Nota:** la tabella patogeni è solo un confronto con l’elenco memorizzato. Non è una diagnosi medica.
+**Nota:** la tabella dei risultati elenca solo le voci del catalogo la cui frequenza è vicina ai tuoi HITS. Non è una diagnosi medica.
 
-Video 8. Abbinare patogeni e sfogliare il database patogeni.
+Video 8. Confrontare gli HITS con il catalogo e sfogliare il catalogo frequenze.
 
 <div class="guide-video">
   <video controls preload="none" width="100%" src="/assets/videos/pathogens.mp4">
   </video>
   <p class="guide-video-fallback" hidden>
-    <strong>Video 8.</strong> Abbinare patogeni e sfogliare il database patogeni. Guarda online:
+    <strong>Video 8.</strong> Confrontare gli HITS con il catalogo e sfogliare il catalogo frequenze. Guarda online:
     <a href="https://fscant-docs.fscan.com/it/analysis/">fscant-docs/it/analysis/</a>
   </p>
 </div>

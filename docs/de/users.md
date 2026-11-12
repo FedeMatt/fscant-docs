@@ -31,7 +31,7 @@ In einer geöffneten Benutzerzeile:
 **DIRP verwalten**
 
 - **DIRP laden:** öffnet das DIRP-Diagramm (siehe [DIRP analysieren](analysis.md)).
-- **Pathogene analysieren:** öffnet den Pathogenabgleich für diesen DIRP.
+- **Mit Katalog abgleichen:** öffnet den Katalogabgleich für diesen DIRP.
 - **DIRP von diesem Benutzer entfernen:** löscht diesen DIRP in F-SCANT für diesen Benutzer.
 - **Speicherort ändern:** setzt eine Speichernummer von 1 bis 100 für diesen Benutzer.
 

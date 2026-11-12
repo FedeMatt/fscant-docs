@@ -11,7 +11,7 @@ Compressed MP4s published with the site (encode from gitignored `videos-images/`
 | `custom-frequencies-selection.mp4` | Video 5 — custom frequency range |
 | `live-dirp.mp4` | Video 6 — live DIRP |
 | `analysis-navigation.mp4` | Video 7 — Analysis / load DIRP |
-| `pathogens.mp4` | Video 8 — pathogen match / database |
+| `pathogens.mp4` | Video 8 — catalog match / frequency catalog |
 | `dirp-comparison.mp4` | Video 9 — compare two DIRPs |
 
 Do not commit originals from `videos-images/`.

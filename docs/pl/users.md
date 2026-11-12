@@ -31,7 +31,7 @@ Na otwartym wierszu użytkownika:
 **Zarządzaj DIRP**
 
 - **Wczytaj DIRP:** otwiera wykres DIRP (zobacz [Jak analizować DIRP](analysis.md)).
-- **Analizuj patogeny:** otwiera dopasowanie patogenów dla tego DIRP.
+- **Dopasuj do katalogu:** otwiera dopasowanie do katalogu dla tego DIRP.
 - **Usuń DIRP u tego użytkownika:** usuwa ten DIRP z F-SCANT dla tego użytkownika.
 - **Zmień lokalizację pamięci:** ustawia numer pamięci od 1 do 100 dla tego użytkownika.
 
