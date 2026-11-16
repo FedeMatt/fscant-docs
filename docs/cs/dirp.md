@@ -41,7 +41,7 @@ Video 4. Vytvoření nového uživatele a spuštění DIRP.
 Obrazovka rozsahu nabízí:
 
 - **Vybrat naposledy použité:** poslední **Fmin**, **Fmax** a **Delta F**, které jste použili ve F-SCANT (poprvé je to 300 kHz až 450 kHz v krocích 150 Hz)
-- **nebo vyberte možnost:** připravené rozsahy **CLARK**, **RIFE**, **DIRP 290k**, **DIRP 390k**, **DIRP 490k**
+- **nebo vyberte možnost:** připravené rozsahy **DIRP 290k**, **DIRP 390k**, **DIRP 490k**, **CLARK**
 - **Vlastní:** zadejte vlastní **Fmin**, **Fmax** a **Delta F**
 
 **Fmin** je začátek snímání. **Fmax** je jeho konec. **Delta F** je rozestup mezi jednou frekvencí a další. Pole **Režim DIRP** u daného rozsahu zobrazuje **AUTO** nebo **FAST**.

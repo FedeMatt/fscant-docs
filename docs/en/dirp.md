@@ -41,7 +41,7 @@ Video 4. Create a new user, then start a DIRP.
 The range screen offers:
 
 - **Select last used values:** the last **Fmin**, **Fmax** and **Delta F** you used in F-SCANT (the first time, this is 300 kHz to 450 kHz, in steps of 150 Hz)
-- **or select an option:** ready-made ranges **CLARK**, **RIFE**, **DIRP 290k**, **DIRP 390k**, **DIRP 490k**
+- **or select an option:** ready-made ranges **DIRP 290k**, **DIRP 390k**, **DIRP 490k**, **CLARK**
 - **Custom:** type your own **Fmin**, **Fmax** and **Delta F**
 
 **Fmin** is where the scan starts. **Fmax** is where it ends. **Delta F** is the gap between one frequency and the next. The **DIRP mode** field shows **AUTO** or **FAST** for that range.

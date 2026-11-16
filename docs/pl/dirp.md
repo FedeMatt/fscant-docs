@@ -41,7 +41,7 @@ Film 4. Tworzenie nowego użytkownika, potem start DIRP.
 Ekran zakresu oferuje:
 
 - **Wybierz ostatnie wartości:** ostatnie **Fmin**, **Fmax** i **Delta F** użyte w F-SCANT (za pierwszym razem: od 300 kHz do 450 kHz, w krokach 150 Hz)
-- **lub wybierz opcję:** gotowe zakresy **CLARK**, **RIFE**, **DIRP 290k**, **DIRP 390k**, **DIRP 490k**
+- **lub wybierz opcję:** gotowe zakresy **DIRP 290k**, **DIRP 390k**, **DIRP 490k**, **CLARK**
 - **Niestandardowy:** wpisz własne **Fmin**, **Fmax** i **Delta F**
 
 **Fmin** to początek skanu. **Fmax** to koniec. **Delta F** to odstęp między kolejnymi częstotliwościami. Pole **Tryb DIRP** pokazuje **AUTO** lub **FAST** dla tego zakresu.
