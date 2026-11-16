@@ -41,7 +41,7 @@ Video 4. Creare un nuovo utente, poi avviare un DIRP.
 La schermata dell’intervallo offre:
 
 - **Seleziona ultimi valori:** gli ultimi **Fmin**, **Fmax** e **Delta F** usati in F-SCANT (la prima volta: da 300 kHz a 450 kHz, a passi di 150 Hz)
-- **oppure scegli un’opzione:** intervalli pronti **CLARK**, **RIFE**, **DIRP 290k**, **DIRP 390k**, **DIRP 490k**
+- **oppure scegli un’opzione:** intervalli pronti **DIRP 290k**, **DIRP 390k**, **DIRP 490k**, **CLARK**
 - **Personalizzato:** digita i tuoi **Fmin**, **Fmax** e **Delta F**
 
 **Fmin** è dove inizia la scansione. **Fmax** è dove termina. **Delta F** è lo scarto tra una frequenza e la successiva. Il campo **Modalità DIRP** mostra **AUTO** o **FAST** per quell’intervallo.

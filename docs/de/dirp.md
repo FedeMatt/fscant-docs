@@ -41,7 +41,7 @@ Video 4. Neuen Benutzer anlegen und dann einen DIRP starten.
 Der Bereichsbildschirm bietet:
 
 - **Zuletzt verwendete Werte:** die letzten **Fmin**-, **Fmax**- und **Delta F**-Werte, die Sie in F-SCANT verwendet haben (beim ersten Mal sind das 300 kHz bis 450 kHz, in Schritten von 150 Hz)
-- **oder eine Option wählen:** vorgefertigte Bereiche **CLARK**, **RIFE**, **DIRP 290k**, **DIRP 390k**, **DIRP 490k**
+- **oder eine Option wählen:** vorgefertigte Bereiche **DIRP 290k**, **DIRP 390k**, **DIRP 490k**, **CLARK**
 - **Benutzerdefiniert:** eigene Werte für **Fmin**, **Fmax** und **Delta F** eingeben
 
 **Fmin** ist der Start des Scans. **Fmax** ist das Ende. **Delta F** ist der Abstand zwischen einer Frequenz und der nächsten. Das Feld **DIRP-Modus** zeigt **AUTO** oder **FAST** für diesen Bereich.
