@@ -26,9 +26,11 @@ Słowa takie jak DIRP, Hz, **Fmin**, **Fmax**, **HITS** i **CLIP** pozostają be
 **Importuj dane oprogramowania** wczytuje do F-SCANT użytkowników, DIRP i katalog częstotliwości z dowolnej wersji oprogramowania.
 
 1. Kliknij **Importuj dane oprogramowania**.
-2. Wybierz jeden lub więcej plików, co najwyżej 50: kopię F-SCANT (`.json`) albo plik F-SCANT3 (`.ft3`).
-3. Wybierz **Dodaj tylko brakujące pozycje** lub **Dodaj wszystko (zmień nazwy kopii)**. Pozycje katalogu o tej samej nazwie i częstotliwości nigdy nie są duplikowane.
-4. Podsumowanie pokazuje, co zostało zaimportowane, i wymienia pliki, których nie udało się zaimportować.
+2. Wybierz jeden lub więcej plików, co najwyżej 10 000: kopię F-SCANT (`.json`) albo plik F-SCANT3 (`.ft3`).
+3. Wybierz **Dodaj tylko brakujące pozycje** lub **Dodaj wszystkie pozycje (zmień nazwy duplikatów)**. Pozycje katalogu o tej samej nazwie i częstotliwości nigdy nie są duplikowane.
+4. Podczas importu pasek postępu pokazuje **Importowanie … z … plików**, ile plików udało się i nie udało się do tej pory oraz szacowany pozostały czas. Duże importy mogą potrwać kilka minut.
+5. Podczas importu możesz nacisnąć **Anuluj**. Pliki w trakcie importu zostaną dokończone, nic więcej nie zostanie zaimportowane, a już zaimportowane pliki pozostaną na tym komputerze. Podsumowanie pokazuje, ile plików zaimportowano przed anulowaniem.
+6. Podsumowanie pokazuje, ilu użytkowników utworzono lub przemianowano, ile DIRP utworzono lub pominięto oraz ile pozycji katalogu utworzono, pominięto lub zaktualizowano, a także pliki, których nie udało się zaimportować. Jeśli nie uda się więcej niż pięć plików, **Eksportuj listę błędów** zapisuje pełną listę z powodem dla każdego. Pojedynczy udany plik może pokazać krótsze potwierdzenie.
 
 **Eksportuj dane oprogramowania** zapisuje użytkowników, DIRP i katalog częstotliwości z tego komputera w jednym pliku kopii.
 

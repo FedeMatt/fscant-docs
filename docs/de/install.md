@@ -15,8 +15,9 @@ Wenn Windows fragt, ob Apps erlaubt werden sollen, die nicht aus dem Store stamm
 ## Installation auf einem Mac
 
 1. Entpacken Sie die erhaltene ZIP-Datei (Name beginnt mit **F-SCANT-macos-arm64** auf Apple Silicon oder **F-SCANT-macos-x64** auf Intel). Kopieren Sie **F-SCANT** in den Ordner Programme.
-2. Installieren Sie den USB-Helper, der sich im selben Ordner wie F-SCANT befindet. Lesen Sie zuerst **SILICON-LABS-VCP-LICENSE.txt**. Öffnen Sie **Mac_OSX_VCP_Driver.zip**, öffnen Sie das Disk-Image darin und führen Sie **Install CP210x VCP Driver** aus. Dieser Helper ermöglicht dem Mac, den F-SCAN über USB zu erkennen.
-3. Wenn macOS Sie auffordert, Software von Silicon Labs zuzulassen, schalten Sie diese Berechtigung ein. Nach dem Installer erlauben Sie den Treiber unter **Systemeinstellungen → Allgemein → Anmeldeobjekte & Erweiterungen**: unter **Erweiterungen** öffnen Sie **Treibererweiterungen**, schalten Sie **CP210xVCPDriver** (`com.silabs.cp210x`) ein und geben Sie bei Bedarf Ihr Mac-Passwort ein. Die vollständigen Schritte und Video 1 finden Sie unter [F-SCAN auf einem Mac verbinden](connect-mac.md).
-4. Öffnen Sie **F-SCANT**.
+2. Lesen Sie **F-SCANT-LICENSE.txt** in diesem Ordner.
+3. Installieren Sie den USB-Helper, der sich im selben Ordner wie F-SCANT befindet. Lesen Sie zuerst **SILICON-LABS-VCP-LICENSE.txt**. Öffnen Sie **Mac_OSX_VCP_Driver.zip**, öffnen Sie das Disk-Image darin und führen Sie **Install CP210x VCP Driver** aus. Dieser Helper ermöglicht dem Mac, den F-SCAN über USB zu erkennen.
+4. Wenn macOS Sie auffordert, Software von Silicon Labs zuzulassen, schalten Sie diese Berechtigung ein. Nach dem Installer erlauben Sie den Treiber unter **Systemeinstellungen → Allgemein → Anmeldeobjekte & Erweiterungen**: unter **Erweiterungen** öffnen Sie **Treibererweiterungen**, schalten Sie **CP210xVCPDriver** (`com.silabs.cp210x`) ein und geben Sie bei Bedarf Ihr Mac-Passwort ein. Die vollständigen Schritte und Video 1 finden Sie unter [F-SCAN auf einem Mac verbinden](connect-mac.md).
+5. Öffnen Sie **F-SCANT**. Beim ersten Öffnen dieser Version lesen Sie die Lizenz und klicken Sie auf **Agree**. Klicken Sie auf **Quit**, wenn Sie nicht zustimmen.
 
 Wenn macOS meldet, dass der Entwickler nicht verifiziert werden kann, blockiert der Mac eine App, die nicht aus dem App Store stammt. Das ist bei F-SCANT zu erwarten. Öffnen Sie sie mit den Apple-Schritten [Open Anyway](https://support.apple.com/en-us/102445) nur für diese eine App. Sie müssen die Sicherheit nicht für jede App auf dem Mac deaktivieren.

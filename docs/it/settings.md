@@ -26,9 +26,11 @@ Parole come DIRP, Hz, **Fmin**, **Fmax**, **HITS** e **CLIP** restano uguali in 
 **Importa dati software** porta in F-SCANT utenti, DIRP e il catalogo frequenze da qualsiasi versione del software.
 
 1. Fai clic su **Importa dati software**.
-2. Scegli uno o più file, al massimo 50: un backup F-SCANT (`.json`) o un file F-SCANT3 (`.ft3`).
-3. Scegli **Aggiungi solo le voci mancanti** o **Aggiungi tutto (rinomina le copie)**. Le voci del catalogo con lo stesso nome e frequenza non vengono mai duplicate.
-4. Un riepilogo mostra cosa è stato importato ed elenca i file non importati.
+2. Scegli uno o più file, al massimo 10.000: un backup F-SCANT (`.json`) o un file F-SCANT3 (`.ft3`).
+3. Scegli **Aggiungi solo le voci mancanti** o **Aggiungi tutte le voci (rinomina i duplicati)**. Le voci del catalogo con lo stesso nome e frequenza non vengono mai duplicate.
+4. Mentre l’importazione è in corso, una barra di avanzamento mostra **Importazione di … file su …**, quanti file sono riusciti e non riusciti finora, e una stima del tempo rimanente. Le importazioni grandi possono richiedere diversi minuti.
+5. Puoi premere **Annulla** durante un’importazione. I file in corso di importazione terminano, non viene importato altro e i file già importati restano su questo computer. Il riepilogo indica quanti file sono stati importati prima dell’annullamento.
+6. Un riepilogo mostra quanti utenti sono stati creati o rinominati, quanti DIRP creati o saltati e quante voci del catalogo create, saltate o aggiornate, oltre ai file non riusciti. Se falliscono più di cinque file, **Esporta elenco errori** salva l’elenco completo con il motivo di ciascuno. Un singolo file importato con successo può mostrare una conferma più breve.
 
 **Esporta dati software** salva in un unico file di backup gli utenti, i DIRP e il catalogo frequenze presenti su questo computer.
 

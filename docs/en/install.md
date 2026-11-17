@@ -15,8 +15,9 @@ If Windows asks you to allow apps that did not come from the store, allow it for
 ## How to install on a Mac
 
 1. Extract the ZIP you received (name starts with **F-SCANT-macos-arm64** on Apple Silicon, or **F-SCANT-macos-x64** on Intel). Copy **F-SCANT** into the Applications folder.
-2. Install the USB helper that came in the same folder as F-SCANT. Read **SILICON-LABS-VCP-LICENSE.txt** first. Open **Mac_OSX_VCP_Driver.zip**, open the disk image inside, and run **Install CP210x VCP Driver**. This helper lets the Mac see the F-SCAN on USB.
-3. When macOS asks you to allow software from Silicon Labs, turn that permission on. After the installer finishes, allow the driver in **System Settings → General → Login Items & Extensions**: under **Extensions**, open **Driver Extensions**, turn on **CP210xVCPDriver** (`com.silabs.cp210x`), and enter your Mac password if asked. The full steps and Video 1 are in [Connect the F-SCAN on a Mac](connect-mac.md).
-4. Open **F-SCANT**.
+2. Read **F-SCANT-LICENSE.txt** in that folder.
+3. Install the USB helper that came in the same folder as F-SCANT. Read **SILICON-LABS-VCP-LICENSE.txt** first. Open **Mac_OSX_VCP_Driver.zip**, open the disk image inside, and run **Install CP210x VCP Driver**. This helper lets the Mac see the F-SCAN on USB.
+4. When macOS asks you to allow software from Silicon Labs, turn that permission on. After the installer finishes, allow the driver in **System Settings → General → Login Items & Extensions**: under **Extensions**, open **Driver Extensions**, turn on **CP210xVCPDriver** (`com.silabs.cp210x`), and enter your Mac password if asked. The full steps and Video 1 are in [Connect the F-SCAN on a Mac](connect-mac.md).
+5. Open **F-SCANT**. On first open of this version, read the license and click **Agree**. Click **Quit** if you do not agree.
 
 If macOS says the developer cannot be verified, it means the Mac is blocking an app that did not come from the App Store. That is expected for F-SCANT. Open it with Apple’s [Open Anyway](https://support.apple.com/en-us/102445) steps for this one app. You do not need to turn off security for every app on the Mac.

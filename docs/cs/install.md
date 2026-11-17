@@ -15,8 +15,9 @@ Pokud Windows požádá o povolení aplikací, které nepocházejí z obchodu, p
 ## Jak nainstalovat na Macu
 
 1. Rozbalte ZIP, který jste obdrželi (název začíná **F-SCANT-macos-arm64** na Apple Silicon, nebo **F-SCANT-macos-x64** na Intelu). Zkopírujte **F-SCANT** do složky Aplikace.
-2. Nainstalujte USB ovladač, který je ve stejné složce jako F-SCANT. Nejprve si přečtěte **SILICON-LABS-VCP-LICENSE.txt**. Otevřete **Mac_OSX_VCP_Driver.zip**, otevřete diskový obraz uvnitř a spusťte **Install CP210x VCP Driver**. Tento ovladač umožní Macu rozpoznat F-SCAN přes USB.
-3. Když macOS požádá o povolení softwaru od Silicon Labs, toto oprávnění zapněte. Po dokončení instalátoru povolte ovladač v **Nastavení systému → Obecné → Přihlašovací položky a rozšíření**: pod **Rozšíření** otevřete **Rozšíření ovladačů**, zapněte **CP210xVCPDriver** (`com.silabs.cp210x`) a v případě potřeby zadejte heslo Macu. Podrobné kroky a Video 1 jsou v [Připojení F-SCAN na Macu](connect-mac.md).
-4. Otevřete **F-SCANT**.
+2. Přečtěte si **F-SCANT-LICENSE.txt** v této složce.
+3. Nainstalujte USB ovladač, který je ve stejné složce jako F-SCANT. Nejprve si přečtěte **SILICON-LABS-VCP-LICENSE.txt**. Otevřete **Mac_OSX_VCP_Driver.zip**, otevřete diskový obraz uvnitř a spusťte **Install CP210x VCP Driver**. Tento ovladač umožní Macu rozpoznat F-SCAN přes USB.
+4. Když macOS požádá o povolení softwaru od Silicon Labs, toto oprávnění zapněte. Po dokončení instalátoru povolte ovladač v **Nastavení systému → Obecné → Přihlašovací položky a rozšíření**: pod **Rozšíření** otevřete **Rozšíření ovladačů**, zapněte **CP210xVCPDriver** (`com.silabs.cp210x`) a v případě potřeby zadejte heslo Macu. Podrobné kroky a Video 1 jsou v [Připojení F-SCAN na Macu](connect-mac.md).
+5. Otevřete **F-SCANT**. Při prvním otevření této verze si přečtěte licenci a klikněte na **Agree**. Klikněte na **Quit**, pokud nesouhlasíte.
 
 Pokud macOS uvede, že vývojáře nelze ověřit, znamená to, že Mac blokuje aplikaci, která nepochází z App Store. U F-SCANT je to očekávané. Otevřete ji podle pokynů Apple [Open Anyway](https://support.apple.com/en-us/102445) pro tuto jednu aplikaci. Nemusíte vypínat zabezpečení pro všechny aplikace na Macu.

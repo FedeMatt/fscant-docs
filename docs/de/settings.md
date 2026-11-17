@@ -26,9 +26,11 @@ Wörter wie DIRP, Hz, **Fmin**, **Fmax**, **HITS** und **CLIP** bleiben in jeder
 **Softwaredaten importieren** übernimmt Benutzer, DIRP und den Frequenzkatalog aus jeder Version der Software in F-SCANT.
 
 1. Klicken Sie auf **Softwaredaten importieren**.
-2. Wählen Sie eine oder mehrere Dateien, höchstens 50: eine F-SCANT-Sicherung (`.json`) oder eine F-SCANT3-Datei (`.ft3`).
-3. Wählen Sie **Nur fehlende Einträge hinzufügen** oder **Alles hinzufügen (Kopien umbenennen)**. Katalogeinträge mit gleichem Namen und gleicher Frequenz werden nicht dupliziert.
-4. Eine Zusammenfassung zeigt, was importiert wurde, und listet fehlgeschlagene Dateien auf.
+2. Wählen Sie eine oder mehrere Dateien, höchstens 10.000: eine F-SCANT-Sicherung (`.json`) oder eine F-SCANT3-Datei (`.ft3`).
+3. Wählen Sie **Nur fehlende Einträge hinzufügen** oder **Alle Einträge hinzufügen (Duplikate umbenennen)**. Katalogeinträge mit gleichem Namen und gleicher Frequenz werden nicht dupliziert.
+4. Während des Imports zeigt ein Fortschrittsbalken **Importiere … von … Dateien**, wie viele Dateien bisher erfolgreich und fehlgeschlagen sind, und eine Schätzung der verbleibenden Zeit. Große Importe können mehrere Minuten dauern.
+5. Sie können während eines Imports **Abbrechen** drücken. Die gerade importierten Dateien werden noch fertiggestellt, es wird nichts Weiteres importiert, und bereits importierte Dateien bleiben auf diesem Computer. Die Zusammenfassung zeigt, wie viele Dateien vor dem Abbruch importiert wurden.
+6. Eine Zusammenfassung zeigt, wie viele Benutzer erstellt oder umbenannt, wie viele DIRP erstellt oder übersprungen und wie viele Katalogeinträge erstellt, übersprungen oder aktualisiert wurden, sowie die fehlgeschlagenen Dateien. Wenn mehr als fünf Dateien fehlschlagen, speichert **Fehlerliste exportieren** die vollständige Liste mit dem Grund für jede Datei. Eine einzelne erfolgreiche Datei kann eine kürzere Bestätigung zeigen.
 
 **Softwaredaten exportieren** speichert die Benutzer, DIRP und den Frequenzkatalog dieses Computers in einer Sicherungsdatei.
 

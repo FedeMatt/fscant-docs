@@ -26,9 +26,11 @@ Výrazy jako DIRP, Hz, **Fmin**, **Fmax**, **HITS** a **CLIP** zůstávají ve v
 **Importovat data softwaru** načte do F-SCANT uživatele, DIRP a katalog frekvencí z jakékoli verze softwaru.
 
 1. Klikněte na **Importovat data softwaru**.
-2. Vyberte jeden nebo více souborů, nejvýše 50: zálohu F-SCANT (`.json`) nebo soubor F-SCANT3 (`.ft3`).
-3. Zvolte **Přidat jen chybějící položky** nebo **Přidat vše (kopie přejmenovat)**. Položky katalogu se stejným názvem a frekvencí se nikdy neduplikují.
-4. Souhrn ukáže, co bylo importováno, a vypíše soubory, které se importovat nepodařilo.
+2. Vyberte jeden nebo více souborů, nejvýše 10 000: zálohu F-SCANT (`.json`) nebo soubor F-SCANT3 (`.ft3`).
+3. Zvolte **Přidat jen chybějící položky** nebo **Přidat všechny položky (duplikáty přejmenovat)**. Položky katalogu se stejným názvem a frekvencí se nikdy neduplikují.
+4. Během importu ukazatel průběhu zobrazuje **Importuji … z … souborů**, kolik souborů zatím uspělo a selhalo a odhad zbývajícího času. Velké importy mohou trvat několik minut.
+5. Během importu můžete stisknout **Zrušit**. Soubory právě importované se ještě dokončí, nic dalšího se neimportuje a již importované soubory zůstanou v tomto počítači. Souhrn uvede, kolik souborů bylo importováno před zrušením.
+6. Souhrn ukáže, kolik uživatelů bylo vytvořeno nebo přejmenováno, kolik DIRP vytvořeno nebo přeskočeno a kolik položek katalogu vytvořeno, přeskočeno nebo aktualizováno, plus soubory, které selhaly. Pokud selže více než pět souborů, **Exportovat seznam chyb** uloží úplný seznam s důvodem u každého. Jeden úspěšný soubor může ukázat kratší potvrzení.
 
 **Exportovat data softwaru** uloží uživatele, DIRP a katalog frekvencí z tohoto počítače do jednoho záložního souboru.
 

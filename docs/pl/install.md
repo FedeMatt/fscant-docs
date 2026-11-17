@@ -15,8 +15,9 @@ Jeśli Windows poprosi o zezwolenie na aplikacje spoza sklepu, zezwól na tę in
 ## Jak zainstalować na Macu
 
 1. Rozpakuj otrzymany ZIP (nazwa zaczyna się od **F-SCANT-macos-arm64** na Apple Silicon albo **F-SCANT-macos-x64** na Intelu). Skopiuj **F-SCANT** do folderu Aplikacje.
-2. Zainstaluj sterownik USB dołączony w tym samym folderze co F-SCANT. Najpierw przeczytaj **SILICON-LABS-VCP-LICENSE.txt**. Otwórz **Mac_OSX_VCP_Driver.zip**, otwórz obraz dysku wewnątrz i uruchom **Install CP210x VCP Driver**. Ten sterownik pozwala Macowi zobaczyć F-SCAN przez USB.
-3. Gdy macOS poprosi o zezwolenie na oprogramowanie Silicon Labs, włącz to uprawnienie. Po zakończeniu instalatora zezwól na sterownik w **Ustawienia systemowe → Ogólne → Elementy logowania i rozszerzenia**: w **Rozszerzenia** otwórz **Rozszerzenia sterowników**, włącz **CP210xVCPDriver** (`com.silabs.cp210x`) i w razie potrzeby wpisz hasło Maca. Pełne kroki oraz Film 1 znajdziesz w [Podłączanie F-SCAN na Macu](connect-mac.md).
-4. Otwórz **F-SCANT**.
+2. Przeczytaj **F-SCANT-LICENSE.txt** w tym folderze.
+3. Zainstaluj sterownik USB dołączony w tym samym folderze co F-SCANT. Najpierw przeczytaj **SILICON-LABS-VCP-LICENSE.txt**. Otwórz **Mac_OSX_VCP_Driver.zip**, otwórz obraz dysku wewnątrz i uruchom **Install CP210x VCP Driver**. Ten sterownik pozwala Macowi zobaczyć F-SCAN przez USB.
+4. Gdy macOS poprosi o zezwolenie na oprogramowanie Silicon Labs, włącz to uprawnienie. Po zakończeniu instalatora zezwól na sterownik w **Ustawienia systemowe → Ogólne → Elementy logowania i rozszerzenia**: w **Rozszerzenia** otwórz **Rozszerzenia sterowników**, włącz **CP210xVCPDriver** (`com.silabs.cp210x`) i w razie potrzeby wpisz hasło Maca. Pełne kroki oraz Film 1 znajdziesz w [Podłączanie F-SCAN na Macu](connect-mac.md).
+5. Otwórz **F-SCANT**. Przy pierwszym otwarciu tej wersji przeczytaj licencję i kliknij **Agree**. Kliknij **Quit**, jeśli nie akceptujesz.
 
 Jeśli macOS zgłosi, że deweloper nie może zostać zweryfikowany, oznacza to, że Mac blokuje aplikację spoza App Store. Dla F-SCANT to normalne. Otwórz ją według kroków Apple [Open Anyway](https://support.apple.com/en-us/102445) tylko dla tej jednej aplikacji. Nie musisz wyłączać zabezpieczeń dla wszystkich aplikacji na Macu.
