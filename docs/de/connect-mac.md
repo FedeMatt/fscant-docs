@@ -50,7 +50,7 @@ Wenn macOS zusätzlich eine separate Schaltfläche anzeigt, um Systemsoftware vo
 
 ## 3. F-SCAN anschließen
 
-Schalten Sie den F-SCAN ein und lassen Sie ihn auf dem Startbildschirm. Stellen Sie im SETUP-Menü des Geräts sicher, dass AUTO OFF deaktiviert ist. Stecken Sie das USB-Kabel in den Mac oder über einen Hub bzw. ein Dock.
+Schalten Sie den F-SCAN ein und lassen Sie ihn auf dem Startbildschirm. Stellen Sie im SETUP-Menü des Geräts sicher, dass AUTO OFF deaktiviert ist. Stecken Sie das USB-Kabel in den Mac oder über einen Hub bzw. ein Dock. Wenn **Verbinden** fehlschlägt, versuchen Sie einen USB-Anschluss am Mac selbst.
 
 ## 4. In F-SCANT verbinden
 
@@ -63,7 +63,7 @@ Klicken Sie auf **Verbinden**. Wenn F-SCANT nach einem L-CODE fragt, geben Sie d
 Prüfen Sie Folgendes, bevor Sie es erneut versuchen:
 
 - Die Silicon-Labs-Erweiterung ist eingeschaltet.
-- Das Kabel steckt im Mac oder in einem Hub bzw. Dock.
+- Das Kabel steckt im Mac oder in einem Hub bzw. Dock. Wenn **Verbinden** fehlschlägt, versuchen Sie einen Anschluss am Mac selbst.
 - Der F-SCAN ist eingeschaltet und zeigt den Startbildschirm.
 - Der L-CODE stimmt mit der Rechnung überein.
 

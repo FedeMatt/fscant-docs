@@ -50,7 +50,7 @@ If macOS also shows a separate button to allow system software from Silicon Labs
 
 ## 3. Plug in the F-SCAN
 
-Turn the F-SCAN on and leave it on its home screen. Make sure in the SETUP menu of the device that AUTO OFF is disabled. Plug the USB cable into the Mac or using a hub or a dock.
+Turn the F-SCAN on and leave it on its home screen. Make sure in the SETUP menu of the device that AUTO OFF is disabled. Plug the USB cable into the Mac or using a hub or a dock. If Connect fails, try a USB port on the Mac itself.
 
 ## 4. Connect in F-SCANT
 
@@ -63,7 +63,7 @@ Click **Connect**. If F-SCANT asks for an L-CODE, enter the code from your F-SCA
 Check these before you try again:
 
 - The Silicon Labs extension is turned on.
-- The cable is plugged into the Mac, or into a hub or a dock.
+- The cable is plugged into the Mac, or into a hub or a dock. If Connect fails, try a port on the Mac itself.
 - The F-SCAN is on and showing its home screen.
 - The L-CODE matches the invoice.
 

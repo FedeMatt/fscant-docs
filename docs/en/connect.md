@@ -20,7 +20,7 @@ You need:
 - A USB cable
 - The **L-CODE** from your F-SCANT invoice or sent to you by email from your retailer.
 
-Plug the USB cable into a USB port on the computer itself. Do not plug it into a USB hub (a small box that turns one port into several) or into a docking station or a monitor that has extra USB ports. Those extras often stop the computer from recognizing the F-SCAN.
+Plug the USB cable into a USB port on the computer, or into a USB hub or dock. Hubs and docks usually work. If Connect fails, try a USB port on the computer itself—some hubs, docking stations, and monitor USB ports can stop the computer from recognizing the F-SCAN.
 
 1. Switch the F-SCAN on and leave it on its home screen. Make sure in the SETUP menu of the device that AUTO OFF is disabled.
 2. Plug in the USB cable as described above.
@@ -51,7 +51,7 @@ Try **Connect** again after you have checked the points below.
 If nothing happens, or the panel stays on **Connecting…**:
 
 - On a Mac, make sure the Silicon Labs helper is installed and allowed (see [install](install.md) and [Connect on a Mac](connect-mac.md)).
-- Plug the cable into the computer itself, not a hub, dock, or monitor (see above).
+- If Connect still fails, plug the cable into a USB port on the computer itself (not only a hub, dock, or monitor).
 - The F-SCAN must be on, showing its home screen.
 
 If you see **ERROR: Wrong L-CODE entered. Please try again!**, the code you typed does not match this F-SCAN. F-SCANT checks the code against the invoice for that device. Type the L-CODE again from the invoice. If it still fails, please contact your retailer.

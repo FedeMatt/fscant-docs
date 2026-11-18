@@ -50,7 +50,7 @@ Jeśli macOS pokaże osobny przycisk zezwolenia na oprogramowanie systemowe od S
 
 ## 3. Podłącz F-SCAN
 
-Włącz F-SCAN i pozostaw go na ekranie głównym. Upewnij się w menu SETUP urządzenia, że AUTO OFF jest wyłączone. Podłącz kabel USB do Maca — bezpośrednio albo przez hub lub dok.
+Włącz F-SCAN i pozostaw go na ekranie głównym. Upewnij się w menu SETUP urządzenia, że AUTO OFF jest wyłączone. Podłącz kabel USB do Maca — bezpośrednio albo przez hub lub dok. Jeśli **Połącz** nie zadziała, spróbuj portu USB w samym Macu.
 
 ## 4. Połącz w F-SCANT
 
@@ -63,7 +63,7 @@ Kliknij **Połącz**. Jeśli F-SCANT poprosi o L-CODE, wpisz kod z faktury F-SCA
 Sprawdź to przed ponowną próbą:
 
 - Rozszerzenie Silicon Labs jest włączone.
-- Kabel jest podłączony do Maca albo do hubu lub doku.
+- Kabel jest podłączony do Maca albo do hubu lub doku. Jeśli **Połącz** nie zadziała, spróbuj portu w samym Macu.
 - F-SCAN jest włączony i pokazuje ekran główny.
 - L-CODE zgadza się z fakturą.
 

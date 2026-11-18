@@ -50,7 +50,7 @@ Pokud macOS zobrazí také samostatné tlačítko pro povolení systémového so
 
 ## 3. Zapojte F-SCAN
 
-Zapněte F-SCAN a nechte jej na úvodní obrazovce. V menu SETUP zařízení se ujistěte, že AUTO OFF je vypnuté. USB kabel zapojte do Macu, nebo přes hub či dok.
+Zapněte F-SCAN a nechte jej na úvodní obrazovce. V menu SETUP zařízení se ujistěte, že AUTO OFF je vypnuté. USB kabel zapojte do Macu, nebo přes hub či dok. Pokud **Připojit** selže, zkuste USB port přímo v Macu.
 
 ## 4. Připojení ve F-SCANT
 
@@ -63,7 +63,7 @@ Klikněte na **Připojit**. Pokud F-SCANT požádá o L-CODE, zadejte kód z fak
 Před dalším pokusem zkontrolujte:
 
 - Rozšíření Silicon Labs je zapnuté.
-- Kabel je zapojený do Macu, nebo do hubu či doku.
+- Kabel je zapojený do Macu, nebo do hubu či doku. Pokud **Připojit** selže, zkuste port přímo v Macu.
 - F-SCAN je zapnutý a zobrazuje úvodní obrazovku.
 - L-CODE odpovídá faktuře.
 

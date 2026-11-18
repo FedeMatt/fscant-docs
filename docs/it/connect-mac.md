@@ -50,7 +50,7 @@ Se macOS mostra anche un pulsante separato per consentire software di sistema da
 
 ## 3. Collega l’F-SCAN
 
-Accendi l’F-SCAN e lascialo sulla schermata iniziale. Assicurati nel menu SETUP del dispositivo che AUTO OFF sia disattivato. Collega il cavo USB al Mac o tramite un hub o una dock.
+Accendi l’F-SCAN e lascialo sulla schermata iniziale. Assicurati nel menu SETUP del dispositivo che AUTO OFF sia disattivato. Collega il cavo USB al Mac o tramite un hub o una dock. Se **Connetti** non riesce, prova una porta USB del Mac stesso.
 
 ## 4. Connetti in F-SCANT
 
@@ -63,7 +63,7 @@ Fai clic su **Connetti**. Se F-SCANT chiede un L-CODE, inserisci il codice dalla
 Controlla questi punti prima di riprovare:
 
 - L’estensione Silicon Labs è attiva.
-- Il cavo è collegato al Mac, o a un hub o una dock.
+- Il cavo è collegato al Mac, o a un hub o una dock. Se **Connetti** non riesce, prova una porta del Mac stesso.
 - L’F-SCAN è acceso e sulla schermata iniziale.
 - Il L-CODE corrisponde alla fattura.
 

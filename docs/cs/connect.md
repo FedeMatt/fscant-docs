@@ -20,7 +20,7 @@ Budete potřebovat:
 - USB kabel
 - **L-CODE** z faktury F-SCANT nebo zaslaný e-mailem od prodejce.
 
-USB kabel zapojte přímo do USB portu počítače. Nezapojujte jej do USB hubu (malé krabičky, která z jednoho portu udělá několik), ani do dokovací stanice nebo monitoru s dalšími USB porty. Tyto doplňky často zabrání počítači rozpoznat F-SCAN.
+USB kabel zapojte do USB portu počítače, nebo do USB hubu či doku. Huby a doky obvykle fungují. Pokud **Připojit** selže, zkuste USB port přímo v počítači — některé huby, dokovací stanice a USB porty na monitorech mohou zabránit počítači rozpoznat F-SCAN.
 
 1. Zapněte F-SCAN a nechte jej na úvodní obrazovce. V menu SETUP zařízení se ujistěte, že AUTO OFF je vypnuté.
 2. Zapojte USB kabel, jak je popsáno výše.
@@ -51,7 +51,7 @@ Zkuste znovu **Připojit** poté, co zkontrolujete body níže.
 Pokud se nic nestane, nebo panel zůstane na **Připojování…**:
 
 - Na Macu se ujistěte, že je nainstalován a povolen ovladač Silicon Labs (viz [instalace](install.md) a [Připojení na Macu](connect-mac.md)).
-- Zapojte kabel přímo do počítače, ne do hubu, doku ani monitoru (viz výše).
+- Pokud **Připojit** stále selhává, zapojte kabel do USB portu přímo v počítači (ne jen do hubu, doku ani monitoru).
 - F-SCAN musí být zapnutý a zobrazovat úvodní obrazovku.
 
 Pokud vidíte **CHYBA: Byl zadán nesprávný L-CODE. Zkuste to znovu!**, zadaný kód neodpovídá tomuto F-SCAN. F-SCANT kontroluje kód podle faktury k danému zařízení. Zadejte L-CODE znovu z faktury. Pokud to stále selže, kontaktujte svého prodejce.

@@ -20,7 +20,7 @@ Potrzebujesz:
 - Kabla USB
 - **L-CODE** z faktury F-SCANT lub wysłany e-mailem przez sprzedawcę.
 
-Podłącz kabel USB do portu USB samego komputera. Nie podłączaj go do koncentratora USB (małego urządzenia dzielącego jeden port na kilka), stacji dokującej ani monitora z dodatkowymi portami USB. Takie akcesoria często uniemożliwiają komputerowi rozpoznanie F-SCAN.
+Podłącz kabel USB do portu USB komputera albo do huba USB lub stacji dokującej. Huby i doki zwykle działają. Jeśli **Połącz** nie zadziała, spróbuj portu USB w samym komputerze — niektóre huby, stacje dokujące i porty USB w monitorach mogą uniemożliwić komputerowi rozpoznanie F-SCAN.
 
 1. Włącz F-SCAN i pozostaw go na ekranie głównym. Upewnij się w menu SETUP urządzenia, że AUTO OFF jest wyłączone.
 2. Podłącz kabel USB jak opisano powyżej.
@@ -51,7 +51,7 @@ Spróbuj ponownie **Połącz** po sprawdzeniu punktów poniżej.
 Jeśli nic się nie dzieje albo panel pozostaje na **Łączenie…**:
 
 - Na Macu upewnij się, że sterownik Silicon Labs jest zainstalowany i dozwolony (zobacz [instalację](install.md) i [Podłączanie na Macu](connect-mac.md)).
-- Podłącz kabel do samego komputera, nie do hubu, doku ani monitora (jak wyżej).
+- Jeśli **Połącz** nadal nie działa, podłącz kabel do portu USB samego komputera (nie tylko do huba, doku ani monitora).
 - F-SCAN musi być włączony i pokazywać ekran główny.
 
 Jeśli widzisz **BŁĄD: Wprowadzono nieprawidłowy L-CODE. Spróbuj ponownie!**, wpisany kod nie pasuje do tego F-SCAN. F-SCANT weryfikuje kod na podstawie faktury tego urządzenia. Wpisz ponownie L-CODE z faktury. Jeśli nadal się nie uda, skontaktuj się ze sprzedawcą.
